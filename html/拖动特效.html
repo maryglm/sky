@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+<style>
+    div {
+        width: 100px;
+        height:500px;
+        position: fixed;
+        background: dodgerblue;
+
+    }
+</style>
+</head>
+<body>
+<div>
+
+</div>
+<script>
+    $(function () {
+var removeY;
+        var removeX;
+var x;
+var y;
+        //绑定鼠标按下事件
+        $("div").mousedown(function (e) {
+            //设置鼠标样式
+            $(this).css("cursor","move");
+            //层距离window的水平距离
+            var divX = $(this).offset().left;
+            //offset() 方法设置或返回被选元素相对于文档的偏移坐标。带有两个属性（以像素为单位的 top 和 left 位置）
+
+           // 层距离window的垂直距离
+            var divY = $(this).offset().top;
+//鼠标距离层border的x轴的距离
+            x = e.pageX-divX;
+            //event.pageX 属性返回鼠标指针的位置，相对于文档的左边缘。
+            //鼠标距离层border的x轴的距离
+//鼠标距离层border的y轴的距离
+             y = e.pageY-divY;
+             //event.pageY 属性返回鼠标指针的位置，相对于文档的上边缘。
+            //绑定移动事件
+            $(document).mousemove(function (ee) {
+//移动的水平距离
+                 removeX = ee.pageX-x;
+                //移动的高度
+                 removeY = ee.pageY-y;
+                $("div").css("left",removeX);
+                $("div").css("top",removeY);
+            })
+        })
+//鼠标离开事件
+        $(document).mouseup(function () {
+            $(this).unbind("mousemove");
+//隐藏
+            if(removeY<=0){
+                $("div").animate({top:"-500px"},1000);
+                $(document).mousemove(function (e) {
+                    //计算鼠标是否移动到边框上的左边距离范围
+                    var x=e.pageX-$("div").offset().left;
+                    if(e.pageY==0&&x<100&&x>0){
+                        $("div").stop().animate({top:"0"},1000);
+                    }
+
+                })
+            }
+        })
+    })
+</script>
+</body>
+</html>
