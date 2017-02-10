@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        a {
+            text-decoration: none;
+        }
+        li{
+            list-style: none;
+            cursor: pointer;
+        }
+        /*总样式*/
+
+        .wrap {
+            width: 100%;
+            height:46px;
+            line-height:45px;
+            background-color:pink;
+            position: relative;
+        }/*整个导航栏的样式*/
+
+        .first {
+            float: left;
+            height:46px;
+            width: 10%;
+            text-align: center;
+            border-right:1px solid lightpink;
+        }/*一级导航的样式*/
+        #cart {
+            float: right;
+            margin-right: 1%;
+        }
+        #food {
+            border-left: 1px solid lightpink;
+
+        }
+
+        ul .first .second, ul .first .three, ul .first .four, ul .first .five {
+            border:1px solid pink;
+            border-top: none;/*实现一二级导航无缝显示*/
+            position: absolute;
+            width: 40.3%;
+            display: none;
+            background-color:whitesmoke;
+
+        }/*二级导航样式（绝对定位+给定元素宽度实现二级导航宽过一级导航）*/
+
+        ul .first .second, ul .first .three, ul .first .four, ul .first .five{
+            left: 0;
+        }
+
+
+        .first:hover{
+            background-color:whitesmoke;
+        }
+
+
+        @media (max-width: 600px) {
+            .first {
+                width: 50px;
+            }
+            ul .first .second, ul .first .three, ul .first .four, ul .first .five{
+                width: 203px;
+            }
+        }/*解决屏幕变小样式变形问题*/
+    </style>
+    <script>
+
+    function subMenu(obj) {
+        obj.nextSibling.nextSibling.style.display = "block";
+        var a = document.getElementsByClassName("second");
+        for (var i = 0; i < a.length; i++) {
+            a[i].onmouseover = function () {
+                /*document.body.childNodes.item(0)=document.body.childNodes[0],a[i]=a.item(i)两者效果相同*/
+                this.style.display = "block";
+            }
+
+        }
+    }
+        function hideMenu(obj) {
+            var a = document.getElementsByClassName("second");
+            obj.nextSibling.nextSibling.style.display = "none";
+            for (var i = 0; i < a.length; i++) {
+                a[i].onmouseout = function () {
+                    this.style.display = "none";
+                }
+
+            }
+
+        }
+
+
+    </script>
+</head>
+<body>
+<div class="wrap">
+    <div class="menu">
+        <ul>
+            <li class="first" id="food" >
+                <h3 onmouseover="subMenu(this)"  onmouseout="hideMenu(this)">美食</h3>
+                <div class="second">
+                    <p>chapter one</p>
+                </div>
+
+            </li>
+            <li class="first" id="movie">
+                <h3 onmouseover="subMenu(this)"  onmouseout="hideMenu(this)">电影</h3>
+                <div class="second three">
+                    <p>chapter two</p>
+                </div>
+            </li>
+            <li class="first" id="travel">
+                <h3 onmouseover="subMenu(this)"  onmouseout="hideMenu(this)">旅游</h3>
+                <div class="second four">
+                    <p>chapter three</p>
+                </div>
+            </li>
+            <li class="first" id="hotel">
+                <h3 onmouseover="subMenu(this)"  onmouseout="hideMenu(this)">酒店</h3>
+                <div class="second five">
+                    <p>chapter four</p>
+                </div>
+            </li>
+        </ul>
+        <div id="cart">
+            <h3>购物车</h3>
+        </div>
+    </div>
+
+</body>
+</html>
