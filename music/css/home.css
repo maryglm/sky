@@ -1,0 +1,300 @@
+
+
+* {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font: 13px/1.5 微软雅黑,simsun,sans-serif;
+             width: 100%;
+          
+        }
+        li {
+            list-style: none;
+        }
+
+        .g_main{
+            width: 1000px;
+            height: auto;
+             margin:0 auto;
+        }
+
+        a{
+            text-decoration: none;
+            color: #555;
+        }
+        img {
+        margin-left: 7px;
+            width: 130px;
+         height: 48px;
+          border:1px dotted #555;
+        }
+        .g_pink img {
+            margin-top: 20px;
+            border-style: none;
+            width: 100%;
+            height: 100px;
+        }
+        .g_partner{
+            margin-top: 20px;
+             
+        }
+        .gb{
+            color: #009AF2;
+        }
+        
+        .g_title{
+            font-size: 30px;
+            margin-bottom: 15px;
+            
+        }
+        
+        
+        
+        .g_float{
+            position: relative;
+            height: 50px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        .g_t {
+             font-size: 30px;
+            float: left;
+             
+            margin-top: 5px;
+        }
+        .g_more{
+            float:right;
+            margin-top: 25px;
+        }
+        .g_href {
+            position: relative;
+            height: 90px;
+           
+        }
+        .g_href a {
+            float: left;
+            margin-right: 70px;
+            line-height: 20px;
+            margin-top: 10px;
+             
+        }
+        .g_href a:hover {
+           color: #009AF2;
+            cursor: pointer;
+        }
+        .g_foot{
+            background: #2C323B;
+            overflow: hidden;
+            text-align: center;
+           line-height: 30px;
+          color: #b1b3b9;
+            float: left;
+            width: 1500px;
+        }
+        .g_foot1 {
+           padding: 20px;
+        }
+        .g_foot1  a {
+            color: #b1b3b9;
+        }
+        .g_foot2 {
+            border-top: 1px solid #555;
+            padding-top: 30px ;
+            padding-bottom: 40px;
+           
+            line-height: 30px;
+        }
+        
+        
+        
+/*    以下是热门电台style    */
+        .g_hitradio {
+            overflow: hidden;
+          
+        
+        }
+       
+        .g_htitle {
+            
+            overflow: hidden;
+        }
+        .g_htitle1 p{
+            float: left;             
+
+        }
+        .g_htitle2{
+            margin-left: 60%;
+           
+        }
+        .g_htitle2 li{
+            float: left;
+            margin-left: 20px;
+           
+        }
+        .g_little {
+            margin-top: 15px;
+            cursor: pointer;
+            
+        }
+        .g_little:hover {
+        color: #009AF2;
+        }
+      
+        .g_pic1 {
+            position: relative;
+         
+            width: 66%;
+            float: left;
+        }
+        .g_pic1 a{
+            width: 100px;
+            height: 140px;
+            float: left;
+            margin-right: 21px;
+            
+         
+            
+        }
+    
+        .g_one {
+            background-image:url(../image/pic1.png);
+            background-repeat: no-repeat;
+        }
+         
+         .g_two{
+            background-image:url(../image/pic2.png);
+            background-repeat: no-repeat;
+        }
+         .g_three{
+            background-image:url(../image/pic3.png);
+            background-repeat: no-repeat;
+        }
+        .g_four{
+            background-image:url(../image/pic4.png);
+            background-repeat: no-repeat;
+        }
+        .g_five{
+            background-image:url(../image/pic5.png);
+            background-repeat: no-repeat;
+        }
+        .g_six{
+            background-image:url(../image/pic6.png);
+            background-repeat: no-repeat;
+        }
+        .g_seven{
+            background-image:url(../image/pic7.png);
+            background-repeat: no-repeat;
+        }
+        .g_eight{
+            background-image:url(../image/pic8.png);
+            background-repeat: no-repeat;
+        }
+        .g_nine{
+            background-image:url(../image/pic9.png);
+            background-repeat: no-repeat;
+        }
+        .g_ten{
+            background-image:url(../image/pic10.png);
+            background-repeat: no-repeat;
+        }
+        .g_one p{
+            position: absolute;
+            left: 20px;
+            top: 110px;
+        }
+         .g_two p{
+            position: absolute;
+            left: 150px;
+            top: 110px;
+        }
+        .g_three p{
+            position: absolute;
+            left: 275px;
+            top: 110px;
+        }
+        .g_four p{
+            position: absolute;
+            left: 395px;
+            top: 110px;
+        }
+         .g_five p{
+            position: absolute;
+            left: 525px;
+            top: 110px;
+        }
+        
+         .g_six p{
+            position: absolute;
+            left: 30px;
+            top: 250px;
+        }
+        .g_seven p{
+            position: absolute;
+            left: 160px;
+            top: 250px;
+        }
+        .g_eight p{
+            position: absolute;
+            left: 285px;
+            top: 250px;
+        }
+        .g_nine p{
+            position: absolute;
+            left: 400px;
+            top: 250px;
+        }
+          .g_ten p{
+            position: absolute;
+            left: 510px;
+            top: 250px;
+        }
+        .g_c:hover {
+             color: #009AF2;
+        }
+        
+         .g_pic2 {
+           position: relative;
+             overflow: hidden;
+            width: 300px;
+            height: 300px;
+
+          
+        }
+        #g_pic1, #g_pic2 , #g_pic3  {
+            position: absolute;
+        }
+        
+        .g_pic2 ul li a img {
+            border-style: none;
+            float: left;
+            margin-left: 0;
+        }
+        
+        .g_s1 img,.g_s2 img{
+            width: 145px;
+            height: 145px;
+        
+        }
+       .g_s3 img,.g_s4 img,.g_s5 img{
+            width: 97px;
+            height: 96px;
+        }
+        .g_r {
+           position: absolute;
+            z-index: 2;
+         top: 265px;
+           
+            padding-left: 130px;
+        }
+        .g_round {
+            width: 6px;
+            height: 6px;
+            border: 1px solid gray;
+            border-radius: 50%;
+            float: left;
+            margin-right: 6px;
+        }
+        .g_round:hover {
+            background:  #009AF2;
+        }

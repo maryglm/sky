@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>play</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        body{
+ width: 300px;
+            position: relative;
+            overflow: hidden;
+            margin:100px auto;
+            
+            
+        }
+        audio {
+             position: absolute;
+            border: 5px solid #80ccff;
+            width: 300px;
+            height: 150px;
+            z-index: 1;
+        }
+        p {
+            position: absolute;
+            top: 1px;
+            left: 5px;
+        }
+        table {
+            position: absolute;
+            border-collapse: collapse;
+            width: 310px;
+            top: 150px;
+             border: 5px solid #80ccff;
+        }
+        #name {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <audio src="songs/%E4%BB%BB%E7%B4%A0%E6%B1%90%20-%20%E6%88%91%E8%A6%81%E4%BD%A0.mp3" controls="controls">
+Your browser does not support the audio element.
+</audio>
+<p><img src=image/pic5.png></p>
+<table border="1">
+    <tr><td id="name">name</td><td>song</td></tr>
+</table>
+</body>
+</html>

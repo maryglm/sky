@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+     <link rel='stylesheet' type='text/css' href='css/style.css'>
+</head>
+ <script>
+   
+  function validateForm(){
+var x=document.forms["login_form"]["username"].value;
+
+ var y=document.forms["login_form"]["password"].value; 
+ if (x==null || x=="" ||y==null ||y==""){
+   alert("请输入用户名或密码");
+ return false;
+ }
+else{
+    //alert(1);
+    window.location.href = "http://www.sogou.com"
+
+}
+  }
+    </script>
+   
+ 
+<body>
+     
+  <div id="wrapper">
+
+	<form name="login_form" class="login-form" action="" method="post" onsubmit=" return validateForm()">
+	
+		<div class="header">
+		<h1>Login Form</h1>
+		<span>Fill out the form below to login to my super awesome imaginary control panel.</span>
+		</div>
+	
+		<div class="content">
+		<input name="username" type="text" class="input username" placeholder="Username"  />
+		<div class="user-icon"></div>
+		<input name="password" type="password" class="input password" placeholder="Password" />
+		<div class="pass-icon"></div>		
+		</div>
+
+		<div class="footer">
+		<input type="submit" name="submit" value="login" class="button" />
+		 
+		</div>
+	
+	</form>
+
+</div>
+<div class="gradient"></div>
+
+</body>
+</html>

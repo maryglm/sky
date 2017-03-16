@@ -1,0 +1,141 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Document</title>
+     <style type="text/css">  
+        /*重置样式*/  
+        *{margin: 0;padding: 0; list-style: none;}  
+        /*wrap的轮播图和切换按钮样式*/  
+        .wrap{height: 445px;width: 100%; overflow: hidden;position: relative;}  
+        .wrap ul{position: absolute;}  
+        .wrap ul li{height: 445px;}  
+         .wrap ul li img {height: 445px;width: 100%;}
+        .wrap ol{position: absolute;right: 10px;bottom: 10px;}  
+        .wrap ol li{height: 20px;width: 20px;  background-color:#fff;border: 1px solid #eee; margin-left: 10px;float:left; line-height: 20px; text-align: center;border-radius: 5px;}  
+        .wrap ol li.active{background-color: gray; color: #fff; border-radius: 5px; }
+           .g_key img {
+            position: absolute;
+            top:165px;
+            cursor: pointer;  
+           
+        }
+       
+        #g_img1 {
+            left: 97%;
+        }
+    </style>  
+ </head>
+ <body>
+     <!-- wrap包裹录播的图片以及可点击跳转的按钮 -->  
+    <div class="wrap" id="wrap">  
+        <ul id="pic">  
+             <li><img id="g_image1" src="image/1.jpg" alt=""></li>  
+             <li><img src="image/2.jpg" alt=""></li>  
+             <li><img src="image/3.jpg" alt=""></li>  
+             <li><img src="image/4.jpg" alt=""></li>  
+        </ul>  
+        <ol id="list">  
+            <li class="active">1</li>  
+            <li>2</li>  
+            <li>3</li>  
+            <li>4</li>  
+        </ol>  
+        <div class="g_key">
+<img src="image/a.png" id="g_img1" onclick = "changeImg('next')">
+<img src="image/b.png" id="g_img2" onclick = "changeImg('pre')">
+</div>
+    </div>  
+    <script type="text/javascript">  
+window.onload=function(){  
+    
+    
+    var wrap=document.getElementById('wrap'),  
+        pic=document.getElementById('pic'),  
+        list=document.getElementById('list').getElementsByTagName('li'),  
+        index=0,  
+        timer=null;  
+  
+      // 定义并调用自动播放函数  
+      if(timer){  
+            
+          clearInterval(timer);  
+          timer=null;  
+      }  
+timer=setInterval(autoplay,2000);  
+      // 定义图片切换函数  
+      function autoplay(){  
+          index++;  
+          if(index>=list.length){  
+              index=0;  
+          }  
+         changeoptions(index);  
+            
+            
+      }  
+       
+     // 鼠标划过整个容器时停止自动播放  
+wrap.onmouseover=function(){  
+      
+    clearInterval(timer);  
+      
+}  
+     // 鼠标离开整个容器时继续播放至下一张  
+    wrap.onmouseout=function(){  
+      
+    timer=setInterval(autoplay,2000);  
+}  
+     // 遍历所有数字导航实现划过切换至对应的图片  
+     for(var i=0;i<list.length;i++){  
+         list[i].id=i;  
+         list[i].onmouseover=function(){  
+             clearInterval(timer);  
+             changeoptions(this.id);  
+               
+             }  
+         }  
+        function changeoptions(curindex){  
+            for(var j=0;j<list.length;j++){  
+              list[j].className='';  
+              pic.style.top=0;  
+                
+          }  
+          list[curindex].className='active';  
+          pic.style.top=-curindex*445+'px';  
+          index=curindex;  
+            }   
+       
+    
+    
+    
+    
+   }  
+  
+  var now = 1;
+function changeImg(which){
+
+var img = document.getElementById("g_image1");
+if(which == 'pre'){
+now--;
+img.src = "image/" +now+".jpg"
+if(now < 1){
+now = 4;
+img.src = "image/" +now+".jpg"
+}
+
+}
+    else{
+
+now++;
+img.src = "image/" +now+".jpg";
+if(now > 4){
+now = 1;
+img.src = "image/" +now+".jpg";
+}
+
+}  
+}//点击左右变换图片
+  
+    </script>  
+ </body>
+ </html>
