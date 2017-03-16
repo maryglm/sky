@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+名称<input type="text" id="shopName">
+价格<input type="text" id="shopPrice">
+数量<input type="number" id="shopCout">
+备注<input type="text" id="remark">
+图片路径<input type="text" id="path">
+
+<button onclick="add()">newadd</button>
+</body>
+<script>
+    function add() {
+        var name = $("#shopName").val();
+        var price = $("#shopPrice").val();
+        var count = $("#shopCout").val();
+        var remark = $("#remark").val();
+        var path = $("#path").val();
+        //调用ajax方法
+        $.get("http://localhost:8080/shop/servlet/UserInforController",
+            {
+                method:"add",
+                shopName:name,
+                price:price,
+                count:count,
+                remark:remark,
+                path:path
+
+            },function (date) {
+alert(data);
+        })
+
+    }
+</script>
+
+</html>
