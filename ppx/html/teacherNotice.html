@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>皮皮虾学院—官方教务系统</title>
+    <link rel="icon" href="../img/pipixia_icon.jpg">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--头部区-->
+    <header id="header">
+        <div class="container" style="height:90px">
+            <div class="row">
+                <!--头部logo-->
+                <div class="col-md-9">
+                    <img src="../img/logo.png" class="img-responsive" style="margin-top:8px">
+                </div>
+                <!--头部搜索框-->
+                <div class="col-md-3 input-group hidden-xs" style="margin-top:30px">
+                    <input type="text" class="form-control" style="position:relative;top:1px;height:40px;" placeholder="请您输入关键字……">
+                    <span class="glyphicon glyphicon-search input-group-addon" aria-hidden="true"></span>
+                </div>
+            </div>
+        </div>
+        <!--导航栏-->
+        <div class="nav-container">
+            <div class="row">
+                <nav class="navbar navbar-default col-xs-12 col-md-12" role="navigation">
+                    <div class="container-fluid ">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+
+                            <div class="row">
+                                <a href="../index.html">
+                                    <div class="col-sm-2 a">学院首页</div>
+                                </a>
+                                <a href="teacherInfo.html">
+                                    <div class="col-sm-2 a">个人信息</div>
+                                </a>
+                                <a href="teacherClass.html">
+                                    <div class="col-sm-2 a">授课安排</div>
+                                </a>
+                                <a href="teacherGrade.html">
+                                    <div class="col-sm-2 a">成绩录入</div>
+                                </a>
+                                <a href="teacherNotice.html">
+                                    <div class="col-sm-2 a">教务通知</div>
+                                </a>
+                                <div href="#" class="a">
+                                    <div class="dropdown col-sm-2">
+                                        <div href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            登录信息 <b class="caret"></b>
+                                        </div>
+                                        <ul class="dropdown-menu" style="position:absolute;right:0px">
+                                            <li><a href="#">教工号</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">姓名</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">注销</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" visible-xs">
+                                <form class="navbar-form" role="search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="s" value="" placeholder="输入关键字……">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="content" style="color:#333">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3" id="myScrollspy">
+                    <ul class="nav nav-tabs nav-stacked" data-offset-top="125">
+                        <li><a href="teacherInfo.html">个人信息</a></li>
+                        <li><a href="teacherClass.html">授课安排</a></li>
+                        <li><a href="teacherGrade.html">成绩录入</a></li>
+                        <li class="active"><a href="teacherNotice.html">教务通知</a></li>
+                    </ul>
+                </div>
+
+
+                    <!--重要公告-->
+                    <div class="container" style="margin-top: 10px">
+                        <div class="row">
+                            <div class="col-xs-8">
+                                <p class="list-group-item b">丨最新公告
+                                    <span class="badge" id="more"><a href="tcNmore.html">+More</a></span>
+                                </p>
+                                <!--轮播效果-->
+                                <marquee direction=up behavior=scroll loop=1000 scrollamount=2 scrolldelay=0 align=left bgcolor="#ffffff" height=400 width=100% hspace=20 vspace=10 onmouseover=this.stop() onmouseout=this.start()>
+                                    <div>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【惩罚】对于本校外语系教师成东青私自办学给与开除处分的通知
+        <span class="badge d">2/07</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【通知】关于H51610班级Jquery项目验收的通知
+        <span class="badge d">2/02</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【通知】关于H51610班进行Bootstrap学习的通知
+        <span class="badge d">2/21</span>
+        <span class="badge c">new</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【嘉奖】对于前端课程授课教师曹老师进行“三好老师”嘉奖的通知
+        <span class="badge d">2/20</span>
+        <span class="badge c">new</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【运动】对于2.17-18日皮皮虾学院春季运动会的安全须知
+        <span class="badge d">2/15</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【惩罚】对于本校外语系教师成东青私自办学给与开除处分的通知
+        <span class="badge d">2/07</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【通知】关于H51610班级Jquery项目验收的通知
+        <span class="badge d">2/02</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【通知】关于H51610班进行Bootstrap学习的通知
+        <span class="badge d">2/21</span>
+        <span class="badge c">new</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【嘉奖】对于前端课程授课教师曹老师进行“三好老师”嘉奖的通知
+        <span class="badge d">2/20</span>
+        <span class="badge c">new</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【运动】对于2.17-18日皮皮虾学院春季运动会的安全须知
+        <span class="badge d">2/15</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【惩罚】对于本校外语系教师成东青私自办学给与开除处分的通知
+        <span class="badge d">2/07</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【通知】关于H51610班级Jquery项目验收的通知
+        <span class="badge d">2/02</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【通知】关于H51610班进行Bootstrap学习的通知
+        <span class="badge d">2/21</span>
+        <span class="badge c">new</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【嘉奖】对于前端课程授课教师曹老师进行“三好老师”嘉奖的通知
+        <span class="badge d">2/20</span>
+        <span class="badge c">new</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【运动】对于2.17-18日皮皮虾学院春季运动会的安全须知
+        <span class="badge d">2/15</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【惩罚】对于本校外语系教师成东青私自办学给与开除处分的通知
+        <span class="badge d">2/07</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【通知】关于H51610班级Jquery项目验收的通知
+        <span class="badge d">2/02</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【惩罚】对于本校外语系教师成东青私自办学给与开除处分的通知
+        <span class="badge d">2/07</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【通知】关于H51610班级Jquery项目验收的通知
+        <span class="badge d">2/02</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【通知】关于H51610班进行Bootstrap学习的通知
+        <span class="badge d">2/21</span>
+        <span class="badge c">new</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【嘉奖】对于前端课程授课教师曹老师进行“三好老师”嘉奖的通知
+        <span class="badge d">2/20</span>
+        <span class="badge c">new</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【运动】对于2.17-18日皮皮虾学院春季运动会的安全须知
+        <span class="badge d">2/15</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【惩罚】对于本校外语系教师成东青私自办学给与开除处分的通知
+        <span class="badge d">2/07</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【通知】关于H51610班级Jquery项目验收的通知
+        <span class="badge d">2/02</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【通知】关于H51610班进行Bootstrap学习的通知
+        <span class="badge d">2/21</span>
+        <span class="badge c">new</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【嘉奖】对于前端课程授课教师曹老师进行“三好老师”嘉奖的通知
+        <span class="badge d">2/20</span>
+        <span class="badge c">new</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【运动】对于2.17-18日皮皮虾学院春季运动会的安全须知
+        <span class="badge d">2/15</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【惩罚】对于本校外语系教师成东青私自办学给与开除处分的通知
+        <span class="badge d">2/07</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【通知】关于H51610班级Jquery项目验收的通知
+        <span class="badge d">2/02</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【通知】关于H51610班进行Bootstrap学习的通知
+        <span class="badge d">2/21</span>
+        <span class="badge c">new</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【嘉奖】对于前端课程授课教师曹老师进行“三好老师”嘉奖的通知
+        <span class="badge d">2/20</span>
+        <span class="badge c">new</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【运动】对于2.17-18日皮皮虾学院春季运动会的安全须知
+        <span class="badge d">2/15</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【实践】关于2.14日情人节放假的通知
+        <span class="badge d">2/12</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【惩罚】对于本校外语系教师成东青私自办学给与开除处分的通知
+        <span class="badge d">2/07</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+        【通知】关于H51610班级Jquery项目验收的通知
+        <span class="badge d">2/02</span>
+    </a>
+                                        <a href="#" class="list-group-item">
+                            【惩罚】对于本校外语系教师成东青私自办学给与开除处分的通知
+                            <span class="badge d">2/07</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【通知】关于H51610班级Jquery项目验收的通知
+                            <span class="badge d">2/02</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【通知】关于H51610班进行Bootstrap学习的通知
+                            <span class="badge d">2/21</span>
+                            <span class="badge c">new</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【嘉奖】对于前端课程授课教师曹老师进行“三好老师”嘉奖的通知
+                            <span class="badge d">2/20</span>
+                            <span class="badge c">new</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【运动】对于2.17-18日皮皮虾学院春季运动会的安全须知
+                            <span class="badge d">2/15</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【惩罚】对于本校外语系教师成东青私自办学给与开除处分的通知
+                            <span class="badge d">2/07</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【通知】关于H51610班级Jquery项目验收的通知
+                            <span class="badge d">2/02</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【通知】关于H51610班进行Bootstrap学习的通知
+                            <span class="badge d">2/21</span>
+                            <span class="badge c">new</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【嘉奖】对于前端课程授课教师曹老师进行“三好老师”嘉奖的通知
+                            <span class="badge d">2/20</span>
+                            <span class="badge c">new</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【运动】对于2.17-18日皮皮虾学院春季运动会的安全须知
+                            <span class="badge d">2/15</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【惩罚】对于本校外语系教师成东青私自办学给与开除处分的通知
+                            <span class="badge d">2/07</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【通知】关于H51610班级Jquery项目验收的通知
+                            <span class="badge d">2/02</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【通知】关于H51610班进行Bootstrap学习的通知
+                            <span class="badge d">2/21</span>
+                            <span class="badge c">new</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【嘉奖】对于前端课程授课教师曹老师进行“三好老师”嘉奖的通知
+                            <span class="badge d">2/20</span>
+                            <span class="badge c">new</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【运动】对于2.17-18日皮皮虾学院春季运动会的安全须知
+                            <span class="badge d">2/15</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【实践】关于2.14日情人节放假的通知
+                            <span class="badge d">2/12</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【惩罚】对于本校外语系教师成东青私自办学给与开除处分的通知
+                            <span class="badge d">2/07</span>
+                        </a>
+                                        <a href="#" class="list-group-item">
+                            【通知】关于H51610班级Jquery项目验收的通知
+                            <span class="badge d">2/02</span>
+</a>
+                                    </div>
+                                </marquee>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-md-5">
+                    皮皮虾学院地址：在你曾仰望无数日夜那片璀璨的星空里的一颗发亮的星星上
+                </div>
+                <div class="col-md-2">
+                    编号：SB1314
+                </div>
+                <div class="col-md-2">
+                    联系人：曹大牛
+                </div>
+                <div class="col-md-3">
+                    电话：19989098908
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-9">
+                    温馨提示：为了更好的网站访问体验，建议使用IE6以上浏览器(360浏览器兼容模式内核为IE6)，或最新Firefox、chrome浏览器
+                </div>
+                <div class="col-md-3">
+                    &copy;版权所有 皮皮虾学院
+                </div>
+            </div>
+            <br>
+        </div>
+
+
+
+
+
+    </footer>
+
+</body>
+
+</html>

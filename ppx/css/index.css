@@ -1,0 +1,108 @@
+.carousel-inner img {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#content {
+    background: url(../img/success_titleBg.jpg) repeat;
+    position: relative;
+    top: -20px;
+}
+
+.b {
+    background-color: #D8D8DC;
+    font-size: 20px;
+    color: #FF6600;
+    font-weight: 700;
+}
+
+#more {
+    height: 30px;
+    width: 70px;
+    text-decoration: none;
+    background-color: white;
+    display: block;
+    position: relative;
+    top: -3px;
+    font-weight: 100;
+}
+
+.c {
+    text-decoration: none;
+    background-color: #F5F5F5;
+    display: block;
+    color: #FF6600;
+    font-weight: 100;
+}
+
+.d {
+    font-size: 8px;
+    text-decoration: none;
+    background-color: white;
+    color: #555555;
+    font-weight: 100;
+}
+
+#more a {
+    line-height: 25px;
+    font-size: 14px;
+    color: #FF6600;
+    display: block;
+}
+
+.login {
+    width: 100%;
+    margin-top: 28px;
+}
+
+.modal-dialog {
+    width: 420px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+.modal-header {
+    text-align: center;
+    background-color: #FF6600;
+    color: white;
+    font: 18px;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.info {
+    margin-top: 15px;
+}
+
+.info:hover {
+    color: white;
+    background-color: #FF6600;
+}
+
+.link {
+    height: 40px;
+    border: 1px solid #FF6600;
+    color: #FF6600;
+}
+
+.link:hover {
+    color: white;
+    background-color: #FF6600;
+}
+
+.wait img {
+    height: 75px;
+    width: 75x；
+}
+
+.wait ul {
+    margin-top: 20px;
+}
+
+.goin {
+    background-color: #F5F5F5;
+    font: 20px;
+}

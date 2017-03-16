@@ -1,0 +1,635 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>皮皮虾学院—官方教务系统</title>
+    <meta name="keywords" content="皮皮虾学院 教务系统 官方平台">
+    <meta name="description" content="皮皮虾学院官方教务系统，学生信息管理，教师信息管理">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">    
+<link rel="icon" href="./img/pipixia_icon.jpg">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            //轮播图JQ
+            $('#myCarousel').carousel({
+                interval: 3000
+            }).on("slide.bs.carousel", function () {
+                console.log("slide.bs.carousel")
+            }).on("slid.bs.carousel", function () {
+                console.log("slid.bs.carousel")
+            })
+
+            //登录框JQ验证
+            //学生登陆验证
+            $("#stuLoginBtn").click(function () {
+                    var stuLogin = $("#stuLogin").val();
+                    var stuPwd = $("#stuPwd").val();
+
+                    if (stuLogin != "" && stuPwd != "") {
+                        location.href = "./html/student3.html"
+                    } else {
+                        alert("同学你好，请输入你的学号与密码")
+                    }
+                })
+                //教师登录验证
+            $("#teaLoginBtn").click(function () {
+                    var teaLogin = $("#teaLogin").val();
+                    var teaPwd = $("#teaPwd").val();
+
+                    if (teaLogin != "" && teaPwd != "") {
+                        location.href = "./html/teacherInfo.html"
+                    } else {
+                        alert("老师你好，请输入你的工号与密码")
+                    }
+                })
+                //管理员登录验证
+            $("#adminLoginBtn").click(function () {
+                var adminLogin = $("#adminLogin").val();
+                var adminPwd = $("#adminPwd").val();
+
+                if (adminLogin != "" && adminPwd != "") {
+                    location.href = "./html/adminStudent.html"
+                } else {
+                    alert("管理员你好，请输入你的管理帐号与密码")
+                }
+            })
+
+        })
+    </script>
+</head>
+
+<body>
+    <!--头部区-->
+    <header id="header">
+        <div class="container" style="height:90px">
+            <div class="row">
+                <!--头部logo-->
+                <div class="col-md-9">
+                    <img src="./img/logo.png" class="img-responsive" style="margin-top:8px">
+                </div>
+                <!--头部搜索框-->
+                <div class="col-md-3 input-group hidden-xs" style="margin-top:30px">
+                    <input type="text" class="form-control" style="position:relative;top:1px;height:40px;" placeholder="请您输入关键字……">
+                    <span class="glyphicon glyphicon-search input-group-addon" aria-hidden="true"></span>
+                </div>
+            </div>
+        </div>
+        <!--导航栏-->
+        <div class="nav-container">
+            <div class="row">
+                <nav class="navbar navbar-default col-md-12" role="navigation">
+                    <div class="container-fluid ">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+
+                            <div class="row">
+                                <a href="#">
+                                    <div class="col-sm-2 a">学院首页</div>
+                                </a>
+                                <a href="#">
+                                    <div class="col-sm-2 a">教改教研</div>
+                                </a>
+                                <a href="#">
+                                    <div class="col-sm-2 a">国际交流</div>
+                                </a>
+                                <a href="#">
+                                    <div class="col-sm-2 a">招生信息</div>
+                                </a>
+                                <a href="#">
+                                    <div class="col-sm-2 a">政策法规</div>
+                                </a>
+                                <div href="#" class="a">
+                                    <div class="dropdown col-sm-2">
+                                        <div href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            服务指南 <b class="caret"></b>
+                                        </div>
+                                        <ul class="dropdown-menu" style="position:absolute;right:0px">
+                                            <li><a href="#">学生</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">教师</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">家长</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">毕业生</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" visible-xs">
+                                <form class="navbar-form" role="search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="s" value="" placeholder="输入关键字……">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--内容区-->
+    <div id="content" style="font-size:13px">
+        <!--轮播图-->
+        <div id="myCarousel" class="carousel slide">
+            <!--轮播指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!--轮播内容 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="./img/lunbo01.jpg" alt="First Slide" class="img-responsive">
+                </div>
+                <div class="item">
+                    <img src="./img/lunbo02.jpg" alt="Second Slide" class="img-responsive">
+                </div>
+                <div class="item">
+                    <img src="./img/lunbo03.jpg" alt="Third Slide" class="img-responsive">
+                </div>
+            </div>
+        </div>
+        <!--重要公告与登录区-->
+        <div class="container" style="margin-top:10px">
+            <div class="row">
+                <!--重要公告-->
+                <div class="col-md-8">
+                    <div class="list-group">
+                        <p class="list-group-item b">丨重要公告
+                            <span class="badge" id="more"><a href="#">+MORE</a></span>
+
+                        </p>
+                        <a href="#" class="list-group-item">
+                     【通知】关于H51610班进行Bootstrap学习的通知
+                        <span class="badge c">new</span>
+                    </a>
+                        <a href="#" class="list-group-item">
+                     【嘉奖】对于前端课程授课教师曹老师进行“三好老师”嘉奖的通知
+                        <span class="badge c">new</span>            
+                    </a>
+                        <a href="#" class="list-group-item">
+                     【运动】对于2.17-18日皮皮虾学院春季运动会的安全须知 
+                     <span class="badge d">2/15</span> 
+                     </a>
+                        <a href="#" class="list-group-item">
+                     【实践】关于2.14日情人节放假的通知   
+                      <span class="badge d">2/12</span> 
+                     </a>
+                        <a href="#" class="list-group-item">
+                     【惩罚】对于本校外语系教师成东青私自办学给与开除处分的通知
+                     <span class="badge d">2/07</span> 
+                     </a>
+                        <a href="#" class="list-group-item">
+                     【通知】关于H51610班级Jquery项目验收的通知
+                     <span class="badge d">2/02</span> 
+                     </a>
+                    </div>
+                </div>
+                <!--登录栏-->
+                <!--学生登陆-->
+                <div class="col-md-4">
+                    <div class="list-group">
+                        <p class="list-group-item b">丨快速登录</p>
+                        <!--学生登陆-->
+                        <button class="btn btn-info btn-lg login" data-toggle="modal" data-target="#studentModal">学生登陆</button>
+
+                        <!-- 模态框（Modal） -->
+                        <div class="modal  fade" id="studentModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal" type="button">&times;</button>
+                                        <h4 class="modal-title">同学你好,请你登录!</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <form role="form" class="form-horizontal">
+                                                <div class="form-group">
+                                                    <div class="col-md-4 input-group">
+                                                        <input id="stuLogin" type="text" value="" class="form-control input-lg" placeholder="请输入你的学号">
+                                                        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-md-4 input-group">
+                                                        <input id="stuPwd" type="password" value="" class="form-control input-lg" placeholder="请输入你的密码">
+                                                        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-md-4">
+                                                        <input type="checkbox"> 记住密码 &nbsp;
+                                                        <span style="font-size:13px">
+                                                        <a href="">忘记密码</a>
+                                                        <br>
+                                                        <br>
+                                                        <span style="color:red">* 温馨提示：请注意使用环境，不要在网吧等公众场所保存您的帐号与密码</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="form-group">
+                                                        <div class="col-md-offset-1 col-md-1">
+                                                            <a type="button" class="btn btn-primary" id="stuLoginBtn">登录</a>
+                                                        </div>
+                                                        <div class="col-md-1">
+                                                            <button data-dismiss="modal" class="btn btn-default">返回</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--教师登陆-->
+                        <button class="btn btn-success btn-lg login" data-toggle="modal" data-target="#teacherModal">教师登陆</button>
+
+                        <!-- 教师模态框（Modal） -->
+                        <div class="modal  fade" id="teacherModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal" type="button">&times;</button>
+                                        <h4 class="modal-title">老师您辛苦了，请您登录!</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <form role="form" class="form-horizontal">
+                                                <div class="form-group">
+                                                    <div class="col-md-4 input-group">
+                                                        <input type="text" id="teaLogin" class="form-control input-lg" placeholder="请输入您的工号">
+                                                        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-md-4 input-group">
+                                                        <input type="password" id="teaPwd" class="form-control input-lg" placeholder="请输入您的密码">
+                                                        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-md-4">
+                                                        <input type="checkbox"> 记住密码 &nbsp;
+                                                        <span style="font-size:13px">
+                                                        <a href="">忘记密码</a>
+                                                        <br>
+                                                        <br>
+                                                        <span style="color:red">* 温馨提示：请注意使用环境，不要在网吧等公众场所保存您的帐号与密码</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="form-group">
+                                                        <div class="col-md-offset-1 col-md-1">
+                                                            <a type="button" id="teaLoginBtn" class="btn btn-primary">登录</a>
+                                                        </div>
+                                                        <div class="col-md-1">
+                                                            <button data-dismiss="modal" class="btn btn-default">返回</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--管理员登陆-->
+                        <button class="btn btn-warning btn-lg login" data-toggle="modal" data-target="#adminModal">管理员登陆</button>
+
+                        <!-- 管理员模态框（Modal） -->
+                        <div class="modal  fade" id="adminModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close" data-dismiss="modal" type="button">&times;</button>
+                                        <h4 class="modal-title">管理员老师，请您登录!</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <form role="form" class="form-horizontal">
+                                                <div class="form-group">
+                                                    <div class="col-md-4 input-group">
+                                                        <input type="text" id="adminLogin" class="form-control input-lg" placeholder="请输入管理员账号">
+                                                        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-md-4 input-group">
+                                                        <input type="password" id="adminPwd" class="form-control input-lg" placeholder="请输入管理员密码">
+                                                        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="col-md-4">
+                                                        <input type="checkbox"> 记住密码 &nbsp;
+                                                        <span style="font-size:13px">
+                                                        <a href="">忘记密码</a>
+                                                        <br>
+                                                        <br>
+                                                        <span style="color:red">* 温馨提示：请注意使用环境，不要在网吧等公众场所保存您的帐号与密码</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="form-group">
+                                                        <div class="col-md-offset-1 col-md-1">
+                                                            <a type="button" id="adminLoginBtn" class="btn btn-primary">登录</a>
+                                                        </div>
+                                                        <div class="col-md-1">
+                                                            <a href="#">
+                                                                <button data-dismiss="modal" class="btn btn-default">返回</button>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--新闻与常用信息区-->
+        <div class="container">
+            <div class="row">
+                <!--学校新闻区-->
+                <div class="col-md-4">
+                    <div class="list-group">
+                        <p class="list-group-item b">丨学院新闻
+                            <span class="badge" id="more"><a href="#">+MORE</a></span>
+                        </p>
+                        <a href="#" class="list-group-item">
+                     【计算机学院】这学期开设了HTML5课程
+                        <span class="badge c">new</span>
+                    </a>
+                        <a href="#" class="list-group-item">
+                     【外国语学院】欢迎外国交换生来校学习
+                        <span class="badge c">new</span>            
+                    </a>
+                        <a href="#" class="list-group-item">
+                     【经济学院】经济学院50周年晚会圆满成功 
+                     <span class="badge d">2/19</span> 
+                     </a>
+                        <a href="#" class="list-group-item">
+                     【团总支】春季运动会取得圆满成功
+                     <span class="badge d">2/17</span> 
+                     </a>
+                        <a href="#" class="list-group-item">
+                     【艺术学院】赵同学进入《我是歌手》入围赛   
+                      <span class="badge d">2/15</span> 
+                     </a>
+                        <a href="#" class="list-group-item">
+                     【信管院】恭喜信管院获得物联网大赛第100名
+                     <span class="badge d">2/8</span> 
+                     </a>
+                    </div>
+                </div>
+                <!--学生新闻区-->
+                <div class="col-md-4">
+                    <div class="list-group">
+                        <p class="list-group-item b">丨学生新闻
+                            <span class="badge" id="more"><a href="#">+MORE</a></span>
+                        </p>
+                        <a href="#" class="list-group-item">
+                           曹勇同学小说《我是程序员》获新华社出版
+                        <span class="badge c">new</span>
+                    </a>
+                        <a href="#" class="list-group-item">
+                            经济系李松同学获得斯坦福大学保送资格
+                            <span class="badge d">2/22</span>
+                        </a>
+                        <a href="#" class="list-group-item">
+                          计算机系sky战队获得王者荣耀比赛冠军
+                           <span class="badge d">2/17</span> 
+                     </a>
+                        <a href="#" class="list-group-item">
+                           创业社团创业大赛今晚F201七点正式开始
+                            <span class="badge d">2/13</span>
+                        </a>
+                        <a href="#" class="list-group-item">
+                           艺术系一女生情人节被某寝室男生集体表白
+                     <span class="badge d">2/07</span> 
+                     </a>
+                        <a href="#" class="list-group-item">
+                           外语社团最美英文欣赏活动明晚举行
+                     <span class="badge d">2/03</span> 
+                     </a>
+                    </div>
+                </div>
+                <!--常用信息区-->
+                <div class="col-md-4">
+                    <div class="list-group">
+                        <p class="list-group-item b">丨常用信息</p>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <button class="btn btn-default btn-sm info">培养方案</button>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <button class="btn btn-default btn-sm info">信息门户</button>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <button class="btn btn-default btn-sm info">作息时间</button>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <button class="btn btn-default btn-sm info">组织架构</button>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <button class="btn btn-default btn-sm info">教务领导</button>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <button class="btn btn-default btn-sm info">教务中心地址</button>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <button class="btn btn-default btn-sm info">学校地图</button>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <button class="btn btn-default btn-sm info">学校校历</button>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <button class="btn btn-default btn-sm info">班车时刻</button>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <button class="btn btn-default btn-sm info">盖章事件</button>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <button class="btn btn-default btn-sm info">学院联系方式</button>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <button class="btn btn-default btn-sm info">机关联系方式</button>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <button class="btn btn-default btn-sm info">教师邮箱系统</button>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <button class="btn btn-default btn-sm info">教务系统电话</button>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <button class="btn btn-default btn-sm info">在线图书馆</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <!--走进皮皮虾学院区-->
+                <div class="col-md-8">
+                    <div class="list-group">
+                        <p class="list-group-item b">丨走进皮皮虾学院
+                            <span class="badge" id="more"><a href="#">+MORE</a></span>
+                        </p>
+                        <div class="list-group-item goin">
+                            皮皮虾学院 丨<strong>学习篇</strong>
+                            <span class="badge" id="more"><a href="#">>></a></span>
+                        </div>
+                        <a href="#" class="list-group-item">
+                          每天清晨，朝阳初生，学院莫名池边迎来越来越多的学生进行晨读
+                          <span class="badge d">阅读全文</span>            
+                    </a>
+                        <a href="#" class="list-group-item">
+                           每个黄昏时分，金乌初避，学院操场上同学们来来往往在锻炼身体
+                           <span class="badge d">阅读全文</span> 
+                     </a>
+                        <a href="#" class="list-group-item">
+                            各大学院之间的学习竞赛已经拉开帷幕，学生们都在努力奋进为各自所在的学院争光
+                     <span class="badge d"><small>阅读全文</small></span> 
+                     </a>
+                        <div class="list-group-item goin">
+                            皮皮虾学院 丨<strong>生活篇</strong>
+                            <span class="badge" id="more"><a href="#">>></a></span>
+                        </div>
+                        <a href="#" class="list-group-item">
+                            学院周围各大商圈与小酒馆、老餐馆聚集，爆炒皮皮虾、皮皮虾煮啤酒获得同学们的最喜爱食品  
+                      <span class="badge d">阅读全文</span> 
+                     </a>
+                        <a href="#" class="list-group-item">
+                            背靠名山，前瞻鼓海，四邻梅竹，春天来临，学院好风光正在慢慢苏醒
+                           <span class="badge d">阅读全文</span> 
+                     </a>
+                    </div>
+                </div>
+                <!--我在皮皮虾等你来区-->
+                <div class="col-md-4 wait">
+                    <div class="list-group">
+                        <p class="list-group-item b">丨我在皮皮虾 等你来
+                            <span class="badge" id="more"><a href="#">>></a></span>
+                        </p>
+                        <ul class="midia-list list-unstyled">
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img alt="媒体对象" class="media-object" src="./img/wait01.jpeg" style="width:75px">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="media-heading">戚薇：博学广思，始终向前 </h5>这就是我喜欢的学习、生活，皮皮虾学院，等你来战。<a href="#"><abbr title="阅读全文">全文 >></abbr></a>
+                                </div>
+                            </li>
+                            <div class="clearfix"></div>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img alt="媒体对象" class="media-object" src="./img/wait02.jpg">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="media-heading">谢霆锋：绿色的工程梦，从这里起步</h5> 来到这里，不负我望，这里是学习工程的天堂。<a href="#"><abbr title="阅读全文">全文 >></abbr></a>
+
+                                </div>
+                            </li>
+                            <div class="clearfix"></div>
+                            <li class="media">
+                                <a href="#" class="pull-left">
+                                    <img alt="媒体对象" class="media-object" src="./img/wait03.jpg">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="media-heading">黄圣依：演艺事业的基石</h5> 单纯的喜欢演艺，也势将做最好的演员，所以来到了皮皮虾学院。<a href="#"><abbr title="阅读全文">全文 >></abbr></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--友情链接-->
+            <div class="container">
+                <div class="row">
+                    <a href="#">
+                        <button class="btn btn-md btn-default col-md-2 col-sm-4 link">
+                            <span class="glyphicon glyphicon-link"></span> &nbsp;友情链接
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button class="btn btn-default col-md-2 col-sm-4 link">
+                            <span class="glyphicon glyphicon-home"></span> &nbsp;学院首页
+                        </button>
+                    </a>
+                    <button class="btn btn-default col-md-2 col-sm-4 link">
+                        <span class="glyphicon glyphicon-map-marker"></span> &nbsp;学院地图
+                    </button>
+                    <button class="btn btn-default col-md-2 col-sm-4 link">
+                        <span class="glyphicon glyphicon-heart"></span> &nbsp;校园服务
+                    </button>
+                    <button class="btn btn-default col-md-2 col-sm-4 link">
+                        <span class="glyphicon glyphicon-phone-alt"></span> &nbsp;投诉电话
+                    </button>
+                    <button class="btn btn-default col-md-2 col-sm-4 link">
+                        <span class="glyphicon glyphicon-envelope"></span> &nbsp; 校长信箱
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--脚部区-->
+    <footer id="footer" style="position:relative;top:20px">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-md-5">
+                    皮皮虾学院地址：你曾仰望无数日夜的那片璀璨星空里那颗最亮的星星
+                </div>
+                <div class="col-md-2">
+                    编号：Cam1314
+                </div>
+                <div class="col-md-2">
+                    联系人：aaa
+                </div>
+                <div class="col-md-3">
+                    电话：19989098908
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-9">
+                    温馨提示：为了更好的网站访问体验，建议使用IE6以上浏览器(360浏览器兼容模式内核为IE6)，或最新Firefox、chrome浏览器
+                </div>
+                <div class="col-md-3">
+                    &copy;版权所有 皮皮虾学院
+                </div>
+            </div>
+            <br>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

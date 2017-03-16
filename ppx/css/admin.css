@@ -1,0 +1,25 @@
+.container-content{
+    padding: 50px 0;
+}
+h2{
+    text-align: center;
+}
+.query select{
+    display: inline-block;
+    height: 34px;
+    width: 110px;
+}
+.query-div{
+    display: block;
+    overflow: scroll;
+    height: 400px;
+}
+.detail-div{
+    display: none;
+}
+
+#content {
+
+    position: relative;
+    top: -50px;
+}

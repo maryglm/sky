@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>皮皮虾学院—官方教务系统</title>
+    <link rel="icon" href="../img/pipixia_icon.jpg">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header id="header" style="height:">
+        <div class="container" style="height:90px">
+            <div class="row">
+                <!--头部logo-->
+                <div class="col-md-9">
+                    <img src="../img/logo.png" class="img-responsive" style="margin-top:8px">
+                </div>
+                <!--头部搜索框-->
+                <div class="col-md-3 input-group hidden-xs" style="margin-top:30px">
+                    <input type="text" class="form-control" style="position:relative;top:1px;height:40px;" placeholder="请您输入关键字……">
+                    <span class="glyphicon glyphicon-search input-group-addon" aria-hidden="true"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-container">
+            <div class="row">
+                <nav class="navbar navbar-default col-xs-12 col-md-12" role="navigation">
+                    <div class="container-fluid ">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+
+                            <div class="row">
+                                <a href="../index.html">
+                                    <div class="col-sm-2 a">学院首页</div>
+                                </a>
+                                <a href="teacherInfo.html">
+                                    <div class="col-sm-2 a">个人信息</div>
+                                </a>
+                                <a href="teacherClass.html">
+                                    <div class="col-sm-2 a">授课安排</div>
+                                </a>
+                                <a href="teacherGrade.html">
+                                    <div class="col-sm-2 a">成绩录入</div>
+                                </a>
+                                <a href="teacherNotice.html">
+                                    <div class="col-sm-2 a">教务通知</div>
+                                </a>
+                                <div href="#" class="a">
+                                    <div class="dropdown col-sm-2">
+                                        <div href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            登录信息 <b class="caret"></b>
+                                        </div>
+                                        <ul class="dropdown-menu" style="position:absolute;right:0px">
+                                            <li><a href="#">教工号</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">姓名</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">注销</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" visible-xs">
+                                <form class="navbar-form" role="search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="s" value="" placeholder="输入关键字……">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div id="content" style="color:#333">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xs-2" id="myScrollspy">
+                    <ul class="nav nav-tabs nav-stacked" data-offset-top="125">
+                        <li><a href="teacherInfo.html">个人信息</a></li>
+                        <li class="active"><a href="teacherClass.html">授课安排</a></li>
+                        <li><a href="teacherGrade.html">成绩录入</a></li>
+                        <li><a href="teacherNotice.html">教务通知</a></li>
+
+                    </ul>
+                </div>
+                <div class="panel col-xs-10">
+
+                    <!-- 3. 带边框表格-->
+                    <table class="table table-bordered" style="text-align: center">
+                        <caption>授课安排</caption>
+                        <thead>
+                            <colgroup>
+                                <col style="width:10%">
+                                    <col style="width:15%">
+                                        <col style="width:15%">
+                                            <col style="width:15%">
+                                                <col style="width:15%">
+                                                    <col style="width:15%">
+
+                            </colgroup>
+                            <tr>
+                                <th>上课时间</th>
+                                <th>星期一</th>
+                                <th>星期二</th>
+                                <th>星期三</th>
+                                <th>星期四</th>
+                                <th>星期五</th>
+                                <th>星期六</th>
+                                <th>星期日</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>8:00-8:45</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td rowspan="2">js特效
+                                    <br>
+                                    <p style="font-size: 12px">8:00-9:40</p>
+                                    <p style="font-size: 10px">&#40;南校区知行楼
+                                        <br>5303&#41;</p>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>9:00-9:45</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>10:00-10:45</td>
+                                <td></td>
+                                <td rowspan="2">jquery特效开发
+                                    <br>
+                                    <p style="font-size: 12px">10:00-11:40</p>
+                                    <p style="font-size: 10px">&#40;南校区知行楼
+                                        <br>5303&#41;</p>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>11:00-11:45</td>
+                                <td></td>
+                                <td></td>
+
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>11:45-14:00</td>
+                                <td colspan="6">中午</td>
+
+                            </tr>
+                            <tr>
+                                <td>14:00-14:45</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td rowspan="3">实战项目练习
+                                    <br>
+                                    <p style="font-size: 12px">14:00-16:30</p>
+                                    <p style="font-size: 10px">&#40;北校区知行楼
+                                        <br>3303&#41;</p>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>15:00-15:45</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>16:00-16:45</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td>16:45-18:00</td>
+                                <td colspan="6">下午</td>
+                            </tr>
+                            <tr>
+                                <td>18:00-20:30</td>
+                                <td colspan="6">晚自习</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer id="footer">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-md-5">
+                    皮皮虾学院地址：在你曾仰望无数日夜那片璀璨的星空里的一颗发亮的星星上
+                </div>
+                <div class="col-md-2">
+                    编号：SB1314
+                </div>
+                <div class="col-md-2">
+                    联系人：曹大牛
+                </div>
+                <div class="col-md-3">
+                    电话：19989098908
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-9">
+                    温馨提示：为了更好的网站访问体验，建议使用IE6以上浏览器(360浏览器兼容模式内核为IE6)，或最新Firefox、chrome浏览器
+                </div>
+                <div class="col-md-3">
+                    &copy;版权所有 皮皮虾学院
+                </div>
+            </div>
+            <br>
+        </div>
+
+    </footer>-
+    <script>
+        $(function () {
+            $('#myCarousel').carousel({
+                interval: 3000
+            }).on("slide.bs.carousel", function () {
+                console.log("slide.bs.carousel")
+            }).on("slid.bs.carousel", function () {
+                console.log("slid.bs.carousel")
+            })
+
+        })
+    </script>
+
+
+
+</body>
+
+</html>

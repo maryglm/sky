@@ -1,0 +1,48 @@
+.container-content{
+    padding: 50px 0;
+}
+h2{
+    text-align: center;
+}
+.query select{
+    display: inline-block;
+    height: 34px;
+    width: 110px;
+}
+.query-div{
+    display: block;
+    overflow: scroll;
+    height: 400px;
+}
+.detail-div{
+    display: none;
+}
+
+#content {
+    position: relative;
+    top: -20px;
+    padding-top: 35px;  
+}
+.btn-issue{
+    background-color: #ff6600;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.news-issue-text{
+    width:100%;height:300px;resize: none;outline: none;
+}
+.d {
+    font-size: 8px;
+    text-decoration: none;
+    background-color: white;
+    color: #555555;
+    font-weight: 100;
+}
+
+.list-group-item-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    height: 18px;
+    width:300px;
+}

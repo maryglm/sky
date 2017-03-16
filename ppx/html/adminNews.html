@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>皮皮虾学院—官方教务系统</title>
+    <meta name="keywords" content="皮皮虾学院 教务系统 官方平台">
+    <meta name="description" content="皮皮虾学院官方教务系统，学生信息管理，教师信息管理">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="../img/pipixia_icon.jpg">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/adminews.css">
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-9">
+                    <img src="../img/logo.png" class="img-responsive">
+                </div>
+                <div class="col-xs-12 col-md-3 input-group hidden-xs" style="margin-top:20px">
+
+                    <input type="text" class="form-control" style="position:relative;top:1px;height:40px;" placeholder="输入关键字……">
+                    <i class="glyphicon glyphicon-search input-group-addon" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-container">
+            <div class="row">
+                <nav class="navbar navbar-default col-xs-12 col-md-12" role="navigation">
+                    <div class="container-fluid ">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+
+                            <div class="row">
+                                <a href="../index.html">
+                                    <div class="col-sm-2 a">学院首页</div>
+                                </a>
+                                <a href="./adminStudent.html">
+                                    <div class="col-sm-2 a">学生管理</div>
+                                </a>
+                                <a href="./adminTeacher.html">
+                                    <div class="col-sm-2 a">教师管理</div>
+                                </a>
+                                <a href="./adminNews.html">
+                                    <div class="col-sm-2 a">新闻管理</div>
+                                </a>
+                                <a href="./adminNew.html">
+                                    <div class="col-sm-2 a">新增用户</div>
+                                </a>
+                                <div href="#" class="a">
+                                    <div class="dropdown col-sm-2">
+                                        <div href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            登录信息 <b class="caret"></b>
+                                        </div>
+                                        <ul class="dropdown-menu" style="position:absolute;right:0px;z-index:1">
+                                            <li><a href="#">学工号</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">姓名</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">注销</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" visible-xs">
+                                <form class="navbar-form" role="search">
+                                    <div class="input-group  search">
+                                        <input type="text" class="form-control" name="s" value="" placeholder="输入关键字……">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div id="content" class="container">
+        <div class="domore  col-sm-3 col-xs-12">
+            <div class="panel panel-default panel-domore">
+                <div class="panel-heading" style="background-color:#ff6600;color:#fff">
+                    <h3 class="panel-title">
+                        操作
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <button class="btn btn-issue">发布新闻</button>
+                    <button class="btn btn-issue">发布新闻</button>
+                </div>
+            </div>
+        </div>
+        <div class="news-all  col-sm-9 col-xs-12">
+            <div class="news-xuexiao list-group col-md-6 col-xs-12">
+                <a href="#" class="list-group-item active" style="background-color:#ff6600;z-index:0">
+                    <span class="badge tomore">More</span>
+                    <h4 class="news-type list-group-item-heading" style="font-weight:600">
+                        重要公告
+                    </h4>
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="badge d">16:23 2017/2/22</span>
+                    <h4 class="list-group-item-heading news-title">
+                        期末考试考务简报
+                    </h4>
+                    <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                    <p class="list-group-item-text">
+                        一、期末考试整体情况 　　本次期末考试时间为2017年 1月8日晚、1月9日、1月11日、1月13日、1月15日，考试课程609门次，设考场1321个，参考学生50674人次。考试地点分布在思学楼、博学楼、明辨楼、明德楼、明理楼、明志楼，每天安排3场考试，上午1场，下午1场，晚上1场，每场时间段分别为09:00-10:40、15:00-16:40和19:50-21:30。 　　为确保本次考试的顺利进行，教务处于2016年12月30日下发了《关于做好2016年秋季学期期末考试工作的通知》（教务字【2016】122号），并于2017年1月3日下午召开教务联席会，对期末考试工作做了详细部署，要求各学院在考前召开学生动员会和监考教师培训会，组织师生认真学习《西南石油大学考场规则》、《西南石油大学学生考试违纪、作弊处理条例》、《西南石油大学监考人员守则》、《西南石油大学考试管理规定》、《西南石油大学教学事故认定、处理办法》等管理文件，让每一位考生诚信应考，让每一位监考教师明确自己的监考职责，并认真履行监考职责。 　　本次考试首次使用金属探测仪，每位考生进入考场前，均需接受监考人员的检查，防止考生携带手机、具有接收功能的智能手表等通讯工具进入考场，有效遏制了学生利用通讯工具作弊不断增多的趋势；首次在全校公共基础课考试中试点使用网上阅卷系统阅卷，既减轻了教师的阅卷工作量，提高了阅卷工作效率，又提高了阅卷的保密性，分数计算的准确性等，同时也为试卷归档、查询和长期保存提供方便。 　　考试期间，分管教学的王玲副校长，学校教学督导委员会专家及各学院相关领导到考场巡视。从各方面反馈的情况看，本次考试总体情况良好，绝大多数监考教师能够按时到岗，并认真履行监考职责；绝大多数学生能够按时参加考试，并严格遵守考场纪律，考场秩序良好。 　　二、存在的主要问题 　　1、极个别课程命题不严谨，存在试题错误情况。 　　2、个别课程试题难度偏易或题量偏小。 　　3、个别课程老师考前勾划考试重点。 　　4、个别监考教师责任意识不强，不按时到岗，未按要求及时做好考前准备工作。 　　5、个别监考教师未认真履行监考职责，在考场内玩手机、在考场内外聊天等。 　　6、部分学生对考试不重视、考前准备不充分。如部分学生未提前熟悉考试地点，导致考试开始后找不到考场；部分学生迟到、未带考试证件；部分学生考前复习不充分，考前几分钟仍在考场外突击查看资料，迟迟不进入考场，影响考场秩序。 　　7、部分学生提前交卷后在考场周围逗留，抽烟、大声喧哗或对答案，影响考场秩序。 　　8、极个别学生不遵守考场纪律，本次考试共发现6名学生作弊。 　　（上述问题已在2016年秋季学期期末考试情况通报中通报，在此不再详述） 　　三、整改要求 　　针对本次出现的问题，对今后的考试工作提出以下几点整改要求： 　　1、各学院应建立相关机制加强监考教师队伍建设，强化监考教师责任意识。良好的考风考纪是提高人才培养质量的重要保障，监考教师是否正确履行职责，会直接影响学生的考风考纪和考场秩序，各单位应加强监考工作培训，特别是对临时充实进入监考队伍的离退休职工和新入职职工，以提高监考队伍的整体素质，强化监考教师的责任意识，并将监考责任履行情况纳入考核。 　　2、开课单位应进一步要求命题教师或出题小组认真把握好试题难易和份量，并在考题审批时加强审核把关。考试期间，各学院领导应到场巡视考试情况，重点关注试题份量、难度等深层次问题，对出现的问题，要认真分析，找准原因，及时改进。对于本次考试中反映的试题份量、难易方面存在的问题，特别是四次情况通报中提到的课程，相关学院应组织对试题的命题质量进行分析，查明原因并将有关情况报教务处。 　　3、进一步加强学生考风考纪教育。各学院应在考前召开动员会，要求学生重视考试，提前查询考试时间和地点，充分做好考前准备工作，利用考前复习机会，再一次系统梳理课程的知识点，达到课程大纲要求目标；并要求学生考试时应提前到考场备考。
+                    </p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="badge d">16:23 2017/2/22</span>
+                    <h4 class="list-group-item-heading news-title">
+                        “教师教学优秀奖”的名单公示
+                    </h4>
+                    <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                    <p class="list-group-item-text">
+                        校内各单位： 　　根据《西南石油大学教师本科课堂教学质量考核评价与奖励办法》（西南石大教[2016]56号）（下简称“考评办法”）和《关于公布2016年度教师本科课堂教学评优指标数及上报学院考核结果的通知》（教务字[2017]4号），经各单位认真考核、评价和公示，校评工作组审查等程序，共评选出我校获2016年“教师教学优秀奖”的教师共计197名，其中优秀一级32名，优秀二级58名，优秀三级107名。现予公示，公示期为2017年1月19日——1月23日。 　　对评选结果有异议的单位和个人，须在公示期内以书面形式向教务处提出。单位提出的异议，异议材料上应有单位负责人签字并加盖单位公章，写明联系人姓名、通讯地址和电话；个人提出的异议，需在异议材料上签署真实姓名，并写明本人工作单位、通讯地址和电话。不符合本规定和要求者，不予受理。学校教务处将对提出异议的单位和个人给予保密。 2017年1月19日 附件：2016年教师课堂教学考核评优教师一览表 序号 学院 教师工号 教师姓名 级别 1 石油与天然气工程学院 200731010017 朱红钧 优秀一级 2 石油与天然气工程学院 198631010028 陈小榆 优秀一级 3 石油与天然气工程学院 200831010011 肖东 优秀一级 4 石油与天然气工程学院 201031010039 彭星煜 优秀二级 5 石油与天然气工程学院 198231010017 周小平 优秀二级 6 石油与天然气工程学院 199131010013 叶峰 优秀二级 7 石油与天然气工程学院 200431010048 张涛 优秀二级 8 石油与天然气工程学院 199631010011 蒋宏业 优秀二级 9 石油与天然气工程学院 200631010015 申洁 优秀三级 10 石油与天然气工程学院 200731010013 金发扬 优秀三级 11 石油与天然气工程学院 198731010013 梅海燕 优秀三级 12 石油与天然气工程学院 200931010030 贾敏 优秀三级 13 石油与天然气工程学院 199931010004 范翔宇 优秀三级 14 石油与天然气工程学院 198631010021 彭彩珍 优秀三级 15 石油与天然气工程学院 201131010031 卞小强 优秀三级 16 石油与天然气工程学院 200531010022 刘恩斌 优秀三级 17 石油与天然气工程学院 200731010011 施雷庭 优秀三级 18 地球科学与技术学院 198231010023 朱仕军 优秀一级 19 地球科学与技术学院 200131010024 张伯虎 优秀一级 20 地球科学与技术学院 200831010013 周小军 优秀二级 21 地球科学与技术学院 200831010015 李斌 优秀二级 22 地球科学与技术学院 200731010024 赵虎 优秀二级 23 地球科学与技术学院 200531010028 赵军 优秀二级 24 地球科学与技术学院 200631010017 唐章英 优秀三级 25 地球科学与技术学院 200531010030 郗爱华 优秀三级 26 地球科学与技术学院 199831010008 李凌 优秀三级 27 地球科学与技术学院 198431010018 胡明 优秀三级 28 地球科学与技术学院 198831010008 戴鸿鸣 优秀三级 29 地球科学与技术学院 198831010009 徐志明 优秀三级 30 地球科学与技术学院 201231010007 张军伟 优秀三级 31 地球科学与技术学院 201331010046 曲宏略 优秀三级 32 机电工程学院 198231010030 王维 优秀一级 33 机电工程学院 200431010054 夏逢军 优秀一级 34 机电工程学院 200831010025 李陵 优秀一级 35 机电工程学院 200831010029 孙建强 优秀二级 36 机电工程学院 200631010045 石明江 优秀二级 37 机电工程学院 198231010029 郑悦明 优秀二级 38 机电工程学院 200631010020 刘洪斌 优秀二级 39 机电工程学院 198631010031 陶春达 优秀二级 40 机电工程学院 198831010015 陈波 优秀三级 41 机电工程学院 200331010024 张旭伟 优秀三级 42 机电工程学院 200531010036 常学平 优秀三级 43 机电工程学院 200631010025 赵广慧 优秀三级 44 机电工程学院 200831010030 杨建波 优秀三级 45 机电工程学院 198831010014 邱亚玲 优秀三级 46 机电工程学院 200631010047 仇芝 优秀三级 47 机电工程学院 201599010111 邵永波 优秀三级 48 机电工程学院 200231010019 兰图 优秀三级 49 机电工程学院 200631010023 余钰 优秀三级 50 化学化工学院 200231010020 段文猛 优秀一级 51 化学化工学院 200031010009 王豪 优秀一级 52 化学化工学院 200931010054 罗米娜 优秀二级 53 化学化工学院 199931010009 邱海燕 优秀二级 54 化学化工学院 198631010034 方景毅 优秀二级 55 化学化工学院 201331010008 郑勇 优秀二级 56 化学化工学院 198831010018 贾朝霞 优秀三级 57 化学化工学院 200931010029 邓洪波 优秀三级 58 化学化工学院 200831010032 朱元强 优秀三级 59 化学化工学院 199831010010 王治红 优秀三级 60 化学化工学院 200631010030 李敏 优秀三级 61 化学化工学院 201231010039 方申文 优秀三级 62 化学化工学院 201031010013 熊艳 优秀三级 63 材料科学与工程学院 200731010041 王平 优秀一级 64 材料科学与工程学院 199631010015 黄本生 优秀二级 65 材料科学与工程学院 200431010061 王虎 优秀二级 66 材料科学与工程学院 200431010064 何显儒 优秀三级 67 材料科学与工程学院 200631010033 谢娟 优秀三级 68 材料科学与工程学院 200331010038 王小红 优秀三级 69 材料科学与工程学院 199631010016 杨眉 优秀三级 70 计算机科学学院 200331010047 廖浩德 优秀一级 71 计算机科学学院 199631010017 刘义军 优秀一级 72 计算机科学学院 200731010078 杨力（女） 优秀一级 73 计算机科学学院 200631010036 岳静 优秀二级 74 计算机科学学院 200831010044 杨梅 优秀二级 75 计算机科学学院 200731010046 贾月乐 优秀二级 76 计算机科学学院 200131010017 周永 优秀二级 77 计算机科学学院 200131010015 肖斌 优秀二级 78 计算机科学学院 200031010012 胥林 优秀三级 79 计算机科学学院 200231010009 刘丽艳 优秀三级 80 计算机科学学院 199131010021 黄诚 优秀三级 81 计算机科学学院 200431010084 何山 优秀三级 82 计算机科学学院 199931010011 张淮鑫 优秀三级 83 计算机科学学院 199931010012 王兵 优秀三级 84 计算机科学学院 200431010069 何中越 优秀三级 85 电气信息学院 200631010044 刘西成 优秀一级 86 电气信息学院 199731010023 邱红兵 优秀二级 87 电气信息学院 200231010030 赵万明 优秀二级 88 电气信息学院 200531010050 谌贵辉 优秀二级 89 电气信息学院 200531010054 沈霞 优秀三级 90 电气信息学院 199031010016 席建中 优秀三级 91 电气信息学院 200631010048 许瑾 优秀三级 92 电气信息学院 201031010042 邓魁 优秀三级 93 电气信息学院 200231010032 张培志 优秀三级 94 土木工程与建筑学院 201131010043 阙怡 优秀一级 95 土木工程与建筑学院 201599010140 于冰 优秀二级 96 土木工程与建筑学院 200731010058 戴小军 优秀二级 97 土木工程与建筑学院 201131010076 黄莉 优秀三级 98 土木工程与建筑学院 201031010033 杨婷婷 优秀三级 99 土木工程与建筑学院 200531010057 王作文 优秀三级 100 土木工程与建筑学院 198931010015 董事尔 优秀三级 101 理学院 200331010065 李玲娜 优秀一级 102 理学院 200131010027 陈亚丽 优秀一级 103 理学院 200731010061 黄睿 优秀一级 104 理学院 199831010016 张强 优秀一级 105 理学院 200631010067 林敏 优秀二级 106 理学院 199331010012 蒋尚武 优秀二级 107 理学院 201231010029 伍振海 优秀二级 108 理学院 200831010058 齐云 优秀二级 109 理学院 200331010061 黄文 优秀二级 110 理学院 199931010013 唐斌 优秀二级 111 理学院 199131010026 钟仪华 优秀三级 112 理学院 199731010026 胡修银 优秀三级 113 理学院 200631010066 任驰远 优秀三级 114 理学院 200531010063 罗强 优秀三级 115 理学院 200731010062 钟水蓉 优秀三级 116 理学院 200731010065 李春泉 优秀三级 117 理学院 200731010063 李菊芬 优秀三级 118 理学院 200331010063 田东红 优秀三级 119 理学院 201331010084 魏涛 优秀三级 120 理学院 200731010066 陈乾 优秀三级 121 理学院 201131010014 丁显峰 优秀三级 122 经济管理学院 200731010077 庞敏 优秀一级 123 经济管理学院 199131010028 熊志坚 优秀一级 124 经济管理学院 198431010035 陈丙 优秀二级 125 经济管理学院 200731010003 陈曦 优秀二级 126 经济管理学院 199531010028 吕南 优秀二级 127 经济管理学院 200831010075 李廷 优秀二级 128 经济管理学院 200731010076 罗洪群 优秀三级 129 经济管理学院 200331010068 彭倩 优秀三级 130 经济管理学院 201131010040 谢苇 优秀三级 131 经济管理学院 200631010079 张力 优秀三级 132 经济管理学院 201031010074 赵艺 优秀三级 133 经济管理学院 199931010016 陈惠芬 优秀三级 134 经济管理学院 200531010080 陈军华 优秀三级 135 经济管理学院 200831010061 孙聆轩 优秀三级 136 法学院 200631010098 周炎炎 优秀一级 137 法学院 200431010152 余红 优秀二级 138 法学院 200931010039 张江龙 优秀二级 139 法学院 200431010159 吴晓敏 优秀三级 140 法学院 200431010153 蔡雯玉 优秀三级 141 法学院 200431010166 徐波 优秀三级 142 马克思主义学院 201131010064 任重远 优秀一级 143 马克思主义学院 200631010097 杨世箐 优秀一级 144 马克思主义学院 201331010068 张健丰 优秀二级 145 马克思主义学院 201131010072 段俊霞 优秀二级 146 马克思主义学院 201599010002 卢婷婷 优秀二级 147 马克思主义学院 200331010094 邓俊敏 优秀三级 148 马克思主义学院 200731010095 卢士敏 优秀三级 149 马克思主义学院 201131010063 邵琪 优秀三级 150 马克思主义学院 200431010134 李凌 优秀三级 151 马克思主义学院 200531010077 蒋朝莉 优秀三级 152 马克思主义学院 198531010062 喻滨 优秀三级 153 外国语学院 200331010079 刘佯 优秀一级 154 外国语学院 200831010065 陈婧 优秀一级 155 外国语学院 200631010084 罗琴琴 优秀一级 156 外国语学院 200131010033 廖颖 优秀二级 157 外国语学院 200031010021 吕旭英 优秀二级 158 外国语学院 200331010074 王娜（外） 优秀二级 159 外国语学院 199931010017 王蕾 优秀二级 160 外国语学院 200431010009 肖茜尹 优秀二级 161 外国语学院 200431010091 兰昌勤 优秀二级 162 外国语学院 198731010034 曾苹 优秀三级 163 外国语学院 200531010072 胡新云 优秀三级 164 外国语学院 201031010008 肖燕姣 优秀三级 165 外国语学院 200231010059 徐继菊 优秀三级 166 外国语学院 199831010017 胡登攀 优秀三级 167 外国语学院 200731010079 胡佳洁 优秀三级 168 外国语学院 200231010038 王淑雯 优秀三级 169 外国语学院 200431010010 何晟 优秀三级 170 外国语学院 198531010045 王贵全 优秀三级 171 外国语学院 200431010088 王斐文 优秀三级 172 体育学院 200531010074 孙玲玲 优秀一级 173 体育学院 198231010044 夏小平 优秀二级 174 体育学院 200331010087 石金亮 优秀二级 175 体育学院 199431010019 李秀林 优秀三级 176 体育学院 201499010080 向剑锋 优秀三级 177 体育学院 201599010034 闫平 优秀三级 178 体育学院 200531010076 谢成超 优秀三级 179 体育学院 200831010071 彭丹 优秀三级 180 艺术学院 201131010084 李民 优秀一级 181 艺术学院 201331010072 江霄 优秀二级 182 艺术学院 201331010002 关航 优秀二级 183 艺术学院 201499010064 张婷 优秀三级 184 艺术学院 201499010015 岳堂 优秀三级 185 艺术学院 201331010001 窦浩 优秀三级 186 南充校区 199631010026 陈咱民 优秀一级 187 南充校区 201231010053 柏宇 优秀二级 188 南充校区 201031010044 周培山 优秀二级 189 南充校区 198931010022 鲜义才 优秀三级 190 南充校区 201331010062 罗通 优秀三级 191 南充校区 200931010006 冯文荣 优秀三级 192 南充校区 201031010054 谢季峰 优秀三级 193 南充校区 200731010116 杨秋菊 优秀三级 194 工训中心 201331010005 黄建明 优秀一级 195 工训中心 201331010066 包泽军 优秀二级 196 工训中心 198331010022 向子谦 优秀三级 197 学工部 200731010005 罗贤 优秀三级
+                    </p>
+                </a>
+            </div>
+            <div class="news-xuexiao list-group col-md-6 col-xs-12">
+                <a href="#" class="list-group-item active" style="background-color:#ff6600;z-index:0">
+                    <span class="badge tomore">More</span>
+                    <h4 class="news-type list-group-item-heading" style="font-weight:600">学院新闻</h4>
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="badge d">16:23 2017/2/22</span>
+                    <h4 class="list-group-item-heading news-title">
+                        学校召开省级教学成果奖鉴定会
+                    </h4>
+                    <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                    <p class="list-group-item-text">
+                        2月18日上午，学校召开第八届高等教育四川省教学成果奖鉴定会，五位专家受省教育厅委托，对我校申报省级教学成果奖的五个项目进行了鉴定。鉴定会由专家组组长、电子科技大学校长李言荣教授主持。校长赵金洲、副校长王玲出席会议。 　　专家组成员包括辽宁工程技术大学副校长张佐刚，重庆工商大学副校长苟朝莉，中国石油大学（北京）教务处处长詹亚力，西南交通大学教务处处长郝莉。 　　赵金洲代表学校对五位专家的到来表示欢迎。他介绍了学校的发展历史、办学规模、教学科研、学科建设等方面的情况，以及学校全面深化改革的基本情况和取得的成绩，希望各位专家对学校此次申报省级教学成果奖的五个项目多提宝贵意见。 　　接受鉴定的五个项目是“地方高校创新创业教育共同体的构建与实践”、“基于跨校课程组的大学计算机基础类课程MSFC教学模式研究与实践”、“顺应海洋强国战略的海洋油气工程专业‘二课六合’人才培养体系创建与实践”、“构建‘五位一体’培养模式助力青年教师成长发展”、“创新‘四育’计划，构建以生为本的本科人才培养新体系”。在我校2016年校级教学成果奖评选中，这五项成果均获得特等奖。 　　王玲从成果立项背景、主要内容、创新点、改革成效及推广应用等方面对五个项目进行了汇报。 　　听完汇报后，专家们审阅了申报材料，对汇报内容进行了认真评议。专家们表示，西南石油大学此次申报的五个项目，各有特点，通过项目看到了学校在深化教育改革、提高人才培养质量等方面所做的探索和取得的效果。专家们指出，为了让项目在省级评选中脱颖而出，应该在项目标题、创新点等方面进一步提炼和总结，要做出西南石油大学的特色，凸显与众不同的地方。 赵金洲表示，感谢各位专家提出的意见和建议，我们会把这些意见进行消化，结合学校特色做进一步修改。 　　据了解，第八届四川省高等教育教学成果奖分为材料核查、网络评审、会议评审三个阶段，奖项分一等奖、二等奖和三等奖三个等级，共设奖380个，其中一等奖100个，二等奖120个，三等奖160个。 　　校长助理、教学评估处处长李小明，教务处处长黄健全以及各成果主要完成人参加了会议。
+                    </p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="badge d">16:23 2017/2/22</span>
+                    <h4 class="list-group-item-heading news-title">
+                        网上阅卷系统投入使用
+                    </h4>
+                    <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                    <p class="list-group-item-text">
+                        12月30日上午，西南石油大学本科网上阅卷系统首次在成都校区投入使用，本次网上阅卷课程为成都校区2016级学生公共必修课程《思想道德修养与法律基础》，参加考试学生人数为5769人。 　　为加强学校本科教育教学管理信息化建设，提高教师阅卷工作效率，推进教学档案信息化管理进程，教务处本学期积极推进本科网上阅卷系统的建设工作。在学校各部门的大力支持下，在教务处工作人员与软件开发商共同努力下，经过反复测试，并经理学院《概率统计Ⅲ》重修班结业考试的小面积试用后，最终成功上线。目前，本科网上阅卷系统已经安装调试完毕，正式进入使用阶段。 　　本次全校公共课程的使用，得到了马克思主义学院广大老师的大力支持，老师们积极性很高，因为采用网上阅卷的方式后，可以极大的提高老师阅卷的工作效率，教师可以省去翻阅试卷，计算总分，成绩登录等琐碎的工作，又可以提高阅卷的保密性，分数计算的准确性等，在阅卷的同时，课程负责人可以随时查看阅卷进度，教师打分是否偏离给分平均值等。 　　另外，在阅卷完成后，可以精确分析每一个知识点的得分率，以帮助老师在今后的教学工作中更加有针对性的教学。该系统还具有试卷档案管理功能，可以从系统中查询任意学期任何学生的考试答卷图片，该功能不仅为历年试卷查阅分析提供方便，也为教学档案信息化管理提供了保障。
+                    </p>
+                </a>
+            </div>
+            <div class="news-xuexiao list-group col-md-6 col-xs-12">
+                <a href="#" class="list-group-item active" style="background-color:#ff6600">
+                    <span class="badge tomore">More</span>
+                    <h4 class="news-type list-group-item-heading" style="font-weight:600">
+                        学生新闻
+                    </h4>
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="badge d">16:23 2017/2/22</span>
+                    <h4 class="list-group-item-heading news-title">免费域名注册</h4>
+                    <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                    <p class="list-group-item-text">
+                        您将通过网页进行免费域名注册。
+                    </p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="badge d">16:23 2017/2/22</span>
+                    <h4 class="list-group-item-heading news-title">免费域名注册</h4>
+                    <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                    <p class="list-group-item-text">
+                        您将通过网页进行免费域名注册。
+                    </p>
+                </a>
+            </div>
+            <div class="news-xuexiao list-group col-md-6 col-xs-12">
+                <a href="#" class="list-group-item active" style="background-color:#ff6600">
+                    <span class="badge tomore">More</span>
+                    <h4 class="news-type list-group-item-heading" style="font-weight:600">
+                        走进皮皮虾学院
+                    </h4>
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="badge d">16:23 2017/2/22</span>
+                    <h4 class="list-group-item-heading news-title">免费域名注册</h4>
+                    <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                    <p class="list-group-item-text">
+                        您将通过网页进行免费域名注册。您将通过网页进行免费域名注册。您将通过网页进行免费域名注册。
+                    </p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="badge d">16:23 2017/2/22</span>
+                    <h4 class="list-group-item-heading news-title">免费域名注册</h4>
+                    <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                    <p class="list-group-item-text">
+                        您将通过网页进行免费域名注册。
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="news-more col-sm-9 col-xs-12" style="display:none">
+            <div class=" list-group col-md-12 col-xs-12">
+                <a href="#" class="list-group-item active" style="background-color:#ff6600;z-index:0">
+                    <span class="badge more-return">返回</span>
+                    <h4 class="news-type-detail list-group-item-heading" style="font-weight:600">
+                        重要公告
+                    </h4>
+                </a>
+                <div class="list-group-item" style="height:350px;overflow:scroll;">
+                    <a href="#" class="list-group-item">
+                        <span class="badge d">16:23 2017/2/22</span>
+                        <h4 class="list-group-item-heading news-title">免费域名注册</h4>
+                        <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                        <p class="list-group-item-text">
+                            您将通过网页进行免费域名注册。
+                        </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="badge d">16:23 2017/2/22</span>
+                        <h4 class="list-group-item-heading news-title">免费域名注册</h4>
+                        <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                        <p class="list-group-item-text">
+                            您将通过网页进行免费域名注册。
+                        </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="badge d">16:23 2017/2/22</span>
+                        <h4 class="list-group-item-heading news-title">免费域名注册</h4>
+                        <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                        <p class="list-group-item-text">
+                            您将通过网页进行免费域名注册。
+                        </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="badge d">16:23 2017/2/22</span>
+                        <h4 class="list-group-item-heading news-title">免费域名注册</h4>
+                        <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                        <p class="list-group-item-text">
+                            您将通过网页进行免费域名注册。
+                        </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="badge d">16:23 2017/2/22</span>
+                        <h4 class="list-group-item-heading news-title">免费域名注册</h4>
+                        <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                        <p class="list-group-item-text">
+                            您将通过网页进行免费域名注册。
+                        </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="badge d">16:23 2017/2/22</span>
+                        <h4 class="list-group-item-heading news-title">免费域名注册</h4>
+                        <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                        <p class="list-group-item-text">
+                            您将通过网页进行免费域名注册。
+                        </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="badge d">16:23 2017/2/22</span>
+                        <h4 class="list-group-item-heading news-title">免费域名注册</h4>
+                        <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                        <p class="list-group-item-text">
+                            您将通过网页进行免费域名注册。
+                        </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="badge d">16:23 2017/2/22</span>
+                        <h4 class="list-group-item-heading news-title">免费域名注册</h4>
+                        <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                        <p class="list-group-item-text">
+                            您将通过网页进行免费域名注册。
+                        </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="badge d">16:23 2017/2/22</span>
+                        <h4 class="list-group-item-heading news-title">免费域名注册</h4>
+                        <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                        <p class="list-group-item-text">
+                            您将通过网页进行免费域名注册。
+                        </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="badge d">16:23 2017/2/22</span>
+                        <h4 class="list-group-item-heading news-title">免费域名注册</h4>
+                        <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                        <p class="list-group-item-text">
+                            您将通过网页进行免费域名注册。
+                        </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="badge d">16:23 2017/2/22</span>
+                        <h4 class="list-group-item-heading news-title">免费域名注册</h4>
+                        <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                        <p class="list-group-item-text">
+                            您将通过网页进行免费域名注册。
+                        </p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <span class="badge d">16:23 2017/2/22</span>
+                        <h4 class="list-group-item-heading news-title">免费域名注册</h4>
+                        <span class="badge news-operate" style="background-color:#ff6600">操作</span>
+                        <p class="list-group-item-text">
+                            您将通过网页进行免费域名注册。
+                        </p>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="news-detail col-sm-9 col-xs-12" style="display:none">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                            <button class="badge pull-right d" style="outline: none">编辑</button>
+                            <button class="badge pull-right d" style="outline: none">删除</button>
+                            <h4 class="list-group-item-heading news-title"></h4>
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <p class="news-text" style="min-height: 300px;">内容</p>
+                </div>
+                <div class="panel-footer">
+                    <button class="btn btn-detail-off">取消</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="news-issue col-sm-9 col-xs-12" style="display:none">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <div class="input-group">
+                            <input type="text" class="form-control news-issue-title" placeholder="新闻标题">
+                            <span class="input-group-addon">分类</span>
+                            <select class="form-control" style="z-index:0"> 
+                                <option>重要公告</option> 
+                                <option>学院新闻</option> 
+                                <option>学生新闻</option> 
+                                <option>走进皮皮虾学院</option> 
+                            </select>
+                        </div>
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <span>内容</span>
+                    <textarea class="news-issue-text"></textarea>
+                </div>
+                <div class="panel-footer">
+                    <button class="btn btn-issue-comfirm " data-toggle="modal" data-target="#modal-issue-confirm">发布</button>
+                    <button class="btn btn-issue-off">取消</button>
+                </div>
+                <div class="modal fade" data-backdrop="false" id="modal-issue-confirm" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                确认发布吗？
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-default" data-dismiss="modal">取消</button>
+                                <button class="btn btn-primary btn-issue-confirm2" data-dismiss="modal" data-toggle="modal" data-target="#modal-issue-succeed">确认发布</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" data-backdrop="false" id="modal-issue-succeed" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                发布成功
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default btn-issue-close">关闭</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="footer">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-md-5">
+                    皮皮虾学院地址：在你曾仰望无数日夜那片璀璨的星空里的一颗发亮的星星上
+                </div>
+                <div class="col-md-2">
+                    编号：SB1314
+                </div>
+                <div class="col-md-2">
+                    联系人：曹大牛
+                </div>
+                <div class="col-md-3">
+                    电话：19989098908
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-9">
+                    温馨提示：为了更好的网站访问体验，建议使用IE6以上浏览器(360浏览器兼容模式内核为IE6)，或最新Firefox、chrome浏览器
+                </div>
+                <div class="col-md-3">
+                    &copy;版权所有 皮皮虾学院
+                </div>
+            </div>
+            <br>
+        </div>
+
+    </footer>
+    <script>
+        $(function () {
+            $(".btn-issue").click(function () {
+                $(".news-all").css("display", "none");
+                $(".news-more").css("display", "none");
+                $(".news-detail").css("display", "none");
+                $(".news-issue").css("display", "block");
+            });
+            $(".btn-issue-off").click(function () {
+                $(".news-all").css("display", "block");
+                $(".news-issue").css("display", "none");
+                $(".news-issue-title").val("");
+                $(".news-issue-text").val("");
+            });
+            $(".btn-issue-close").click(function () {
+                location.reload();
+            });
+            //            $(".btn-issue-goon").click(function() {
+            //                $(".news-issue-title").val("");
+            //                $(".news-issue-text").val("");
+            //            });
+            $(".tomore").click(function () {
+                var news_type = $(this).parent().children("h4").html();
+                $(".news-type-detail").html(news_type);
+                $(".news-all").css("display", "none");
+                $(".news-more").css("display", "block");
+            });
+            $(".more-return").click(function () {
+                $(".news-all").css("display", "block");
+                $(".news-more").css("display", "none");
+            });
+            $(".news-operate").click(function () {
+                $(".news-all").css("display", "none");
+                $(".news-more").css("display", "none");
+                $(".news-detail").css("display", "block");
+                var news_title = $(this).parent().children("h4").html();
+                var news_text = $(this).parent().children("p").html();
+                $(".news-title").html(news_title);
+                $(".news-text").html(news_text);
+            });
+            $(".btn-detail-off").click(function () {
+                $(".news-detail").css("display", "none");
+                $(".news-all").css("display", "block");
+            });
+        })
+    </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>皮皮虾学院—官方教务系统</title>
+    <link rel="icon" href="../img/pipixia_icon.jpg">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+<style>
+    span {
+        font-weight: bold;
+    }
+    
+    body {
+        /*无边距*/
+        margin: 0px;
+        padding: 0px;
+        /*字体大小*/
+        font-size: 16px;
+    }
+    /*表格样式*/
+    
+    table,
+    tr,
+    td,
+    th {
+        border: 1px solid #A3A3A3;
+        border-collapse: collapse;
+        background-color: #E4E4E4;
+    }
+    
+    th {
+        text-align: center;
+    }
+    
+    td {
+        width: 100px;
+        height: 30px;
+        text-align: center;
+    }
+    
+    h2 {
+        position: absolute;
+        margin: auto;
+    }
+    
+    .btn {
+        width: 200px;
+    }
+    
+    #cz {
+        margin-top: 0px;
+    }
+    
+    #content_grade {
+        background-image: url("../img/success_titleBg.jpg");
+        height: 450px;
+        position: relative;
+    }
+</style>
+
+<body>
+
+    <header id="header">
+        <div class="container" style="height:90px">
+            <div class="row">
+                <!--头部logo-->
+                <div class="col-md-9">
+                    <img src="../img/logo.png" class="img-responsive" style="margin-top:8px">
+                </div>
+                <!--头部搜索框-->
+                <div class="col-md-3 input-group hidden-xs" style="margin-top:30px">
+                    <input type="text" class="form-control" style="position:relative;top:1px;height:40px;" placeholder="请您输入关键字……">
+                    <span class="glyphicon glyphicon-search input-group-addon" aria-hidden="true"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-container">
+            <div class="row">
+                <nav class="navbar navbar-default col-xs-12 col-md-12" role="navigation">
+                    <div class="container-fluid ">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                            <div class="row">
+                                <a href="../index.html">
+                                    <div class="col-sm-2 a">学院首页</div>
+                                </a>
+                                <a href="teacherInfo.html">
+                                    <div class="col-sm-2 a">个人信息</div>
+                                </a>
+                                <a href="teacherClass.html">
+                                    <div class="col-sm-2 a">授课安排</div>
+                                </a>
+                                <a href="teacherGrade.html">
+                                    <div class="col-sm-2 a">成绩录入</div>
+                                </a>
+                                <a href="teacherNotice.html">
+                                    <div class="col-sm-2 a">教务通知</div>
+                                </a>
+                                <div href="#" class="a">
+                                    <div class="dropdown col-sm-2">
+                                        <div href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            登录信息 <b class="caret"></b>
+                                        </div>
+                                        <ul class="dropdown-menu" style="position:absolute;right:0px">
+                                            <li><a href="#">教工号</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">姓名</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">注销</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" visible-xs">
+                                <form class="navbar-form" role="search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="s" value="" placeholder="输入关键字……">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div id="content" style="color:#333">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3" id="myScrollspy">
+                    <ul class="nav nav-tabs nav-stacked" data-offset-top="125">
+                        <li><a href="teacherInfo.html">个人信息</a></li>
+                        <li><a href="teacherClass.html">授课安排</a></li>
+                        <li class="active"><a href="teacherGrade.html">成绩录入</a></li>
+                        <li><a href="teacherNotice.html">教务通知</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-9">
+
+                    <!-- 3. 带边框表格-->
+
+
+                    <div id="content_grade">
+                        <caption>
+                            <h3>成绩录入</h3>
+                        </caption>
+                        <table id="tab">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <input type="checkbox" name="全选">全选</th>
+                                    <th>姓名</th>
+                                    <th>学号</th>
+                                    <th>课程名</th>
+                                    <th>成绩</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>
+                                        <input type="checkbox">
+                                    </th>
+                                    <td>张三</td>
+                                    <td>22</td>
+                                    <td>语文</td>
+                                    <td>89</td>
+                                    <th>
+                                        <button class="btn">删除</button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <input type="checkbox">
+                                    </th>
+                                    <td>馨仪</td>
+                                    <td>19</td>
+                                    <td>语文</td>
+                                    <td>89</td>
+                                    <th>
+                                        <button class="btn">删除</button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <input type="checkbox">
+                                    </th>
+                                    <td>家凯</td>
+                                    <td>32</td>
+                                    <td>语文</td>
+                                    <td>89</td>
+                                    <th>
+                                        <button class="btn">删除</button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <input type="checkbox">
+                                    </th>
+                                    <td>阿福</td>
+                                    <td>43</td>
+                                    <td>语文</td>
+                                    <td>89</td>
+                                    <th>
+                                        <button class="btn">删除</button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <input type="checkbox">
+                                    </th>
+                                    <td>阿龚</td>
+                                    <td>22</td>
+                                    <td>语文</td>
+                                    <td>89</td>
+                                    <th>
+                                        <button class="btn">删除</button>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div id="cz">
+
+                            <span>姓名:</span>
+                            <input style="width: 80px" type="text" name="name" id="name">
+                            <span>学号:</span>
+                            <input style="width: 80px" type="text" name="age" id="age">
+                            <span>成绩:</span>
+                            <input style="width: 80px" type="text" name="grade" id="grade">&nbsp;&nbsp;
+                            <span>课程:</span>
+                            <select id="sect">
+                                <option id="yuwen">语文</option>
+                                <option id="shuxue">数学</option>
+                                <option id="waiyu">外语</option>
+                            </select>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            <button id="addBtn">新 &nbsp;&nbsp;增</button>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                            <button id="delBtn">选中删除</button>
+                        </div>
+
+
+
+                        <script>
+                            $(function () {
+                                var selectTd = $("td");
+                                selectTd.click(function () {
+                                    var currentTd = $(this);
+
+                                    var curretnInfo = $(this).text()
+                                    var addHtml = $("<input type='text' value='" + curretnInfo + "'>");
+                                    addHtml.css("text-align", "center");
+                                    /*第一种写法：禁止addHtml的点击事件*/
+                                    addHtml.click(function (event) {
+                                            event.stopPropagation();
+                                        })
+                                        /*第二种写法：禁止addHtml的点击事件*/
+                                        /*      addHtml.click(function () {
+                                         return false
+                                         })*/
+                                    currentTd.html(addHtml)
+                                        //失去焦点事件
+                                    addHtml.blur(function () {
+                                            var newText = $(this).val();
+                                            currentTd.html(newText);
+                                        })
+                                        //trigger() 方法触发被选元素的指定事件类型。
+                                    addHtml.trigger("select");
+
+                                    /*键盘事件*/
+                                    addHtml.keypress(function (event) {
+
+                                        /*回车事件*/
+                                        if (event.keyCode == 13) {
+                                            var newText = $(this).val();
+                                            currentTd.html(newText);
+                                        }
+
+                                    })
+
+                                })
+
+                                //新增
+                                $("#addBtn").bind("click", function () {
+                                    var name = $("#name").val()
+                                    var age = $("#age").val()
+                                    var grade = $("#grade").val()
+                                    var yuwen = $("#yuwen").val()
+                                    var shuxue = $("#shuxue").val()
+                                    var waiyu = $("#waiyu").val()
+                                    var sect = $("#sect").val()
+                                    var html1 = "<tr><th><input type='checkbox'></th></th><td onclick='update(this)'>" + name + "</td><td onclick='update(this)'>" + age + "</td><td onclick='update(this)'>" + yuwen + "</td><td onclick='update(this)'>" + grade + "</td><th><button class=\"btn\" onclick='del(this)'>删除</button></th></tr>"
+                                    var html2 = "<tr><th><input type='checkbox'></th></th><td onclick='update(this)'>" + name + "</td><td onclick='update(this)'>" + age + "</td><td onclick='update(this)'>" + shuxue + "</td><td onclick='update(this)'>" + grade + "</td><th><button class=\"btn\" onclick='del(this)'>删除</button></th></tr>"
+                                    var html3 = "<tr><th><input type='checkbox'></th></th><td onclick='update(this)'>" + name + "</td><td onclick='update(this)'>" + age + "</td><td onclick='update(this)'>" + waiyu + "</td><td onclick='update(this)'>" + grade + "</td><th><button class=\"btn\" onclick='del(this)'>删除</button></th></tr>"
+                                    if (sect == yuwen) {
+                                        $("table").append(html1)
+                                    }
+                                    if (sect == shuxue) {
+                                        $("table").append(html2)
+                                    }
+                                    if (sect == waiyu) {
+                                        $("table").append(html3)
+                                    }
+
+
+                                })
+
+                                /*选中删除*/
+                                $("#delBtn").click(function () {
+
+                                    //$("tbody input:checked").parent().parent().remove();
+                                    $("tbody input:checked").parent().parent().remove();
+
+                                })
+
+                                /*单行删除*/
+                                $(".btn").click(function () {
+
+                                    $(this).parent().parent().remove();
+                                })
+
+                                /*全选*/
+                                $("thead input").click(function () {
+                                    $('input[type=checkbox]').prop('checked', $(this).prop("checked"));
+
+                                })
+
+
+
+                            });
+
+                            /*新增的元素删除*/
+                            function del(a) {
+
+                                $(a).parent().parent().remove();
+                            }
+                            /*新增元素的修改*/
+                            function update(aa) {
+                                var currentTd = $(aa);
+
+                                var curretnInfo = $(aa).text()
+                                var addHtmls = $("<input type='text' value='" + curretnInfo + "'>");
+                                addHtmls.css("text-align", "center");
+                                /*第一种写法：禁止addHtml的点击事件*/
+                                addHtmls.click(function (event) {
+                                    event.stopPropagation();
+                                })
+
+                                currentTd.html(addHtmls)
+                                    //失去焦点事件
+                                addHtmls.blur(function () {
+                                        var newText = $(this).val();
+                                        currentTd.html(newText);
+                                    })
+                                    //trigger() 方法触发被选元素的指定事件类型。
+                                addHtmls.trigger("select");
+
+                                /*键盘事件*/
+                                addHtmls.keypress(function (event) {
+
+                                    /*回车事件*/
+                                    if (event.keyCode == 13) {
+                                        var newText = $(this).val();
+                                        currentTd.html(newText);
+                                    }
+
+                                })
+                            }
+                        </script>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--成绩录入-->
+
+
+
+
+    </div>
+    <footer id="footer">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-md-5">
+                    皮皮虾学院地址：在你曾仰望无数日夜那片璀璨的星空里的一颗发亮的星星上
+                </div>
+                <div class="col-md-2">
+                    编号：SB1314
+                </div>
+                <div class="col-md-2">
+                    联系人：曹大牛
+                </div>
+                <div class="col-md-3">
+                    电话：19989098908
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-9">
+                    温馨提示：为了更好的网站访问体验，建议使用IE6以上浏览器(360浏览器兼容模式内核为IE6)，或最新Firefox、chrome浏览器
+                </div>
+                <div class="col-md-3">
+                    &copy;版权所有 皮皮虾学院
+                </div>
+            </div>
+            <br>
+        </div>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>皮皮虾学院—官方教务系统</title>
+    <meta name="keywords" content="皮皮虾学院 教务系统 官方平台">
+    <meta name="description" content="皮皮虾学院官方教务系统，学生信息管理，教师信息管理">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="./img/pipixia_icon.jpg">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/student.css">
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<!--头部开始-->
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-9">
+                <img src="../img/logo.png" class="img-responsive">
+            </div>
+            <div class="col-xs-12 col-md-3 input-group hidden-xs" style="margin-top:20px">
+
+                <input type="text" class="form-control" style="position:relative;top:1px;height:40px;" placeholder="输入关键字……">
+                <i class="glyphicon glyphicon-search input-group-addon" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-container">
+        <div class="row">
+            <nav class="navbar navbar-default  col-xs-12 col-md-12" role="navigation">
+                <div class="container-fluid ">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+
+                        <div class="row">
+                            <a href="#">
+                                <div class="col-sm-2 a ">学院首页</div>
+                            </a>
+                            <a href="#">
+                                <div class="col-sm-2 a active" data-target="#myCarousel" data-slide-to="0">个人信息</div>
+                            </a>
+                            <a href="#">
+                                <div class="col-sm-2 a" data-target="#myCarousel" data-slide-to="1">课程管理</div>
+                            </a>
+                            <a href="#">
+                                <div class="col-sm-2 a" data-target="#myCarousel" data-slide-to="2">考试管理</div>
+                            </a>
+                            <a href="#" disabled="">
+                                <div class="col-sm-2 a" data-target="#myCarousel" data-slide-to="3">成绩查询</div>
+                            </a>
+                            <div href="#" class="a">
+                                <div class="dropdown col-sm-2">
+                                    <div href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        登录信息 <b class="caret"></b>
+                                    </div>
+                                    <ul class="dropdown-menu" style="position:absolute;right:0px">
+                                        <li><a href="#">1610h5</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="#">皮皮虾</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="#">注销</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" visible-xs">
+                            <form class="navbar-form" role="search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" name="s" value="" placeholder="输入关键字……">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<!--头部结束-->
+
+
+<!--------**************************************************************************------------>
+<!--------**************************************************************************------------>
+
+<!--内容开始-->
+<div id="content">
+    <div class="container">
+
+        <div id="myCarousel" class="carousel ">
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <!--------**************************个人信息***************************************------------>
+                <!--------**************************个人信息***************************************------------>
+
+                <div class="item active">
+                    <div class="col-xs-3">
+                        <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
+                            <li class="active person"><a href="#">学籍信息</a></li>
+                            <li class="person"><a href="#">个人信息</a></li>
+                            <li class="person"><a href="#">毕业设计</a></li>
+                            <li class="person"><a href="#">计划方案</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-9 statescon">
+
+                        <div class="mystate mystate0 state">
+                            <p></p>
+                            <div class="panel panel-warning">
+                                <div class="panel-heading ">
+                                    学籍信息
+                                </div>
+                                <div class="panel-body">
+                                    <table class="table" width="100%" style="line-height: 45px;text-align: center">
+                                        <tr>
+                                            <td>姓名：皮皮虾</td>
+                                            <td>性别：男</td>
+                                            <td rowspan="4">
+                                                <div style="height: 160px;width: 160px;                                                                margin: auto; ">
+                                                    <a href="#" class="thumbnail">
+                                                        <img class="img-responsive" style="height: 160px;width: 160px" src="../img/touxiang.jpg" alt=""></a>
+                                                </div>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>学号：1610</td>
+                                            <td>年龄：20</td>
+                                        </tr>
+                                        <tr>
+                                            <td>学号：1610</td>
+                                            <td>年龄：20</td>
+                                        </tr>
+                                        <tr>
+                                            <td>学号：1610</td>
+                                            <td>年龄：20</td>
+                                        </tr>
+                                        <tr>
+                                            <td>学号：1610</td>
+                                            <td>年龄：20</td>
+                                            <td>家庭住址：xxxxx</td>
+                                        </tr>
+                                        <tr>
+                                            <td>学号：1610</td>
+                                            <td>年龄：20</td>
+                                            <td>家庭住址：xxxxx</td>
+                                        </tr>
+                                        <tr>
+                                            <td>学号：1610</td>
+                                            <td>年龄：20</td>
+                                            <td>家庭住址：xxxxx</td>
+                                        </tr>
+                                        <tr>
+                                            <td>学号：1610</td>
+                                            <td>年龄：20</td>
+                                            <td>家庭住址：xxxxx</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="panel-footer">
+                                    <button>返回</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mystate mystate0">
+
+                            <p></p>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    登录
+                                </div>
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-md-3 col-md-offset-2">用户名：<span>皮皮虾</span></div>
+                                        <div class="col-md-3 col-md-offset-2">用户类别：<span>学生</span></div>
+                                        <div class="col-md-3 col-md-offset-2">
+                                            <br> 密码：
+                                            <a href="" class="btn btn-danger btn-sm">更改密码</a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-md-4">个人信息维护</div>
+                                        <div class="col-md-2 col-md-offset-5"><a href="" class="btn btn-danger btn-sm">保存</a></div>
+                                    </div>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-md-3 col-md-offset-2">
+                                            电话：
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-md-3 col-md-offset-2">
+                                            Email：
+                                        </div>
+                                        <div class="col-md-6 ">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-md-3 col-md-offset-2">
+                                            个人主页：
+                                        </div>
+                                        <div class="col-md-6 ">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <<div class="row">
+                                    <div class="col-md-3 col-md-offset-2">
+                                        个人介绍：
+                                    </div>
+                                    <div class="col-md-6 ">
+                                        <textarea name="" id="" cols="30" rows="5"></textarea>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mystate0 mystate">
+
+                            <p></p>
+                            <div class="panel-group" id="accordion1">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" id="linkcollapseOne">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse"                                                                              data-parent="#accordion"
+                                               href="#collapseOne">
+                                                毕业设计选题
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse                                                            collapse in">
+                                        <div class="panel-body">
+                                            <div class="table-responsive">
+                                                <!-- 7. 响应式表格-->
+                                                <table class="table  table-bordered table-hover table-condensed">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>题目名称</th>
+                                                        <th>题目来源</th>
+                                                        <th>课题类别</th>
+                                                        <th>开始时间</th>
+                                                        <th>结束时间</th>
+                                                        <th>选择</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>题目名称</td>
+                                                        <td>题目来源</td>
+                                                        <td>课题类别</td>
+                                                        <td>开始时间</td>
+                                                        <td>结束时间</td>
+                                                        <td>
+                                                            <input type="checkbox">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>题目名称</td>
+                                                        <td>题目来源</td>
+                                                        <td>课题类别</td>
+                                                        <td>开始时间</td>
+                                                        <td>结束时间</td>
+                                                        <td>
+                                                            <input type="checkbox">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>题目名称</td>
+                                                        <td>题目来源</td>
+                                                        <td>课题类别</td>
+                                                        <td>开始时间</td>
+                                                        <td>结束时间</td>
+                                                        <td>
+                                                            <input type="checkbox">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>题目名称</td>
+                                                        <td>题目来源</td>
+                                                        <td>课题类别</td>
+                                                        <td>开始时间</td>
+                                                        <td>结束时间</td>
+                                                        <td>
+                                                            <input type="checkbox">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>题目名称</td>
+                                                        <td>题目来源</td>
+                                                        <td>课题类别</td>
+                                                        <td>开始时间</td>
+                                                        <td>结束时间</td>
+                                                        <td>
+                                                            <input type="checkbox">
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div class="row">
+                                                    <div class="col-md-4"></div>
+                                                    <div class="col-md-6">
+                                                        <ul class="pagination pagination-xs">
+                                                            <li><a href="#">&laquo;</a>
+                                                            </li>
+                                                            <li class="active"><a href="#">1</a>
+                                                            </li>
+                                                            <li class="disabled"><a href="#">2</a>
+                                                            </li>
+                                                            <li><a href="#">3</a>
+                                                            </li>
+                                                            <li><a href="#">4</a>
+                                                            </li>
+                                                            <li><a href="#">5</a>
+                                                            </li>
+                                                            <li><a href="#">&raquo;</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-2"><a href="" class="btn                                                            btn-xs btn-danger" style="margin-top: 25px">选题</a></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" id="linkcollapseTwo">
+                                            <h4 class="panel-title">
+                                                <a  data-toggle="collapse"                                                                              data-parent="#accordion"
+                                                   href="#collapseTwo">
+                                                    选题结果
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse                                                            collapse ">
+                                            <div class="panel-body">
+                                                <div class="table-responsive">
+                                                    <!-- 7. 响应式表格-->
+                                                    <table class="table  table-bordered table-hover table-condensed">
+                                                        <thead>
+                                                        <tr>
+                                                            <th>题目名称</th>
+                                                            <th>题目简介</th>
+                                                            <th>姓名</th>
+                                                            <th>院系</th>
+                                                            <th>专业</th>
+                                                            <th>状态</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td>题目名称</td>
+                                                            <td>题目来源</td>
+                                                            <td>课题类别</td>
+                                                            <td>开始时间</td>
+                                                            <td>结束时间</td>
+                                                            <td>
+                                                                <input type="checkbox" checked>
+                                                            </td>
+                                                        </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="mystate mystate0">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a  data-toggle="collapse"                                                                              data-parent="#accordion"
+                                           href="#collapseOne1">
+                                            计划方案
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne1" class="panel-collapse                                                            collapse in">
+                                    <div class="panel-body">
+                                        <div class="table-responsive">
+                                            <!-- 7. 响应式表格-->
+                                            <table class="table  table-bordered table-hover table-condensed">
+                                                <thead>
+                                                <tr>
+                                                    <th>方案名称</th>
+                                                    <th>计划名称</th>
+                                                    <th>年级</th>
+                                                    <th>院系</th>
+                                                    <th>专业</th>
+                                                    <th>修读方式</th>
+                                                    <th>方案计划类型</th>
+                                                    <th>要求学分</th>
+                                                    <th>已修学分</th>
+
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>键盘敲烂</td>
+                                                    <td>月薪过万</td>
+                                                    <td>2013</td>
+                                                    <td>计科院</td>
+                                                    <td>物联网</td>
+                                                    <td>主修</td>
+                                                    <td>专业级方案</td>
+                                                    <td>150</td>
+                                                    <td>200</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>键盘敲烂</td>
+                                                    <td>月薪过万</td>
+                                                    <td>2013</td>
+                                                    <td>计科院</td>
+                                                    <td>物联网</td>
+                                                    <td>主修</td>
+                                                    <td>专业级方案</td>
+                                                    <td>150</td>
+                                                    <td>200</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>键盘敲烂</td>
+                                                    <td>月薪过万</td>
+                                                    <td>2013</td>
+                                                    <td>计科院</td>
+                                                    <td>物联网</td>
+                                                    <td>主修</td>
+                                                    <td>专业级方案</td>
+                                                    <td>150</td>
+                                                    <td>200</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>键盘敲烂</td>
+                                                    <td>月薪过万</td>
+                                                    <td>2013</td>
+                                                    <td>计科院</td>
+                                                    <td>物联网</td>
+                                                    <td>主修</td>
+                                                    <td>专业级方案</td>
+                                                    <td>150</td>
+                                                    <td>200</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>键盘敲烂</td>
+                                                    <td>月薪过万</td>
+                                                    <td>2013</td>
+                                                    <td>计科院</td>
+                                                    <td>物联网</td>
+                                                    <td>主修</td>
+                                                    <td>专业级方案</td>
+                                                    <td>150</td>
+                                                    <td>200</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>键盘敲烂</td>
+                                                    <td>月薪过万</td>
+                                                    <td>2013</td>
+                                                    <td>计科院</td>
+                                                    <td>物联网</td>
+                                                    <td>主修</td>
+                                                    <td>专业级方案</td>
+                                                    <td>150</td>
+                                                    <td>200</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>键盘敲烂</td>
+                                                    <td>月薪过万</td>
+                                                    <td>2013</td>
+                                                    <td>计科院</td>
+                                                    <td>物联网</td>
+                                                    <td>主修</td>
+                                                    <td>专业级方案</td>
+                                                    <td>150</td>
+                                                    <td>200</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--左侧菜单点击事件-->
+                <script>
+                    $(function() {
+                        $(".person").click(function() {
+                            var index = $(this).index(".person");
+                            $(".mystate0").eq(index).css("display", "block").siblings(".mystate0").css("display", "none");
+                        });
+                        $("#linkcollapseOne").click(function () {
+                            $("#collapseTwo").removeClass("in");
+                        });
+                        $("#linkcollapseTwo").click(function () {
+                            $("#collapseOne").removeClass("in");
+                        });
+                    });
+
+                </script>
+
+                <!--******************************--课程管理--****************************************-->
+                <!--******************************--课程管理--****************************************-->
+                <div class="item">
+                    <div class="col-xs-3">
+                        <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
+                            <li class="active course"><a href="#">选课公告</a></li>
+                            <li class="course"><a href="#">正常选课</a></li>
+                            <li class="course"><a href="#">选课结果</a></li>
+                            <li class="course"><a href="#">课程表查询</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-9 statescon">
+
+                        <div class="mystate mystate1 state">
+                            <h2>选课需知</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eaque itaque iure, non quasi rem saepe voluptatibus. Culpa debitis deleniti dignissimos in nam, perferendis quis ratione repellendus similique, unde velit.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eaque itaque iure, non quasi rem saepe voluptatibus. Culpa debitis deleniti dignissimos in nam, perferendis quis ratione repellendus similique, unde velit.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eaque itaque iure, non quasi rem saepe voluptatibus. Culpa debitis deleniti dignissimos in nam, perferendis quis ratione repellendus similique, unde velit.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eaque itaque iure, non quasi rem saepe voluptatibus. Culpa debitis deleniti dignissimos in nam, perferendis quis ratione repellendus similique, unde velit.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eaque itaque iure, non quasi rem saepe voluptatibus. Culpa debitis deleniti dignissimos in nam, perferendis quis ratione repellendus similique, unde velit.</p>
+                        </div>
+                        <div class="mystate mystate1 ">
+                            <p></p>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse"                                                                              data-parent="#accordion"
+                                           href="#collapseOne2">
+                                            正常选课
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne2" class="panel-collapse                                                            collapse in">
+                                    <div class="panel-body">
+                                        <div class="table-responsive">
+                                            <!-- 7. 响应式表格-->
+                                            <table class="table  table-bordered table-hover table-condensed">
+                                                <thead>
+                                                <tr>
+                                                    <th>
+                                                        <input type="checkbox">全选</th>
+                                                    <th>课程号</th>
+                                                    <th>课程名</th>
+                                                    <th>授课教师</th>
+                                                    <th>学分</th>
+                                                    <th>课程属性</th>
+
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+
+                                                    <td>
+                                                        <input type="checkbox">
+                                                    </td>
+                                                    <td>001</td>
+                                                    <td>bootstrap</td>
+                                                    <td>朱老师</td>
+                                                    <td>3.0</td>
+                                                    <td>必修</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="checkbox">
+                                                    </td>
+                                                    <td>001</td>
+                                                    <td>bootstrap</td>
+                                                    <td>朱老师</td>
+                                                    <td>3.0</td>
+                                                    <td>必修</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="checkbox">
+                                                    </td>
+                                                    <td>001</td>
+                                                    <td>bootstrap</td>
+                                                    <td>朱老师</td>
+                                                    <td>3.0</td>
+                                                    <td>必修</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="checkbox">
+                                                    </td>
+                                                    <td>001</td>
+                                                    <td>bootstrap</td>
+                                                    <td>朱老师</td>
+                                                    <td>3.0</td>
+                                                    <td>必修</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="checkbox">
+                                                    </td>
+                                                    <td>001</td>
+                                                    <td>bootstrap</td>
+                                                    <td>朱老师</td>
+                                                    <td>3.0</td>
+                                                    <td>必修</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="checkbox">
+                                                    </td>
+                                                    <td>001</td>
+                                                    <td>bootstrap</td>
+                                                    <td>朱老师</td>
+                                                    <td>3.0</td>
+                                                    <td>必修</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="checkbox">
+                                                    </td>
+                                                    <td>001</td>
+                                                    <td>bootstrap</td>
+                                                    <td>朱老师</td>
+                                                    <td>3.0</td>
+                                                    <td>必修</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4"></div>
+                                            <div class="col-md-6">
+                                                <ul class="pagination pagination-xs">
+                                                    <li><a href="#">&laquo;</a>
+                                                    </li>
+                                                    <li class="active"><a href="#">1</a>
+                                                    </li>
+                                                    <li class="disabled"><a href="#">2</a>
+                                                    </li>
+                                                    <li><a href="#">3</a>
+                                                    </li>
+                                                    <li><a href="#">4</a>
+                                                    </li>
+                                                    <li><a href="#">5</a>
+                                                    </li>
+                                                    <li><a href="#">&raquo;</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-2"><a href="" class="btn                                                            btn-xs btn-danger" style="margin-top: 25px">确定</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mystate mystate1 ">
+                            <p></p>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse"                                                                              data-parent="#accordion"
+                                           href="#collapseOne3">
+                                            选课结果
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne3" class="panel-collapse                                                            collapse in">
+                                    <div class="panel-body">
+                                        <div class="table-responsive">
+                                            <!-- 7. 响应式表格-->
+                                            <table class="table  table-bordered table-hover table-condensed">
+                                                <thead>
+                                                <tr>
+                                                    <th>课程号</th>
+                                                    <th>课程名</th>
+                                                    <th>授课教师</th>
+                                                    <th>学分</th>
+                                                    <th>课程属性</th>
+                                                    <th>选课状态</th>
+
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>001</td>
+                                                    <td>bootstrap</td>
+                                                    <td>朱老师</td>
+                                                    <td>3.0</td>
+                                                    <td>必修</td>
+                                                    <td>选中</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>001</td>
+                                                    <td>bootstrap</td>
+                                                    <td>朱老师</td>
+                                                    <td>3.0</td>
+                                                    <td>必修</td>
+                                                    <td>选中</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>001</td>
+                                                    <td>bootstrap</td>
+                                                    <td>朱老师</td>
+                                                    <td>3.0</td>
+                                                    <td>必修</td>
+                                                    <td>选中</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>001</td>
+                                                    <td>bootstrap</td>
+                                                    <td>朱老师</td>
+                                                    <td>3.0</td>
+                                                    <td>必修</td>
+                                                    <td>选中</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>001</td>
+                                                    <td>bootstrap</td>
+                                                    <td>朱老师</td>
+                                                    <td>3.0</td>
+                                                    <td>必修</td>
+                                                    <td>选中</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>001</td>
+                                                    <td>bootstrap</td>
+                                                    <td>朱老师</td>
+                                                    <td>3.0</td>
+                                                    <td>必修</td>
+                                                    <td>选中</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>001</td>
+                                                    <td>bootstrap</td>
+                                                    <td>朱老师</td>
+                                                    <td>3.0</td>
+                                                    <td>必修</td>
+                                                    <td>选中</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mystate mystate1 ">
+                            <p></p>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" id="linkcollapseTwo3">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse"                                                                              data-parent="#accordion"
+                                           href="#collapseTwo3">
+                                            历年课表查询
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo3" class="panel-collapse                                                            collapse ">
+                                    <div class="panel-body">
+                                        <div class="table-responsive">
+                                            <!-- 7. 响应式表格-->
+                                            <div class="row">
+                                                <div class="col-md-6" style="margin-top: 8px">学期 ：
+                                                    <select name="" id="">
+                                                        <option value="">2013年秋季学期</option>
+                                                        <option value="">2013年秋季学期</option>
+                                                        <option value="">2013年秋季学期</option>
+                                                        <option value="">2013年秋季学期</option>
+                                                        <option value="">2013年秋季学期</option>
+                                                        <option value="">2013年秋季学期</option>
+                                                        <option value="">2013年秋季学期</option>
+                                                        <option value="">2013年秋季学期</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-3"><a href="" class="btn btn-sm btn-success">查询</a></div>
+                                            </div>
+                                            <p></p>
+                                            <center>2013年秋季学期课表</center>
+                                            <table class="table  table-bordered table-hover table-condensed">
+                                                <thead>
+                                                <tr>
+                                                    <th>&nbsp;</th>
+                                                    <th>星期一</th>
+                                                    <th>星期二</th>
+                                                    <th>星期三</th>
+                                                    <th>星期四</th>
+                                                    <th>星期五</th>
+                                                    <th>星期六</th>
+                                                    <th>星期日</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <th>1,2节</th>
+                                                    <th>&nbsp;</th>
+                                                    <th>html</th>
+                                                    <th>&nbsp;</th>
+                                                    <th>&nbsp;</th>
+                                                    <th>css</th>
+                                                    <th>js</th>
+                                                    <th>&nbsp;</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>3,,4,5节</th>
+                                                    <th>jquery</th>
+                                                    <th>nodejs</th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th>&nbsp;</th>
+                                                    <th>php</th>
+                                                    <th>&nbsp;</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>6,7节</th>
+                                                    <th></th>
+                                                    <th>nodejs</th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th>jqmb</th>
+                                                    <th>play</th>
+                                                    <th>majiang</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>8,9节</th>
+                                                    <th>javaweb</th>
+                                                    <th></th>
+                                                    <th>spring</th>
+                                                    <th>game</th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th>majiang</th>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" id="linkcollapseTwo4">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse"                                                                              data-parent="#accordion"
+                                           href="#collapseTwo4">
+                                            本学期课表
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo4" class="panel-collapse                                                            collapse in">
+                                    <div class="panel-body">
+                                        <div class="table-responsive">
+                                            <!-- 7. 响应式表格-->
+                                            <p></p>
+                                            <center><h3>本学期课表</h3></center>
+                                            <table class="table  table-bordered table-hover table-condensed">
+                                                <thead>
+                                                <tr>
+                                                    <th>&nbsp;</th>
+                                                    <th>星期一</th>
+                                                    <th>星期二</th>
+                                                    <th>星期三</th>
+                                                    <th>星期四</th>
+                                                    <th>星期五</th>
+                                                    <th>星期六</th>
+                                                    <th>星期日</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <th>1,2节</th>
+                                                    <th>&nbsp;</th>
+                                                    <th>html</th>
+                                                    <th>&nbsp;</th>
+                                                    <th>&nbsp;</th>
+                                                    <th>css</th>
+                                                    <th>js</th>
+                                                    <th>&nbsp;</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>3,,4,5节</th>
+                                                    <th>jquery</th>
+                                                    <th>nodejs</th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th>&nbsp;</th>
+                                                    <th>php</th>
+                                                    <th>&nbsp;</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>6,7节</th>
+                                                    <th></th>
+                                                    <th>nodejs</th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th>jqmb</th>
+                                                    <th>play</th>
+                                                    <th>majiang</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>8,9节</th>
+                                                    <th>javaweb</th>
+                                                    <th></th>
+                                                    <th>spring</th>
+                                                    <th>game</th>
+                                                    <th></th>
+                                                    <th></th>
+                                                    <th>majiang</th>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--左侧菜单点击事件-->
+                <script>
+                    $(function() {
+                        $(".course").click(function() {
+                            var index = $(this).index(".course");
+                            $(".mystate1").eq(index).css("display", "block").siblings(".mystate1").css("display", "none");
+                        });
+
+                        $("#linkcollapseTwo3").click(function () {
+                            $("#collapseTwo4").removeClass("in");
+                        });
+                        $("#linkcollapseTwo4").click(function () {
+                            $("#collapseTwo3").removeClass("in");
+                        });
+                    });
+
+                </script>
+                <!--******************************--考务管理--****************************************-->
+                <!--******************************--考务管理--****************************************-->
+                <div class="item">
+                    <div class="col-xs-3">
+                        <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
+                            <li class="active kaoshi"><a href="#">考试公告</a></li>
+                            <li class="kaoshi"><a href="#">考试安排</a></li>
+                            <li class="kaoshi"><a href="#">考试报名</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-9 statescon">
+
+                        <div class="mystate mystate2 state">
+                            <p></p>
+                            <div class="panel panel-success">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion"
+                                           href="#collapseTwo2">
+
+                                            考试公告
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo2" class="panel-collapse collapse in">
+                                    <div class="panel-body" >
+                                        <div class="gongg">
+
+                                            <h2 style="height: 48px; line-height: 50px;border-bottom: 1px solid #2EAFBB;font-size: 16px;color: #2EAFBB;margin-bottom: 8px; text-align: left;padding: 0;position: relative;">要闻
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <span ><a style="font-size: 10px; color: #2EAFBB" href="" target="_blank">
+											更多新闻</a>　|　<a href="" style="font-size: 10px; color:#2EAFBB" target="_blank">专题汇总</a></span></h2>
+                                            <div ><a  href="" target="_blank">2016年12月四六级成绩 11月口试成绩查询</a></div>
+                                            <a href="" target="_blank">教育部颁布新版《普通高校学生管理规定》</a> <a href="" target="_blank">全文</a> <a href="" target="_blank">解读</a><br>
+                                            报考指南：<a href="" target="_blank">艺术类</a>&nbsp;&nbsp;<a href="" target="_blank">高水平艺术团</a>&nbsp;&nbsp;<a href="" target="_blank">高水平运动队</a>&nbsp;&nbsp;<a href="" target="_blank">保送生</a><br>
+                                            <div >&nbsp;</div>
+                                            <div ><a  href="" target="_blank">2017年考研初试成绩陆续公布 </a></div>
+                                            <a href="" target="_blank">研究生教育改革 河南省添3个试点 </a><br>
+                                            <a href="" style="font-size: 10px; color:#2EAFBB" target="_blank">特别提醒</a> | <a href="" target="_blank" style="font-size: 10px; color: #2EAFBB">新媒体矩阵</a>&nbsp;| <a href="" target="" style="font-size: 10px; color: #2EAFBB;">招聘</a> | <a href="" style="font-size: 10px; color: #2EAFBB" target="_blank">【学信新闻】</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <style>
+                                    .gongg a:hover{
+                                        color: red;
+                                        text-decoration: underline;
+                                    }
+                                </style>
+
+                            </div>
+
+                        </div>
+                        <div class="mystate mystate2">
+                            <p></p>
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion"
+                                           href="#collapseThree">
+                                            考试安排
+                                        </a>
+                                    </h4>
+
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <div class="apply">
+                                            <ul>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2017年春季学期开学前补考安排表">2017年春季学期开学前补考安排表</a></label><label >[01-22]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016-2017秋季学期第19周考试安排">2016-2017秋季学期第19周考试安排</a></label><label class="time">[01-10]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016年秋季学期《高级英语听说》、《美国文化概要》、《实用英语写作》课程结业考试安排">2016年秋季学期《高级英语听说》、《美国文化概要》、《实用英语写作》课程结业考试安排</a></label><label class="time">[12-26]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016年秋季学期《中国近现代史纲要》（专升本补修）课程结业考试安排">2016年秋季学期《中国近现代史纲要》（专升本补修）课程结业考试安排</a></label><label class="time">[12-21]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016-2017秋季学期第16周考试安排">2016-2017秋季学期第16周考试安排</a></label><label class="time">[12-20]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016年秋季学期《思想道德修养与法律基础》课程结业考试安排">2016年秋季学期《思想道德修养与法律基础》课程结业考试安排</a></label><label class="time">[12-08]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016年秋季学期《大学物理(Ⅰ-2)》课程结业考试安排">2016年秋季学期《大学物理(Ⅰ-2)》课程结业考试安排</a></label><label class="time">[12-07]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016-2017秋季学期第14周考试安排">2016-2017秋季学期第14周考试安排</a></label><label class="time">[12-07]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016年秋季学期《物理实验》操作考试安排表">2016年秋季学期《物理实验》操作考试安排表</a></label><label class="time">[12-02]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016年秋季学期文化素质类网络课程结业考试安排">2016年秋季学期文化素质类网络课程结业考试安排</a></label><label class="time">[11-30]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016-2017秋季学期第13周考试安排">2016-2017秋季学期第13周考试安排</a></label><label class="time">[11-30]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016-2017秋季学期第12周考试安排">2016-2017秋季学期第12周考试安排</a></label><label class="time">[11-25]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016-2017秋季学期第11周考试安排">2016-2017秋季学期第11周考试安排</a></label><label class="time">[11-17]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016年秋季学期《马克思主义基本原理概论》课程结业考试安排">2016年秋季学期《马克思主义基本原理概论》课程结业考试安排</a></label><label class="time">[11-11]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016年秋季学期《中国近现代史纲要》课程结业考试安排">2016年秋季学期《中国近现代史纲要》课程结业考试安排</a></label><label class="time">[11-08]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016-2017秋季学期第10周考试安排">2016-2017秋季学期第10周考试安排</a></label><label class="time">[11-08]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016年秋季学期《线性代数（Ⅱ）》、《线性代数Ⅰ》课程结业考试安排">2016年秋季学期《线性代数（Ⅱ）》、《线性代数Ⅰ》课程结业考试安排</a></label><label class="time">[11-07]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016-2017秋季学期第9周考试安排">2016-2017秋季学期第9周考试安排</a></label><label class="time">[11-02]</label></li>
+
+                                                <li><label class="t"><a href="#" target="_blank" title="2016-2017秋季学期第8周考试安排">2016-2017秋季学期第8周考试安排</a></label><label class="time">[10-31]</label></li>
+
+
+                                            </ul></div>
+                                        <style>
+                                            .apply ul{
+                                                list-style: none;
+                                                font-size: 13px;
+                                            }
+                                            .apply li{
+                                                color: #666;
+                                            }
+                                            .apply a{
+                                                color: #999;
+                                            }
+                                            .apply a:hover{
+                                                color: red;
+                                                text-decoration: underline;
+                                            }
+                                        </style>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mystate mystate2">
+                            <p></p>
+                            <!--xxxxxxxxxxxxxxx-->
+                            <div class="panel panel-warning">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion"
+                                           href="#collapseFour">
+                                            考试报名
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+
+                                        <div class="container" style="padding: 100px 50px 10px;" >
+                                            <button type="button" class="btn btn-default" title="Popover title"
+                                                    data-container="body" data-toggle="popover" data-placement="left"
+                                                    data-content="左侧的 Popover 中的一些内容">
+                                                英语CET-4报名
+                                            </button>
+                                            <button type="button" class="btn btn-primary" title="Popover title"
+                                                    data-container="body" data-toggle="popover" data-placement="top"
+                                                    data-content="顶部的 Popover 中的一些内容">
+                                                英语CET-6报名
+                                            </button>
+                                            <button type="button" class="btn btn-success" title="Popover title"
+                                                    data-container="body" data-toggle="popover" data-placement="bottom"
+                                                    data-content="底部的 Popover 中的一些内容">
+                                                计算机二级报名
+                                            </button>
+                                            <button type="button" class="btn btn-warning" title="Popover title"
+                                                    data-container="body" data-toggle="popover" data-placement="right"
+                                                    data-content="右侧的 Popover 中的一些内容">
+                                                考研报名
+                                            </button>
+
+                                            <script>
+                                                $(function () {
+                                                    $("button").click(function () {
+                                                        alert("同学你好，你确定报名吗？");
+                                                        alert("报名成功,祝你考试顺利!");
+                                                    })
+
+                                                })
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--xxxxxxxxxxxxxxx-->
+                        </div>
+
+                    </div>
+                </div>
+                <!--左侧菜单点击事件-->
+                <script>
+                    $(function() {
+                        $(".kaoshi").click(function() {
+                            var index = $(this).index(".kaoshi");
+                            $(".mystate2").eq(index).css("display", "block").siblings(".mystate2").css("display", "none");
+                        });
+                    });
+
+                </script>
+                <!--******************************--综合查询--****************************************-->
+                <!--******************************--综合查询--****************************************-->
+                <div class="item">
+                    <div class="col-xs-3">
+                        <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
+                            <li class="active chengji"><a href="#">全部成绩</a></li>
+                            <li class="chengji"><a href="#">课程属性成绩</a></li>
+                            <li class="chengji"><a href="#">方案成绩</a></li>
+                            <li class="chengji"><a href="#">不及格成绩</a></li>
+                            <li class="chengji"><a href="#">本学期成绩</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-9 statescon">
+
+                        <div class="mystate mystate3 state">
+                            <p></p>
+                            <div class="table-responsive">
+                                <!-- 7. 响应式表格-->
+                                <table class="table  table-bordered table-hover">
+                                    <caption> 所有课程成绩</caption>
+                                    <thead>
+                                    <tr>
+                                        <th>课程名</th>
+                                        <th>学分</th>
+                                        <th>最高分</th>
+                                        <th>平均分</th>
+                                        <th>我的成绩</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>html5</td>
+                                        <td>3</td>
+                                        <td>99</td>
+                                        <td>80</td>
+                                        <td>95</td>
+                                    </tr>
+                                    <tr>
+                                        <td>html5</td>
+                                        <td>3</td>
+                                        <td>99</td>
+                                        <td>80</td>
+                                        <td>95</td>
+                                    </tr>
+                                    <tr>
+                                        <td>html5</td>
+                                        <td>3</td>
+                                        <td>99</td>
+                                        <td>80</td>
+                                        <td>95</td>
+                                    </tr>
+                                    <tr>
+                                        <td>html5</td>
+                                        <td>3</td>
+                                        <td>99</td>
+                                        <td>80</td>
+                                        <td>95</td>
+                                    </tr>
+                                    <tr>
+                                        <td>html5</td>
+                                        <td>3</td>
+                                        <td>99</td>
+                                        <td>80</td>
+                                        <td>95</td>
+                                    </tr>
+                                    <tr>
+                                        <td>html5</td>
+                                        <td>3</td>
+                                        <td>99</td>
+                                        <td>80</td>
+                                        <td>95</td>
+                                    </tr>
+                                    <tr>
+                                        <td>html5</td>
+                                        <td>3</td>
+                                        <td>99</td>
+                                        <td>80</td>
+                                        <td>95</td>
+                                    </tr>
+                                    <tr>
+                                        <td>html5</td>
+                                        <td>3</td>
+                                        <td>99</td>
+                                        <td>80</td>
+                                        <td>95</td>
+                                    </tr>
+                                    <tr>
+                                        <td>html5</td>
+                                        <td>3</td>
+                                        <td>99</td>
+                                        <td>80</td>
+                                        <td>95</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="mystate mystate3">
+                            课程属性成绩
+                        </div>
+                        <div class="mystate mystate3">
+                            方案成绩
+                        </div>
+                        <div class="mystate mystate3">
+                            不及格成绩
+                        </div>
+                        <div class="mystate mystate3">
+                            本学期成绩
+                        </div>
+                    </div>
+                </div>
+
+                <!--左侧菜单点击事件-->
+                <script>
+                    $(function() {
+                        $(".chengji").click(function() {
+                            var index = $(this).index(".chengji");
+                            $(".mystate3").eq(index).css("display", "block").siblings(".mystate3").css("display", "none");
+                        });
+                    });
+
+                </script>
+
+            </div>
+            <!--****************结束**********************-->
+
+        </div>
+    </div>
+</div>
+    <footer id="footer">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-md-5">
+                    皮皮虾学院地址：在你曾仰望无数日夜那片璀璨的星空里的一颗发亮的星星上
+                </div>
+                <div class="col-md-2">
+                    编号：SB1314
+                </div>
+                <div class="col-md-2">
+                    联系人：曹大牛
+                </div>
+                <div class="col-md-3">
+                    电话：19989098908
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-9">
+                    温馨提示：为了更好的网站访问体验，建议使用IE6以上浏览器(360浏览器兼容模式内核为IE6)，或最新Firefox、chrome浏览器
+                </div>
+                <div class="col-md-3">
+                    &copy;版权所有 皮皮虾学院
+                </div>
+            </div>
+            <br>
+        </div>
+
+    </footer>
+    <script>
+        $(function() {
+
+            $('#myCarousel').carousel({
+                // js停止轮播
+                pause: true,
+                interval: false
+            });
+
+
+        })
+
+    </script>
+</body>
+</html>
