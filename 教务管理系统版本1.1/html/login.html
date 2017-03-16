@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lemon Tree 教务管理系统</title>
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: gray;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .bj1 {
+            margin-top: 80px;
+        }
+        
+        #bj2 {
+            width: 400px;
+            height: 260px;
+            background-color: rgba(25, 25, 255, 0.2);
+            margin-left: 150px;
+            margin-top: 100px;
+            text-align: center;
+        }
+        
+        #bj3 {
+            width: 400px;
+            height: 360px;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin-left: 800px;
+            margin-top: 50px;
+            text-align: center;
+        }
+        
+        #db1 {
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <div class="row">
+
+        <!-- 头部 -->
+        <div class="col-sm-12">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="container-fluid" id="tb">
+                    <div class="navbar-header hidden-xs">
+                        <img src="../img/logo.gif" class="navbar-brand">
+                        <a class="navbar-brand" href="#">Lemon Tree 教务管理系统</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- 背景 -->
+        <div class="bj1">
+            <div style="position: relative">
+                <img src="../img/tiam.jpg" width="100%" class="img-responsive" alt="日出">
+
+                <!-- 公告 -->
+                <div style="position: absolute; top: 0; left: 0;" id="bj2">
+                    <h1 style="color:#8e2323">校务公告</h1>
+                    <br>
+                    <p style="font-size:20px;">学校于2月20号结束假期，21号正式上课!!</p>
+                    <small class="pull-right" style="font-size:15px;">——校委会通知</small>
+                </div>
+
+                <!-- 登录 -->
+                <div style="position: absolute; top: 0; left: 0;" id="bj3">
+                    <h1 style="color:skyblue">登录</h1>
+                    <br>
+                    <form class="bs-example bs-example-form" role="form" action="#" name="form1" onsubmit="return validate(this);">
+                        <div class="input-group">
+                            <span class="input-group-addon">用户名</span>
+                            <input id="username" type="text" class="form-control" placeholder="学号" name="username">
+                        </div>
+                        <br>
+                        <div class="input-group">
+                            <span class="input-group-addon">密码&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <input id="password" type="password" class="form-control" name="password">
+                        </div>
+                    </form>
+
+                    <form action="" method="get">
+                        <h3>身份选择</h3>
+                        <label><input name="Fruit" type="radio" value="1" id="radio1"/>学生 </label>
+                        <label><input name="Fruit" type="radio" value="2" id="radio2"/>老师 </label>
+                        <label><input name="Fruit" type="radio" value="3" id="radio3"/>管理员 </label>
+                    </form>
+                    <br/>
+                    <div>
+                        <div class="btn-group">
+                            <button id="btn" type="button" class="btn btn-default">确认登录</button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" data-container="body" class="btn btn-default" data-toggle="popover" data-placement="right" data-content="请与班主任联系提交修改" title="提示">忘记密码</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部 -->
+        <div id="db1">
+            <p>©2000-2017最终解释权归<b>@Lemon Tree</b>所有</p>
+        </div>
+
+    </div>
+
+</body>
+<script type="text/javascript">
+    $(function() {
+        $("[data-toggle='popover']").popover();
+        $("#btn").click(function(){
+        var c = $("#radio1").prop("checked")||$("#radio2").prop("checked")||$("#radio3").prop("checked");
+        
+            if($("#username").val()==''||$("#password").val()==''){
+                alert("用户名或者密码不能为空");
+            }else if (!c) {
+                alert("请选择您的角色（学生、教师、管理员）");
+            }else if ($("#radio1").prop("checked")) {
+                window.location.href = "student.html";
+            }else if ($("#radio2").prop("checked")) {
+                window.location.href = "teacher.html";
+            }else if ($("#radio3").prop("checked")) {
+                window.location.href = "admin.html";
+
+            }
+
+        });
+    });
+
+</script>
+
+</html>

@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lemon Tree 教务管理</title>
+   <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" media="screen" /> 
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    /* 初始样式 */
+ *{ padding: 0; margin: 0;}
+.nav_1{padding: 0;margin: 0;}
+.panel {text-align: center;}
+.left_nav{height: auto;}
+.text{
+    height:800px;
+}
+#main_page {
+     width: 100%;
+     height: 100%;
+     border-style: none;
+    }
+a{
+    cursor: pointer;
+}
+.console{
+    margin-top: 40px;
+}
+
+ /* 初始样式 */
+    </style>
+</head>
+<body>
+        <div class="row">
+            <div class="col-sm-12 ">
+                <nav class="navbar navbar-inverse nav_1" role="navigation">
+                    <div class="container-fluid">
+                    <div class="navbar-header hidden-xs" >
+                        <img src="../img/logo.gif"  class="navbar-brand">
+                        <a class="navbar-brand" href="#">Lemon Tree 教务管理系统</a>
+                    </div>
+                        <div class="nav navbar-nav navbar-right">
+                          <img src="../img/logo.gif" class="navbar-brand">
+                           <a href="#" class="navbar-brand" class="dropdown-toggle" data-toggle="dropdown">柠檬<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">切换用户</a></li>
+
+                                <li class="divider"></li>
+
+                                <li><a id="exit">退出登录</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+
+         <!--可拖动的面板-->
+            <div class="col-sm-2  left_nav" id="float_fixed" >
+    <div class="panel panel-primary console" id="fixedPosition">
+        <div class="panel-heading" id="float_header" ondragstart="return false">
+             <h3 class="panel-title" ondragstart="return false">
+                  控制面板
+            </h3>
+        </div>
+            <div class="panel-body">
+                <div class="panel-group " >
+                    <div class="panel panel-default">
+                        <div class="panel-heading ">
+                            <h4 class="panel-title ">
+                                <a data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseOne">
+                                    个人信息
+                                </a>
+                            </h4>
+                        </div>
+
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                        <a  id="resume">基本信息</a><hr>
+                                <a  id="resume_xg">信息修改</a><hr>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseTwo">
+                                     用户管理
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <a  id="user_student">学生</a><hr>
+
+                                <a  id="user_teacher">老师</a><hr>
+
+                                <a  id="super_admin">超级管理员</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion"
+                                    id="new_user">
+                                    新增用户
+                                </a>
+                            </h4>
+                        </div>
+
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion"
+                                   href="#collapseFour">
+                                    课程信息管理
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <a  id="sd_college">水利水电学院</a><hr>
+                                <a  id="jsj_college">计算机学院</a><hr>
+                                <a  id="wl_college">物理工程学院</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+      </div>
+
+
+            <div class="col-md-10 text col-md-offset-2">
+                <iframe src="admin/resume.html" id="main_page"></iframe>
+            </div>
+
+
+</div>
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery-1.11.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+            $("#resume").click(function(event) {
+               $("#main_page").prop("src","admin/resume.html");
+            });
+
+            $("#resume_xg").click(function(event) {
+               $("#main_page").prop("src","admin/resume_xg.html");
+            });
+
+            $("#jsj_college").click(function(event) {
+               $("#main_page").prop("src","admin/jsj_college.html");
+            });
+             
+             $("#sd_college").click(function(event) {
+               $("#main_page").prop("src","admin/sd_college.html");
+            });
+
+
+             $("#wl_college").click(function(event) {
+               $("#main_page").prop("src","admin/sd_college.html");
+            });
+
+
+             $("#super_admin").click(function(event) {
+               $("#main_page").prop("src","admin/super_admin.html");
+            });
+
+
+             $("#user_teacher").click(function(event) {
+               $("#main_page").prop("src","admin/user_teacher.html");
+            });
+
+             $("#user_student").click(function(event) {
+               $("#main_page").prop("src","admin/user_student.html");
+            });
+
+
+             $("#new_user").click(function(event) {
+               $("#main_page").prop("src","admin/new_user.html");
+            });
+
+
+
+
+
+/*会话框移动方法*/
+
+         $("#float_fixed").css({
+          "position":"fixed",
+          "z-index":"40",
+          "top":"30px",
+          "left":"5px"
+         });
+         $("#float_header").css("cursor","pointer");
+         $("#float_header").mousedown(fnFixedMOV);
+                 function fnFixedMOV(e){
+                      //$("#float_fixed").stop();
+                      $("#float_fixed").off("mouseleave");
+                      $("#float_header").off("mouseover");
+                      $(document).off("mousemove");
+                      //$(window).off("resize");
+                    var obj = {};
+                    var oCoord = $("#float_fixed").offset();
+                    obj.mouseX= e.pageX-oCoord.left;
+                    obj.mouseY = e.pageY-oCoord.top;
+                    $(document).on("mousemove",obj,function(event){
+                        var y = event.pageY-(event.data.mouseY+$(window).scrollTop());
+                        var x = event.pageX-event.data.mouseX;
+                         $("#float_fixed").css("top",y+"px");
+                         $("#float_fixed").css("left",x+"px");
+                    });//移动事件结束
+                    
+                    /*松开鼠标是的事件*/
+                    $(this).mouseup(fnFixedMouUP);
+
+                 }
+
+
+                         function fnFixedMouUP(event) {
+                        /* Act on the event */
+                        $("#float_fixed").off("mouseleave");
+                        $(document).off("mousemove");
+                        
+                        }
+
+                 /*会话框移动方法结束*/
+
+
+$("#exit").click(function(){
+window.location.href = "login.html";
+});
+
+
+    });
+</script>
+</body>
+
+</html>

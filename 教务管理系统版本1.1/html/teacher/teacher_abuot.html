@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        /* Custom Styles */
+        
+        ul.nav-tabs {
+            width: 140px;
+            margin-top: 20px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+        }
+        
+        ul.nav-tabs li {
+            margin: 0;
+            border-top: 1px solid #ddd;
+        }
+        
+        ul.nav-tabs li:first-child {
+            border-top: none;
+        }
+        
+        ul.nav-tabs li a {
+            margin: 0;
+            padding: 8px 16px;
+            border-radius: 0;
+        }
+        
+        ul.nav-tabs li.active a,
+        ul.nav-tabs li.active a:hover {
+            color: #fff;
+            background: #0088cc;
+            border: 1px solid #0088cc;
+        }
+        
+        ul.nav-tabs li:first-child a {
+            border-radius: 4px 4px 0 0;
+        }
+        
+        ul.nav-tabs li:last-child a {
+            border-radius: 0 0 4px 4px;
+        }
+        
+        ul.nav-tabs.affix {
+            top: 30px;
+            /* Set the top position of pinned element */
+        }
+        /*   .jumbotron {
+            width: 900px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            border: 1px solid red;
+        }
+        
+        .container {
+            width: 900px;
+            border: 1px solid blue;
+        }*/
+
+    </style>
+
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy">
+    <div class="container">
+        <div class="jumbotron">
+            <h2>教师资讯站</h2>
+        </div>
+        <div class="row">
+            <div class="col-xs-3" id="myScrollspy">
+                <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="120">
+                    <li class="active"><a href="#section-1">论文发表</a></li>
+                    <li><a href="#section-2">职称测评</a></li>
+
+                    <li><a href="#section-3">教师须知</a></li>
+                    <li><a href="#section-4">校园资讯</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-9">
+                <h2 id="section-1">论文发布</h2>
+                <div>
+                    <p>序号 论文名称 作者 刊名 时间及页码 备注 </p>
+                    <p> 1 空间矢量调制的矩阵变换器的建模与仿真 朱建林 系统仿真学报 2004, 16(2): 343-345</p>
+                    <p>2 采用输入电流偏置角动态调制策略的非平衡条件 下矩阵式变换器仿真实现 朱建林 系统仿真学报 2004，16（9）</p>
+                    <p>3 矩阵变换器平衡/非平衡输入的对比分析 朱建林 系统工程与电子技术 2004,26(8): 1129-1131</p>
+                    <p>4 矩阵式变换器的等效电路模型研究 朱建林 电路与系统学报 2004.2 5 基于改善电压传输比的矩阵变换器研究 朱建林 电气传动 2004.</p>
+                    <p>5 矩阵式交－交变频电源中DSP控制器的时间分配 朱建林 电气传动 2005.3 </p>
+                    <p>6 基于Simulink基本元件的鼠笼式异步电机仿真研 究 朱建林 湘潭大学自科学报 2004</p>
+
+                    <p>7 远程分布式水轮发电机组振动监测与故障诊断系 统的研究 朱建林 低压电器 2004.7 </p>
+                    <p>8 基于虚拟仪器的水电机组在线状态监测系统的研 制 朱建林 华东电力 2004.7</p>
+                    <p>10 DeviceNet现场总线从设备的开发 朱建林 湘潭大学自科学报 2004.4</p>
+                    <p>11 基于Internet的水轮发电机组远程监测与故障诊 断系统的研究 朱建林 电网技术 2004.24 EI Compendex收录</p>
+
+                </div>
+
+
+
+                <hr>
+                <h2 id="section-2">职称测评</h2>
+                <div>Nullam hendrerit justo non leo aliquet imperdiet. Etiam in sagittis lectus. Suspendisse ultrices placerat accumsan. Mauris quis dapibus orci. In dapibus velit blandit pharetra tincidunt. Quisque non sapien nec lacus condimentum facilisis ut iaculis enim. Sed viverra interdum bibendum. Donec ac sollicitudin dolor. Sed fringilla vitae lacus at rutrum. Phasellus congue vestibulum ligula sed consequat.<br> Vestibulum consectetur scelerisque lacus, ac fermentum lorem convallis sed. Nam odio tortor, dictum quis malesuada at, pellentesque vitae orci. Vivamus elementum, felis eu auctor lobortis, diam velit egestas lacus, quis fermentum metus ante quis urna. Sed at facilisis libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum bibendum blandit dolor. Nunc orci dolor, molestie nec nibh in, hendrerit tincidunt ante. Vivamus sem augue, hendrerit non sapien in, mollis ornare augue.</div>
+                <hr>
+
+
+                <!--<h2 id="section-3">教学质量评估</h2>
+
+                <div class="progress progress-striped active">
+                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                        <span>80%</span>
+                    </div>
+                </div>
+                <p>2012学年获得总分数占总分比例</p>
+
+
+                <div class="progress progress-striped active">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                        <span>70%</span>
+                    </div>
+                </div>-->
+
+
+                <!--
+
+               
+-->
+
+
+                <h2 id="section-3">教师须知</h2>
+
+                <span>二  教学过程的规范要求  1、备课  (1)认真研究所任课程的教学大纲，熟悉本课程的体系、范围和基本内容，了解学生掌握先修课程知识、学习能力等具体情况，有针对性地制订授课计划，选择授课方式；  (2)掌握教材的内在逻辑关系、结构体系。准确理解和掌握有关理论、概念，明确各章节的重点、难点，设计好练习题和思考题。广泛阅读有关文献和教学参考书，了解有关社会实际、科学技术和本学科的发展情况，并结合自己的科研成果，创造性地进行教学；  (3)认真研究教学方法和教学手段，充分运用多媒体技术，力求做到教学内容与方法的优化组合。
+                </span><br>
+                <span>2、课堂教学  (1)教师不得在课堂教学及其他教学活动中散布违背四项基本原则的言论及其他错误思想和观点，不得进行有悖社会公德的宣传活动；  (2)提前到教室，做好课前准备工作（使用多媒体教室或在机房上课的教师至少须提前十分钟到教室调试电教设备，查看上机环境，如有问题及时与机房管理人员联系）；  (3)按时上、下课；衣着端庄得体；不得在教室内吸烟，上课期间必须关闭手机等通讯工具；  (4)每次上课要遵照学院规定以适当方式检查学生出勤情况,并如实填写学生考勤情况
+                </span><br>
+                <span>4、教案  (1) 应按教学大纲的具体要求编写；  (2) 主要内容一般包括：较详细的授课要点（包括教学手段、教学方法以及教学设计方案等）、教学的重点与难点、作业、参考资料等；  (3) 教师在每学期开学前应准备好该课程1/2以上的教案； (4) 教师应不断更新和充实教案。  (5) 教案封面和首页样式可从学院网站上下载，教案纸可到所属开课单位领取。  具体下载路径：“教育教学”—>“下载专区”—>“教案封面及首页样式”
+                </span>
+                <span>5、课堂考核及成绩记载  (1）课堂考核及成绩记载表（记分册）由开课单位统一制备，并发放给任课教师填写。该表须按统一规格逐项填写、计算。填写须知：  ① 表中各项除涉及考核不合格（不及格）的成绩用红色水笔填写外，其余均要求用黑色或蓝色水笔填写。  ②“平时成绩” 栏为平时考核“总评”和考勤记录“总评”汇总成绩。 ③“期末成绩”、“平时成绩”两栏要求以百分制提供学生所得成绩，并注明所占比例。 ④ 如有“旷考”、“请假”、“取消资格”、“作弊”等情况，如实填写在“期末成绩”栏，（网上录入成绩时，亦须如实登录在“备注”栏）。  ⑤ 任课期间课堂考核及成绩记载表由教师本人持有并负责妥善保管。期末考核结束时提交给开课单位。
+                </span>
+                <hr>
+                <h2 id="section-4">校园资讯</h2>
+                <div>
+                    <p>安徽理工大学举办元旦送温暖活动 03-25</p>
+                    <p>三月，我们与美好相遇 03-25</p>
+                    <p>“唱响中国梦”甘肃省大学生校园歌手电视大奖赛兰州大学选拔赛开 03-25</p>
+                    <p>To辅导员：阁下何不同风起，扶摇直上九万里？ 03-25</p>
+                    <p>图人大嘴葩带你“知解”疫苗 03-25</p>
+                    <p>广告艺术节获大奖，你造么？ 03-24</p>
+                    <p>上海交大计算机科学学科入选2016年QS世界大学学科排名全球 03-24</p>
+                    <p>“咪咕音乐•音为青春”全国四强争霸赛在成电开启首场对决 03-24</p>
+                    <p>第十一届全国人大常委会副委员长华建敏到上海交大调研 03-24</p>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../../js/jquery-1.11.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../../js/bootstrap.min.js"></script>
+
+    <script>
+        $(function() {
+
+
+
+
+            $("p").hover(function(event) {
+                $(this).css("background-color", "blue");
+            });
+
+            $("p").mouseout(function(event) {
+                $(this).css("background-color", "white");
+            });
+        })
+
+    </script>
+</body>
+
+</html>

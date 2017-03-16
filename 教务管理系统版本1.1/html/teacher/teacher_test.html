@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../../js/jquery-1.11.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../../js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container" style="padding:20px">
+        <h1>教学质量评估图</h1>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#area">
+         点击隐藏
+       </button>
+
+        <div class="collapse  in" id="area">
+
+            <p>2010学年获得总分数占总分比例</p>
+            <div class="progress progress-striped active">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width:76%">
+                    <span>76%</span>
+                </div>
+            </div>
+
+
+
+            <p>2011学年获得总分数占总分比例</p>
+            <div class="progress progress-striped active">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100" style="width:83%">
+                    <span>83%</span>
+                </div>
+            </div>
+
+
+
+            <p>2012学年获得总分数占总分比例</p>
+            <div class="progress progress-striped active">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100" style="width:94%">
+                    <span>94%</span>
+                </div>
+            </div>
+
+
+            <p>2013学年获得总分数占总分比例</p>
+            <div class="progress progress-striped active">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" style="width:68%">
+                    <span>68%</span>
+                </div>
+            </div>
+
+
+            <p>2014学年获得总分数占总分比例</p>
+            <div class="progress progress-striped active">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100" style="width:91%">
+                    <span>91%</span>
+                </div>
+
+
+            </div>
+            <p>2015学年获得总分数占总分比例</p>
+            <div class="progress progress-striped active">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" style="width:72%">
+                    <span>72%</span>
+                </div>
+            </div>
+
+
+            <p>2016学年获得总分数占总分比例</p>
+            <div class="progress progress-striped active">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" style="width:86%">
+                    <span>86%</span>
+                </div>
+            </div>
+            <p>2017学年获得总分数占总分比例</p>
+        </div>
+    </div>
+    <script>
+        $(function() {
+            $("#area").on("show.bs.collapse", function() {
+                console.log("show.bs.collapse");
+            }).on("shown.bs.collapse", function() {
+                console.log("shown.bs.collapse")
+            }).on("hide.bs.collapse", function() {
+                console.log("hide.bs.collapse")
+            }).on("hidden.bs.collapse", function() {
+                console.log("hidden.bs.collapse")
+            })
+        })
+
+    </script>
+</body>
+
+</html>

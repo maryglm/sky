@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+       body{
+            margin-top: 20px;
+        }
+        .course{
+            text-align: center;
+        }
+       table thead tr th {
+           text-align: center;
+       }
+
+    </style>
+</head>
+
+<body>
+<div class="container">
+<form class="form-horizontal" role="form">
+<div class="form-group">
+    <label  class="col-sm-1 control-label">学年：</label>
+    <div class="col-sm-2">
+        <select class="form-control">
+            <option selected>2011年</option>
+            <option>2012年</option>
+            <option>2013年</option>
+            <option>2014年</option>
+            <option>2015年</option>
+        </select>
+    </div>
+    <label  class="col-sm-1 control-label">学期：</label>
+    <div class="col-sm-2" >
+        <select class="form-control">
+            <option selected>上学期</option>
+            <option>期中</option>
+            <option>期末</option>
+            <option>下学期</option>
+
+        </select>
+    </div>
+    <label  class="col-sm-1 control-label">班级：</label>
+    <div class="col-sm-2" id="country">
+        <select class="form-control">
+            <option selected>1班</option>
+            <option>2班</option>
+            <option>3班</option>
+            <option>4班</option>
+            <option>5班</option>
+        </select>
+    </div>
+    <button type="button" class=" col-sm-1 btn btn-default"> <span class="glyphicon glyphicon-search"></span></button></div>
+
+</form>
+<br/>
+
+<table class="table table-bordered course">
+
+    <thead>
+    <tr class="active">
+        <th></th>
+        <th>课程</th>
+        <th >星期一</th>
+        <th >星期二</th>
+        <th>星期三</th>
+        <th>星期四</th>
+        <th>星期五</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="4" class="txt"  >上午</td>
+        <td>第一节</td>
+        <td rowspan="2">通识英语</td>
+        <td rowspan="2">计算机</td>
+        <td rowspan="2">高等数学</td>
+        <td rowspan="2">美术</td>
+        <td rowspan="2">口译</td>
+    </tr>
+    <tr>
+        <td>第二节</td>
+
+
+    </tr>
+    <tr>
+        <td>第三节</td>
+        <td rowspan="2">精读</td>
+        <td rowspan="2">体育</td>
+        <td rowspan="2"></td>
+        <td rowspan="2">笔译</td>
+        <td rowspan="2">英国文学</td>
+
+    </tr>
+    <tr>
+        <td>第四节</td>
+
+
+    </tr>
+    <tr class="active"> <td colspan="7"></td></tr>
+    <tr>
+        <td rowspan="4" class="txt">下午</td>
+        <td>第一节</td>
+
+        <td rowspan="2"></td>
+        <td rowspan="2">计算机</td>
+        <td rowspan="2">高等数学</td>
+        <td rowspan="2">美术</td>
+        <td rowspan="2">口译</td>
+
+    </tr>
+    <tr>
+        <td>第二节</td>
+
+
+    </tr>
+    <tr>
+        <td>第三节</td>
+        <td rowspan="2">精读</td>
+        <td rowspan="2">体育</td>
+        <td rowspan="2"></td>
+        <td rowspan="2">笔译</td>
+        <td rowspan="2">英国文学</td>
+
+    </tr>
+    <tr>
+        <td>第四节</td>
+
+
+    </tr>
+    </tbody>
+</table>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../../js/jquery-1.11.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../js/bootstrap.min.js"></script>
+</body>
+
+</html>

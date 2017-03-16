@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="col-sm-2  left_nav" id="float_fixed" >
+    <div class="panel panel-primary console" id="fixedPosition">
+        <div class="panel-heading" id="float_header" ondragstart="return false">
+            <h3 class="panel-title text-center" ondragstart="return false">
+               菜单栏
+            </h3>
+        </div>
+        <div class="panel-body">
+            <div class="panel-group " >
+                <div class="panel panel-default">
+                    <div class="panel-heading ">
+                        <h4 class="panel-title ">
+                            <a data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseOne">
+                                个人信息
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <a  id="resume">基本信息</a><hr>
+                            <a  id="resume_xg">信息修改</a><hr>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseTwo">
+                                用户管理
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <a  id="user_student">学生</a><hr>
+
+                            <a  id="user_teacher">老师</a><hr>
+
+                            <a  id="super_admin">超级管理员</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion"
+                               id="new_user">
+                                新增用户
+                            </a>
+                        </h4>
+                    </div>
+
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseFour">
+                                课程信息管理
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <a  id="sd_college">水利水电学院</a><hr>
+                            <a  id="jsj_college">计算机学院</a><hr>
+                            <a  id="wl_college">物理工程学院</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>新增用户</title>
+	    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+       .marg{
+       	margin-top: 20px;
+       }
+       .marg2{
+       	margin-bottom: 50px;
+       }     
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="row marg">
+	<div class="col-xs-12">
+		<h1>新增用户</h1>
+	</div>
+</div>
+<div class="row marg">
+	<div class="col-lg-6">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="user">用户名:</label>
+			<div class="col-md-10">
+				<input type="text" class="form-control" id="user" placeholder="请输入用户名" value="">
+			</div>
+	   </div>
+	</div>
+    <div class="col-lg-6">
+    	<div class="form-group">
+			<label class="col-md-2 control-label" for="pwd">密码:</label>
+			<div class="col-md-10">
+				<input type="password" class="form-control" id="pwd" placeholder="请输入密码" value="">
+			</div>
+	   </div>
+    </div>
+</div>
+
+
+     <div class="row marg">
+	<div class="col-lg-6">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="name">真实姓名:</label>
+			<div class="col-md-10">
+				<input type="text" class="form-control" id="name" placeholder="请输入姓名" value="">
+			</div>
+	   </div>
+	</div>
+    <div class="col-lg-6">
+    	<div class="form-group">
+			<label class="col-md-2 control-label" for="call">联系方式:</label>
+			<div class="col-md-10">
+				<input type="text" class="form-control" id="call" placeholder="请输入联系方式" value="">
+			</div>
+	   </div>
+    </div>
+</div>
+
+
+    <div class="row marg">
+	<div class="col-lg-6">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="name_nub">身份证件:</label>
+			<div class="col-md-10">
+				<input type="text" class="form-control" id="name_nub" placeholder="请输入身份证号" value="">
+			</div>
+	   </div>
+	</div>
+    <div class="col-lg-6">
+    	<div class="form-group">
+			<label class="col-md-2 control-label" for="site">家庭住址:</label>
+			<div class="col-md-10">
+				<input type="text" class="form-control" id="site" placeholder="请输入家庭住址" value="">
+			</div>
+	   </div>
+    </div>
+</div>	
+
+
+    <div class="row marg">
+	<div class="col-lg-6">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="post_n">职位/班级:</label>
+			<div class="col-md-10">
+				<input type="text" class="form-control" id="post_n" placeholder="请输入职位" value="">
+			</div>
+	   </div>
+	</div>
+    <div class="col-lg-6">
+    	<div class="form-group">
+			<label class="col-md-2 control-label" for="email">E-mail:</label>
+			<div class="col-md-10">
+				<input type="text" class="form-control" id="email" placeholder="请输入E-mail" value="">
+			</div>
+	   </div>
+    </div>
+</div>	
+
+<div class="row marg">
+	<div class="col-lg-6 col-xs-12">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="super">权限:</label>
+			<div class="col-md-10">
+				 <select id="super" class="form-control marg2">
+                        <option>学生</option>
+                        <option>教师</option>
+                        <option>超级管理员</option>
+                 </select>
+			</div>
+	   </div>
+	</div>
+    <div class="col-lg-6 col-xs-12">
+    	<div class="form-group">
+
+		  <a type="button" class="btn btn-primary btn-lg btn-block marg2">立即新增</a>
+		
+	   </div>
+    </div>
+</div>	
+
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../../js/jquery-1.11.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../js/bootstrap.min.js"></script>
+
+</body>
+</html>
