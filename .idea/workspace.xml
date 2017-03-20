@@ -2,67 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d4afa9c-8708-4179-a1ee-5421bd03bb2f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/back.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/partner21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/pic1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/pic10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/pic2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/pic3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/pic4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/pic5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/pic6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/pic7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/pic8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/pic9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/pink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/s1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/s2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/s3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/s4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/s5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/singer1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/singer2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/singer3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/singer4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/image/singer5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/songs/任素汐 - 我要你.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/css/home.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/js/hitradio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/music audio interfacail.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/play.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/register_check.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/slide.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/music/suit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -83,12 +23,12 @@
     <favorites_list name="chat" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ie-emulation-modes-warning.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/js/assets/ie-emulation-modes-warning.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+            <state relative-caret-position="690">
+              <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -97,8 +37,8 @@
       <file leaf-file-name="hitradio.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/music/js/hitradio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -116,8 +56,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="236" />
-    <option name="y" value="32" />
+    <option name="x" value="313" />
+    <option name="y" value="76" />
     <option name="width" value="1290" />
     <option name="height" value="727" />
   </component>
@@ -141,11 +81,79 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="manage system" />
+              <option name="myItemId" value="myDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="manage system" />
+              <option name="myItemId" value="myDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="image" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -240,6 +248,7 @@
       <updated>1487144402651</updated>
       <workItem from="1487144407510" duration="97000" />
       <workItem from="1489627060102" duration="1995000" />
+      <workItem from="1489992952720" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="manage system">
       <created>1489627349959</created>
@@ -259,21 +268,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2092000" />
+    <option name="totallyTimeSpent" value="2132000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="236" y="32" width="1290" height="727" extended-state="0" />
+    <frame x="313" y="76" width="1290" height="727" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2598116" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -301,7 +310,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/system/js/assets/ie-emulation-modes-warning.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="690">
           <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
           <folding />
         </state>
@@ -311,6 +320,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/js/assets/ie-emulation-modes-warning.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/js/hitradio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
           <folding />
         </state>
       </provider>
