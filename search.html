@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/css/font-awesome.min.css">
+
+
+
+
+    <style>
+       /**{border: 1px solid #0000ff }*/
+       .shopone{width: 220px;height: 410px;margin-bottom:30px;margin-right: 30px;margin-left:20px;position: relative;float: left}
+        /*.shopone{width: 220px;height: 410px;margin-bottom:30px;margin-right: 0px;margin-left:20px;position: relative;display: inline-block;}*/
+        .shoptop{ display:block;width: 220px;height:330px;margin: 0;}
+        .shopimg{width: 220px;height:330px;}
+        .shopxia{width:218px;height: 74px;margin: 0 auto;text-decoration: none !important; color: black;}
+        .shophidden{display:block;display:none;width:220px;margin: 0px ;padding:0px;background-color: #d9534f;
+            opacity:0.8;color:white;line-height: 30px;text-align: center;position:absolute;top:300px;font-weight: bold;}
+
+        .fivestart{width: 16px;height: 15px;}
+        .count-right{float: right}
+        .goodsremak{width: 202px;height: 45px;overflow:hidden;text-align: center;margin: 0 auto;padding-top: 5px;margin-bottom: 10px;line-height: 1.4em;}
+
+        .show{/*border: 1px solid red;*/box-shadow: 0px 0px 2px red;cursor:pointer }
+    </style>
+</head>
+<body>
+<!-- 登录栏开始 -->
+<header id="header">
+    <div class="w_1200">
+        <span class="glyphicon glyphicon-home" ><a href="#">蘑菇街首页</a></span>
+        <ul id="u_fr">
+            <li><a href="#">注册</a></li>
+            <li><a href="#">登录</a></li>
+            <li class="c_999">|</li>
+            <li><a href="#"><span class="glyphicon glyphicon-th-list"></span> 我的订单</a></li>
+            <li class="c_999">|</li>
+            <li><a href="#">购物车</a></li>
+            <li class="c_999">|</li>
+            <li id="x_service"><a href="#"><span class="glyphicon glyphicon-phone-alt"></span> 客服服务</a>
+                <ul class="u_nofr">
+                    <li><a href="">消费者服务</a></li>
+                    <li><a href="">商务服务</a></li>
+                    <li><a href="">规则中心</a></li>
+                </ul>
+            </li>
+            <li class="c_999">|</li>
+            <li id="x_myshop"><a href="#">我的小店</a>
+                <ul class="u_nofr1">
+                    <li><a href="">管理后台</a></li>
+                    <li><a href="">商家社区</a></li>
+                    <li><a href="">商家培训</a></li>
+                    <li><a href="">市场入驻</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+</header>
+<!-- 登录栏结束 -->
+
+<!-- logo栏开始 -->
+<div id="x_logo_100">
+    <div id="x_logo">
+        <p id="x_logo_p1"><span id="x_logo_t">搜商品</span><i class=" icon-caret-down"></i><input type="text" class="s_class"><span id="x_logo_s"><a href="#" id="shopsearch">搜索</a></span></p>
+        <p id="x_logo_sub">
+            <a href="">春季套装</a>
+            <a href="">卫衣</a>
+            <a href="">牛仔裤</a>
+            <a href="">打底衫</a>
+            <a href="">单鞋</a>
+            <a href="">打底裤</a>
+            <a href="">斜挎包</a>
+            <a href="">男士外套</a>
+            <a href="">棒球服</a>
+            <a href="">连衣裙</a>
+        </p>
+        <div id="x_logo_img"><img src="../img/erweima.png" height="69" width="175" alt=""></div>
+    </div>
+    <!-- logo栏结束 -->
+
+
+
+
+<!--<div id="shops">
+
+</div>-->
+<div id="shopall" style="width: 1200px;margin: 0 auto;border: 1px solid red;padding-left: 50px;">
+
+    </div>
+
+
+</div>
+<script>
+    $(function () {
+
+
+    })
+</script>
+
+
+
+
+<script>
+    /*jquery加载事件*/
+    $(function () {
+
+
+
+
+        var name ="searchinfo=";
+        var kname
+        var ca = document.cookie.split(';');
+
+        for(var i=0;i<ca.length;i++){
+            var c = ca[i].trim();
+            if (c.indexOf(name)==0) {
+                kname = c.split("=");
+
+            }
+        }
+        $.get("http://115.159.52.215:8080/mogu/servlet/CommodityInfoController",{method:"searchinfo",s_class:kname[1]},function (data) {
+
+            var num = eval(data);
+            console.log(num);
+            //拼接的字符串
+            var imgsrc="";
+            var str;
+            var goods="";
+
+
+            for(var i=0; i<num.length;i++){
+
+
+
+                goods+= '<div class="shopone"> <a class="shoptop"><img class="shopimg" src="'+num[i].s_imgsrc+'"></a> <a class="shophidden">找相似</a> <a class="shopxia" style="color: black;text-decoration: none"> <p class="goodsremak">'+num[i].s_remak+
+                    '</p> <div class="goodsprice"> <b>￥'+num[i].s_price+'</b> <span class="count-right"><img class="fivestart" src="../img/五星图标.png">'+num[i].s_stock+'</span></div> </a></div>'
+                /// yy网络红人直播服装女主播上镜衣服性感长袖弟兄夜店TT恤上
+
+                $("#shopall").html(goods)
+
+            }
+
+
+
+
+
+            $(".shopone").hover(function () {
+                console.log(1)
+
+                $(this).addClass("show");
+                $(this).children(".shophidden").show();
+
+
+
+            },function () {
+                $(this).removeClass("show");
+                $(this).children(".shophidden").hide();
+            })
+
+
+            //查询
+
+        })
+
+
+    })
+
+
+
+    //查询衣服
+    $("#shopsearch").click(function () {
+        var sclass=$(".s_class").val();
+
+
+        $.get("http://115.159.52.215:8080/mogu/servlet/CommodityInfoController",{method:"searchinfo",s_class:sclass},function (data) {
+
+            var num = eval(data);
+            console.log(num);
+            //拼接的字符串
+            var imgsrc="";
+            var str;
+            var goods="";
+
+
+            for(var i=0; i<num.length;i++){
+
+
+
+                goods+= '<div class="shopone"> <a class="shoptop"><img class="shopimg" src="'+num[i].s_imgsrc+'"></a> <a class="shophidden">找相似</a> <a class="shopxia" style="color: black;text-decoration: none"> <p class="goodsremak">'+num[i].s_remak+
+                    '</p> <div class="goodsprice"> <b>￥'+num[i].s_price+'</b> <span class="count-right"><img class="fivestart" src="../img/五星图标.png">'+num[i].s_stock+'</span></div> </a></div>'
+                /// yy网络红人直播服装女主播上镜衣服性感长袖弟兄夜店TT恤上
+
+                $("#shopall").html(goods)
+
+            }
+
+
+
+
+
+            $(".shopone").hover(function () {
+                console.log(1)
+
+                $(this).addClass("show");
+                $(this).children(".shophidden").show();
+
+
+
+            },function () {
+                $(this).removeClass("show");
+                $(this).children(".shophidden").hide();
+            })
+
+
+            //查询
+
+        })
+
+
+    })
+</script>
+</body>
+</html>

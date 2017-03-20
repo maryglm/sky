@@ -1,0 +1,870 @@
+body {
+    background-color: #F5F5F5;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+.y_first {
+    height: 180px;
+    margin-top: 40px;
+}
+
+.y_first_one_left {
+    height: 180px;
+    width: 230px;
+    background-color: white;
+    border: 1px solid #F5F5F5;
+    float: left;
+    position: relative
+}
+
+.y_first_one_left_pOne {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+.y_first_one_left_pTwo {
+    margin-left: 20px;
+    background-color: #666;
+    color: white;
+    font-size: 16px;
+    display: block;
+    width: 70px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.y_first_one_left img {
+    height: 115px;
+    width: 120px;
+    margin: 0 auto;
+    margin-left: 30px;
+    transition: margin-left 1s;
+}
+
+.y_first_one_left img:hover {
+    margin-left: 20px;
+}
+
+.y_first_one_left span {
+    position: absolute;
+    top: 120px;
+    left: 150px;
+}
+
+.y_first_one_left span {
+    color: white;
+    background-color: #FF5577;
+}
+
+.y_first_one_right {
+    float: left
+}
+
+.y_first_one_right img {
+    height: 90px;
+    width: 90px;
+    float: right;
+    margin-right: 10px;
+    transition: margin-right 1s;
+}
+
+.y_first_one_right img:hover {
+    margin-right: 15px;
+}
+
+.y_first_one_right_top {
+    height: 90px;
+    width: 230px;
+    background-color: white;
+    border: 1px solid #F5F5F5;
+}
+
+.y_first_one_right_top div {
+    margin: 20px 0 0 20px;
+    float: left
+}
+
+.y_first_one_right_bottom {
+    height: 90px;
+    width: 230px;
+    background-color: white;
+    border: 1px solid #F5F5F5;
+}
+
+.y_first_one_right_bottom div {
+    margin: 20px 0 0 20px;
+    float: left;
+}
+
+.y_first_two_left {
+    margin-left: 20px;
+    height: 180px;
+    width: 230px;
+    background-color: white;
+    border: 1px solid #F5F5F5;
+    float: left;
+}
+
+.y_first_two_left_pOne {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+.y_first_two_left_pTwo {
+    margin-left: 20px;
+    font-size: 12px;
+    color: #666;
+    line-height: 15px;
+}
+
+.y_first_two_left img {
+    height: 120px;
+    width: 120px;
+    margin-left: 50px;
+    transition: margin-left 1s;
+}
+
+.y_first_two_left img:hover {
+    margin-left: 40px;
+}
+
+.y_first_two_right {
+    float: left
+}
+
+.y_first_two_right img {
+    height: 90px;
+    width: 90px;
+    float: right;
+    margin-right: 10px;
+    transition: margin-right 1s;
+}
+
+.y_first_two_right img:hover {
+    margin-right: 15px;
+}
+
+.y_first_two_right_top {
+    height: 90px;
+    width: 230px;
+    background-color: white;
+    border: 1px solid #F5F5F5;
+}
+
+.y_first_two_right_top div {
+    margin: 20px 0 0 20px;
+    float: left
+}
+
+.y_first_two_right_bottom {
+    height: 90px;
+    width: 230px;
+    background-color: white;
+    border: 1px solid #F5F5F5;
+}
+
+.y_first_two_right_bottom div {
+    margin: 20px 0 0 20px;
+    float: left;
+}
+
+.y_first_three_left {
+    margin-left: 20px;
+    height: 180px;
+    width: 240px;
+    background-color: white;
+    border: 1px solid #F5F5F5;
+    float: left;
+}
+
+.y_first_three_left_pOne {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+.y_first_three_left_pTwo {
+    margin-left: 20px;
+    font-size: 12px;
+    color: #666;
+    line-height: 15px;
+}
+
+.y_first_three_left img {
+    height: 120px;
+    width: 120px;
+    margin-left: 50px;
+    transition: margin-left 1s;
+}
+
+.y_first_three_left img:hover {
+    margin-left: 40px;
+}
+
+
+/*模块一结束*/
+
+
+/*模块二开始*/
+
+.y_second {
+    margin-top: 40px;
+}
+
+.y_second_top_left {
+    width: 7px;
+    height: 20px;
+    background-color: red;
+    float: left
+}
+
+.y_second_top_mid {
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    float: left
+}
+
+.y_second_top_right {
+    height: 20px;
+    float: right;
+}
+
+.cls {
+    clear: both
+}
+
+.y_second_bottom_left {
+    margin-top: 10px;
+    height: 360px;
+    width: 180px;
+    float: left;
+}
+
+.y_second_bottom_left div {
+    height: 40px;
+    line-height: 40px;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 45px;
+    background-color: #2F2E30;
+    opacity: 0.8;
+    color: white;
+    z-index: 100;
+    position: relative;
+    left: 40px;
+    top: -100px;
+}
+
+.y_second_bottom_left img {
+    height: 360px;
+    width: 180px;
+}
+
+.y_second_bottom_left img:hover {
+    opacity: 0.8;
+}
+
+.y_second_bottom_left_div {
+    position: absolute;
+    top:-10px;
+    left: -10px;
+    margin: 10px 0 0 10px;
+    height: 360px;
+    width: 180px;
+    float: left;
+    transition:transform 0.5s linear;
+}
+
+.y_second_bottom_left_div div {
+    height: 40px;
+    line-height: 40px;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 45px;
+    background-color: #2F2E30;
+    opacity: 0.8;
+    color: white;
+    z-index: 100;
+    position: relative;
+    left: 40px;
+    top: -100px;
+}
+
+.y_second_bottom_left_div img {
+    height: 360px;
+    width: 180px;
+}
+
+.y_second_bottom_left_div img:hover {
+    opacity: 0.8;
+}
+
+.y_second_bottom_right {
+    margin-top: 10px;
+    height: 360px;
+    width: 250px;
+    float: left;
+}
+
+.y_second_bottom_right div {
+    margin: 0 0 5px 10px;
+    height: 117px;
+    width: 114px;
+    float: left;
+    overflow: hidden;
+}
+
+.y_second_bottom_right div img {
+    width: 114px;
+}
+
+.y_second_bottom_right div img:hover {
+    opacity: 0.6;
+}
+
+
+/*模块二结束*/
+
+
+/*模块三开始*/
+
+.y_third {
+    margin-top: 40px;
+}
+
+.y_third_top_left {
+    width: 7px;
+    height: 20px;
+    background-color: pink;
+    float: left
+}
+
+.y_third_top_mid {
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    float: left
+}
+
+.y_third_top_right {
+    height: 20px;
+    float: right;
+}
+
+
+/*轮播图*/
+
+.outSide {
+    height: 260px;
+    width: 950px;
+    overflow: hidden;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.inSide {
+    width: 3800px;
+    position: relative;
+}
+
+.inSide_left_div {
+    height: 160px;
+    width: 310px;
+    float: left
+}
+
+.inSide_left_top_div img {
+    height: 160px;
+    width: 310px;
+}
+
+.y_third_bottom {
+    float: left
+}
+
+.inSide_left_bottom_div div {
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 90px;
+    width: 60px;
+    float: left;
+}
+
+.inSide_left_bottom_div img {
+    height: 60px;
+    width: 60px;
+}
+
+.inSide_left_bottom_div img:hover {
+    height: 65px;
+    width: 65px;
+}
+
+.inSide_left_bottom_div p {
+    height: 20px;
+    line-height: 30px;
+    width: 60px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.inSide_mid_div {
+    height: 160px;
+    width: 310px;
+    float: left;
+    margin-left: 10px;
+}
+
+.y_third_right {
+    height: 260px;
+    width: 240px;
+    float: left;
+    margin: 10px 0 0 10px;
+    background-color: white;
+}
+
+.y_third_right span {
+    display: block;
+    margin: 10px 0px 0px 20px;
+    font-size: 16px;
+}
+
+.y_third_right img {
+    height: 70px;
+    width: 70px;
+}
+
+.y_third_right img:hover {
+    transform: rotatez(30deg);
+    transition: transform ease 1s;
+}
+
+.y_third_right div {
+    float: left;
+    margin-left: 5px;
+}
+
+.y_third_right div p {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+
+/*模块三结束*/
+
+
+/*模块四开始*/
+
+.y_four {
+    margin-top: 40px;
+}
+
+.y_four_top_left {
+    width: 7px;
+    height: 20px;
+    background-color: #B4A48D;
+    float: left
+}
+
+.y_four_top ul li {
+    float: left;
+    margin-left: 20px;
+    font-size: 13px;
+    color: #666;
+}
+
+.y_four_top_mid {
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    float: left
+}
+
+.y_four_top_right {
+    height: 20px;
+    float: right;
+}
+
+.y_four_bottom {
+    margin-top: 10px;
+}
+
+.y_four_bottom_left {
+    height: 360px;
+    width: 240px;
+    background-color: #F4EED6;
+    float: left;
+}
+
+.y_four_bottom_left img {
+    height: 170px;
+    width: 170px;
+    float: left;
+    margin: 10px 0 0 30px;
+    transition: margin-top 1s;
+}
+
+.y_four_bottom_left img:hover {
+    margin-top: 0px;
+}
+
+.y_four_bottom_left span {
+    display: block;
+    height: 30px;
+    width: 60px;
+    margin: 20px 0 0 15px;
+    background-color: #938F81;
+    float: left;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+.y_four_bottom_left span:hover {
+    opacity: 1;
+}
+
+#y_four_bottom_left_span {
+    display: block;
+    height: 60px;
+    width: 90px;
+    margin: 20px 0 0 70px;
+    background-color: #F4EED6;
+    color: black;
+    float: left;
+}
+
+.y_four_bottom_mid {
+    height: 360px;
+    width: 720px;
+    float: left;
+}
+
+.y_four_bottom_mid div {
+    height: 180px;
+    width: 240px;
+    float: left;
+    border: 1px solid #F5F5F5;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.y_four_bottom_mid div span {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.y_four_bottom_mid div img {
+    width: 150px;
+    height: 100px;
+    margin-left: 40px;
+    transition: margin-top 1s;
+}
+
+.y_four_bottom_mid div img:hover {
+    margin-top: -10px;
+}
+
+.y_four_bottom_right {
+    height: 360px;
+    width: 240px;
+    background-color: white;
+    float: left;
+}
+
+.y_four_bottom_right p {
+    text-align: center;
+}
+
+.y_four_bottom_right p span {
+    font-size: 13px;
+}
+
+.y_four_bottom_right img {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.y_four_bottom_right img:hover {
+    opacity: 0.8;
+}
+
+.y_four_bottom_right div p {
+    font-size: 13px;
+    text-align: left;
+}
+
+.y_four_bottom_right div {
+    height: 80px;
+    width: 200px;
+    margin: 0px 10px;
+    float: left;
+}
+
+
+/*模块四结束*/
+
+
+/*模块五开始*/
+
+.y_five {
+    margin-top: 40px;
+}
+
+.y_five_top_left {
+    width: 7px;
+    height: 20px;
+    background-color: #9F86CF;
+    float: left
+}
+
+.y_five_top ul li {
+    float: left;
+    margin-left: 20px;
+    font-size: 13px;
+    color: #666;
+}
+
+.y_five_top_mid {
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    float: left
+}
+
+.y_five_top_right {
+    height: 20px;
+    float: right;
+}
+
+.y_five_bottom {
+    margin-top: 10px;
+}
+
+.y_five_bottom_left {
+    height: 360px;
+    width: 240px;
+    background-color: #ECDAF5;
+    float: left;
+}
+
+.y_five_bottom_left img {
+    height: 170px;
+    width: 170px;
+    float: left;
+    margin: 10px 0 0 30px;
+    transition: margin-top 1s;
+}
+
+.y_five_bottom_left img:hover {
+    margin-top: 0px;
+}
+
+.y_five_bottom_left span {
+    display: block;
+    height: 30px;
+    width: 60px;
+    margin: 20px 0 0 15px;
+    background-color: #938F81;
+    float: left;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+.y_five_bottom_left span:hover {
+    opacity: 1;
+}
+
+#y_five_bottom_left_span {
+    display: block;
+    height: 60px;
+    width: 110px;
+    margin: 20px 0 0 60px;
+    background-color: #ECDAF5;
+    color: black;
+    float: left;
+}
+
+.y_five_bottom_right {
+    height: 360px;
+    width: 240px;
+    background-color: white;
+    float: left;
+}
+
+.y_five_bottom_right div {
+    height: 80px;
+    width: 200px;
+    margin-top: 10px;
+    float: left;
+}
+
+.y_five_bottom_right img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+}
+
+.y_five_bottom_right img:hover {
+    opacity: 0.8;
+}
+
+
+/*模块五结束*/
+
+
+/*模块六开始*/
+
+.y_six {
+    margin-top: 40px;
+}
+
+.y_six_top_left {
+    width: 7px;
+    height: 20px;
+    background-color: #FFA1B8;
+    float: left
+}
+
+.y_six_top ul li {
+    float: left;
+    margin-left: 20px;
+    font-size: 13px;
+    color: #666;
+}
+
+.y_six_top_mid {
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    float: left
+}
+
+.y_six_top_right {
+    height: 20px;
+    float: right;
+}
+
+.y_six_bottom {
+    margin-top: 10px;
+}
+
+.y_six_bottom_left {
+    height: 360px;
+    width: 240px;
+    background-color: #FCE6EE;
+    float: left;
+}
+
+.y_six_bottom_left img {
+    height: 170px;
+    width: 170px;
+    float: left;
+    margin: 10px 0 0 30px;
+    transition: margin-top 1s;
+}
+
+.y_six_bottom_left img:hover {
+    margin-top: 0px;
+}
+
+.y_six_bottom_left span {
+    display: block;
+    height: 30px;
+    width: 60px;
+    margin: 20px 0 0 15px;
+    background-color: #938F81;
+    float: left;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+.y_six_bottom_left span:hover {
+    opacity: 1;
+}
+
+#y_six_bottom_left_span {
+    display: block;
+    height: 60px;
+    width: 110px;
+    margin: 20px 0 0 60px;
+    background-color: #FCE6EE;
+    color: black;
+    float: left;
+}
+
+.y_six_bottom_right {
+    height: 360px;
+    width: 240px;
+    background-color: white;
+    float: left;
+}
+
+.y_six_bottom_right div {
+    height: 80px;
+    width: 200px;
+    margin-top: 10px;
+    float: left;
+}
+
+.y_six_bottom_right img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+}
+
+.y_six_bottom_right img:hover {
+    opacity: 0.8;
+}
+/*修改开始*/
+.x_xuanzhuan{
+    position: relative;
+    height: 360px;
+    width: 180px;
+    float: left;
+    -overflow: hidden;
+    margin: 10px 0 0 10px;
+}
+.x_xz_img{
+    height: 360px;
+    width: 180px;
+    transform:rotateY(90deg);
+    transition:transform 0.5s linear;
+}
+/*修改结束*/
