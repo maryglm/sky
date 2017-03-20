@@ -1,0 +1,788 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*全局属性*/
+hr{
+	margin:-8px 0 15px 0; 
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+.notd{
+	text-decoration: none;
+	color: #333;
+	font-size: 13px;
+}
+.hastd{
+	font-size: 13px;
+	color: #666;
+}
+.f_13{
+	font-size: 13px;
+}
+/*登录栏开始*/
+#header{
+	min-width: 1200px;
+	padding: 0;
+	margin: 0;
+	height: 33px;
+	background: rgb(242,242,242);
+	line-height: 33px;
+}
+.w_1200{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+#header span{
+	font-size: 13px;
+	color: rgb(102,102,102);
+}
+#header span a{
+	font-size: 13px;
+	margin-left: 10px;
+	color: #333;
+	text-decoration: none;
+}
+#u_fr{
+	margin: 0;
+	margin-left: 100px;
+	padding: 0;
+	float: right;
+}
+.c_999{
+	color: #999;
+}
+#u_fr li{
+	position: relative;
+	float: left;
+	list-style: none;
+	margin-left: 25px;
+}
+#u_fr li a{
+	text-decoration: none;
+	color: #666;
+	font-size: 13px;
+}
+.u_nofr{
+	display: none;
+	position: absolute;
+	height: 100px;
+	width: 90px;
+	left: -10px;
+	margin: 0;
+	padding: 0;
+	background: rgb(242,242,242);
+}
+#x_userctrl{
+	display: none;
+	position: absolute;
+	height: 100px;
+	width: 90px;
+	left: -10px;
+	margin: 0;
+	padding: 0;
+	background: rgb(242,242,242);
+}
+#x_userctrl_f li{
+	margin: 0 10px;
+}
+#x_mycollect_f li{
+	margin: 0 10px;
+}
+#x_mycollect{
+	display: none;
+	position: absolute;
+	height: 100px;
+	width: 90px;
+	left: -10px;
+	margin: 0;
+	padding: 0;
+	background: rgb(242,242,242);
+}
+#x_service li{
+	margin: 0 10px;
+}
+#x_myshop li{
+	margin: 0 10px;
+}
+#x_myshop ul,#x_service ul,#x_userctrl_f ul,#x_mycollect_f ul{
+	z-index: 1;
+}
+#x_mycollect_f:hover #x_mycollect{
+	display: block;
+}
+#x_userctrl_f:hover #x_userctrl{
+	display: block;
+}
+#x_service:hover .u_nofr{
+	display: block;
+}
+#x_myshop:hover .u_nofr1{
+	display: block;
+}
+.u_nofr1{
+	display: none;
+	position: absolute;
+	height: 130px;
+	width: 90px;
+	left: -10px;
+	margin: 0;
+	padding: 0;
+	background: rgb(242,242,242);
+}
+.u_nofr li{
+	clear: both;
+}
+/*登录栏结束*/
+
+/*logo栏开始*/
+#x_logo_100{
+	width: 100%;
+	min-width: 1200px;
+	background: white;
+}
+#x_logo{
+	border: 1px solid white;
+	position: relative;
+	width: 1200px;
+	height: 90px;
+	;
+	margin: 0 auto;
+}
+#x_logo img{
+float: left;
+margin-top: 5px
+}
+#x_logo input{
+	border:none;
+	outline: none;
+	width: 310px;
+}
+#x_logo_img{
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+#x_logo_p1{
+	margin: 0 auto;
+	margin-top: 20px;
+	line-height: 30px;
+	border: 1px solid rgb(255,0,119);
+	height: 35px;
+	width: 485px;
+	border-radius: 0 5px 5px 0;
+	overflow: hidden;
+}
+#x_logo_p1 a{
+	color: white;
+	text-decoration: none;
+}
+#x_logo_sub{
+	width: 485px;
+	margin: 0 auto;
+	line-height: 30px;
+}
+#x_logo_sub a{
+	color: #555;
+	font-size: 13px;
+	margin-right: 5px;
+}
+#x_logo_sub a:hover{
+	color: rgb(255,0,119);
+}
+#x_logo i{
+	color: rgb(255,0,119);
+	margin-right: 12px;
+}
+#x_logo_t{
+	margin-right: 4px;
+	font-size: 13px;
+	color: rgb(255,0,119);
+	margin-left: 10px;
+}
+#x_logo_s{
+	text-align: center;
+	color: white;
+	-border-radius: 0 5px 5px 0;
+	font-size: 18px;
+	display: inline-block;
+	height: 34px;
+	width: 100px;
+	background: rgb(255,0,119);
+}
+#x_logo_s a{
+
+}
+/*logo栏结束*/
+
+/*菜单栏开始*/
+#x_line{
+	width: 100%;
+	min-width: 1200px;
+	height: 2px;
+	background: rgb(255,0,119);
+}
+#persent100{
+width: 100%;
+min-width: 1200px;
+background: rgb(254,160,148)
+}
+#x_theme{
+	display: inline-block;
+	line-height: 40px;
+	height: 40px;
+	width: 257px;
+	background: rgb(255,0,119);
+}
+#x_theme_ul{
+	position: absolute;
+	left: 300px;
+	top: 10px;
+	
+}
+#x_theme_ul li{
+	float: left;
+	margin-right: 30px;
+}
+#x_theme_ul li a{
+	color: #666;
+	font-size: 18px;
+	text-decoration: none;
+}
+#x_theme_ul li a:hover{
+	color: rgb(255,0,119) 
+}
+#x_theme a{
+		text-decoration: none;
+		font-size: 18px;
+		color: white;
+		
+}
+#x_theme span{
+	color: white;
+	font-size: 16px;
+	margin-left: 25px;
+	margin-right: 5px;
+}
+#x_menu{
+	background: rgb(236,249,249);
+	position: relative;
+	height: 440px;
+	width: 257px;
+	-: 1px solid #666;
+}
+#x_menu ul{
+	padding: 10px 0 0 0px;
+}
+#x_menu li{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 4px 0 4px 20px;
+	cursor: pointer;
+}
+#x_menu li a{
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-left: 10px;
+}
+#x_child_menu{
+	display: none;
+	background: white;
+	position: absolute;
+	height: 440px;
+	width: 560px;
+	top:0;
+	left: 257px;
+	z-index: 10000;
+}
+.x_child_menu_c{
+	position: relative;
+	width: 500px;
+	margin-left: 20px;
+	
+
+}
+.x_child_menu_c div{
+	display: none;
+	position: relative;
+	z-index: 12;
+}
+.fr{
+	float: right;
+}
+#x_shangyi{
+	height: 440px;
+	width: 500px;
+	-: 1px solid #666;
+}
+.x_boldp{
+	font-weight: bold;
+	margin-top: 15px;
+}
+.x_boldp a{
+	text-decoration: none;
+	color: black;
+}
+#x_shangyi ul{
+	margin: 0;
+	padding: 0;
+}
+#x_shangyi ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#x_shangyi ul li a{
+	margin: 0 20px 0 0;
+}
+.maincolor{
+	color: rgb(255,0,119) !important;
+}
+
+
+/*蒲大爷的菜单栏开始*/
+/*裙子*/
+#p_qunzi{
+	height: 440px;
+	width: 500px;
+	-: 1px solid #666;
+	
+}
+#p_qunzi ul{
+	margin: 0;
+	padding: 0;
+}
+#p_qunzi ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#x_shangyi ul li a{
+	margin: 0 20px 0 0;
+}
+
+/*裤子*/
+#p_kuzi{
+	height: 440px;
+	width: 500px;
+	-: 1px solid #666;
+	
+}
+#p_kuzi ul{
+	margin: 0;
+	padding: 0;
+}
+#p_kuzi ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#p_kuzi ul li a{
+	margin: 0 20px 0 0;
+}
+
+
+
+
+/*内衣*/
+
+#p_neiyi{
+	height: 440px;
+	width: 500px;
+	-: 1px solid #666;
+	
+}
+#p_neiyi ul{
+	margin: 0;
+	padding: 0;
+}
+#p_neiyi ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#p_neiyi ul li a{
+	margin: 0 20px 0 0;
+}
+
+
+/*女鞋*/
+#p_nvxie{
+	height: 440px;
+	width: 500px;
+	-: 1px solid #666;
+	
+}
+#p_nvxie ul{
+	margin: 0;
+	padding: 0;
+}
+#p_nvxie ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#p_nvxie ul li a{
+	margin: 0 20px 0 0;
+}
+
+/*男友*/
+#p_nanyou{
+	height: 440px;
+	width: 500px;
+	-: 1px solid #666;
+	
+}
+#p_nanyou ul{
+	margin: 0;
+	padding: 0;
+}
+#p_nanyou ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#p_nanyou ul li a{
+	margin: 0 20px 0 0;
+}
+
+
+/*包包*/
+#p_baobao{
+	height: 440px;
+	width: 500px;
+	-: 1px solid #666;
+	
+}
+#p_baobao ul{
+	margin: 0;
+	padding: 0;
+}
+#p_baobao ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#p_baobao ul li a{
+	margin: 0 20px 0 0;
+}
+
+/*运动*/
+#p_yundong{
+	height: 440px;
+	width: 500px;
+	-: 1px solid #666;
+	
+}
+#p_yundong ul{
+	margin: 0;
+	padding: 0;
+}
+#p_yundong ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#p_yundong ul li a{
+	margin: 0 20px 0 0;
+}
+
+/*美妆*/
+#p_meizhuang{
+	height: 440px;
+	width: 500px;
+	-: 1px solid #666;
+	
+}
+#p_meizhuang ul{
+	margin: 0;
+	padding: 0;
+}
+#p_meizhuang ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#p_meizhuang ul li a{
+	margin: 0 20px 0 0;
+}
+
+/*配饰*/
+#p_peishi{
+	height: 440px;
+	width: 500px;
+	-: 1px solid #666;
+	
+}
+#p_peishi ul{
+	margin: 0;
+	padding: 0;
+}
+#p_peishi ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#p_peishi ul li a{
+	margin: 0 20px 0 0;
+}
+
+/*家居*/
+#p_jiaju{
+	height: 440px;
+	width: 500px;
+	-: 1px solid #666;
+	
+}
+#p_jiaju ul{
+	margin: 0;
+	padding: 0;
+}
+#p_jiaju ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#p_jiaju ul li a{
+	margin: 0 20px 0 0;
+}
+
+/*母婴*/
+#p_muying{
+	height: 440px;
+	width: 500px;
+	-: 1px solid #666;
+	
+}
+#p_muying ul{
+	margin: 0;
+	padding: 0;
+}
+#p_muying ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#p_muying ul li a{
+	margin: 0 20px 0 0;
+}
+
+
+/*食品*/
+#p_food{
+	height: 440px;
+	width: 500px;
+	-: 1px solid #666;
+	
+}
+#p_food ul{
+	margin: 0;
+	padding: 0;
+}
+#p_food ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#p_food ul li a{
+	margin: 0 20px 0 0;
+}
+
+/*电器*/
+#p_dianqi{
+	height: 440px;
+	width: 500px;
+	-: 1px solid #666;
+/*	display:none;*/
+}
+#p_dianqi ul{
+	margin: 0;
+	padding: 0;
+}
+#p_dianqi ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#p_dianqi ul li a{
+	margin: 0 20px 0 0;
+}
+
+
+
+#p_logo{
+width: 390px;
+height: 90px;
+float: left;
+-:1px solid blue;
+}
+#p_sousuo{
+width: 600px;
+height: 90px;
+border:1px solid red;
+float: left;
+line-height: 90px;
+}
+#p_form{
+width: 420px;
+height: 40px;
+	border:1px solid red;
+	margin-top: 14px;
+	float: left;
+
+}
+#p_form form select{
+	color: red;
+	border:0px solid red;
+	float: left;
+	line-height: 40px;
+	margin-top: 10px;
+	float: left;
+
+}
+#souText{
+	width: 365px;
+   height: 38px;
+   border: 0px solid red;
+   float: left;
+}
+#p_sou{
+height: 40px;
+float: left;
+width: 110px;
+background-color:rgb(255,34,94);
+color:white;
+	margin-top:14px;
+	font-size: 14px;
+	line-height: 40px;
+}
+
+
+#p_menu{
+	height: 24px;
+	width: 530px;
+	-: 1px solid #666;
+	float: left;
+}
+
+#p_menu li{
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+}
+
+
+#p_menu li a{
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-left: 10px;
+	float: left;
+}
+/*蒲大爷的菜单栏结束*/
+/*菜单栏结束*/
+
+
+/*幻灯片开始*/
+#huandengpian{
+	background: red;
+	position: relative;
+	;
+}
+.x_child_h{
+	position: absolute;
+	left: 257px;
+	background: red;
+}
+#x_child_li{
+	position: absolute;
+	width: 130px;
+	z-index: 1;
+	left: 540px;
+	bottom: 15px;
+}
+#x_child_li ul li{
+	float: left;
+	height: 15px;
+	width: 15px;
+	border-radius: 15px;
+	background: white;
+	/*rgb(255,0,119);*/
+	margin-left: 6px;
+}
+/*幻灯片结束*/
+
+/*幻灯片中的登录栏开始*/
+#x_login{
+	text-align: center;
+	background: rgb(236,249,249);
+	height: 205px;
+	width: 165px;
+	position: absolute;
+	;
+	right: 0;
+	top: 10px;
+}
+#x_login p span{
+	color: rgb(255,0,119);
+	font-size: 20px;
+	padding: 0 15px;
+}
+#x_specil{
+	text-align: center;
+	background: rgb(236,249,249);
+	height: 205px;
+	width: 165px;
+	position: absolute;
+	;
+	right: 0;
+	bottom: 10px;
+}
+#x_l_user{
+	margin-top: 5px;
+	color: #eee;
+	line-height: 70px;
+	background: rgb(255,148,198);
+	font-size: 45px;
+	height: 70px;
+	width: 70px;
+	border-radius: 70px;
+}
+#x_p_d{
+	margin-left: 25px;
+	line-height: 30px;
+	width: 110px;
+	border-radius: 5px;
+	height: 30px;
+	background: rgb(255,32,93);
+	padding: 0 30px;
+}
+#x_p_d a{
+    color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+#x_login span a{
+	color: #333;
+	font-size: 13px;
+}
+#x_s_nofat{
+	font-size: 16px;
+	color: black;
+	margin-top: 20px;
+}
+#x_s_super{
+	margin-top: -10px;
+}
+/*幻灯片中的登录栏结束*/

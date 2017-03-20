@@ -2,7 +2,527 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d4afa9c-8708-4179-a1ee-5421bd03bb2f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/font/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/font/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/font/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/font/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/font/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/font/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/font/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/font/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/ico/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/img/contribution-sample.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/img/fort_awesome.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/img/icon-flag.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/js/ZeroClipboard-1.1.7.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/1.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/10_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/10_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/10_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/10_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/10_05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/2.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/2_01.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/2_02.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/2_03.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/2_04.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/2_05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/3_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/3_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/3_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/3_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/3_05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/4_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/4_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/4_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/4_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/4_05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/5_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/5_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/5_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/5_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/5_05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/6_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/6_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/6_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/6_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/6_05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/7_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/7_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/7_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/7_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/7_05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/8_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/8_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/8_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/8_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/8_05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/9_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/9_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/9_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/9_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/9_05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/beauty_wrf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/erweima.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/g_back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/g_cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/g_myimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/h_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/h_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/h_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/h_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/h_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/h_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/icon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/inSide_bottom_bottom_div.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/inSide_left_button_div01.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/inSide_left_button_div02.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/inSide_left_button_div03.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/inSide_left_button_div04.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/inSide_left_top_div.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/inSide_mid_bottom_div01.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/inSide_mid_bottom_div02.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/inSide_mid_bottom_div03.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/inSide_mid_bottom_div04.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/inSide_mid_top_div.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/inSide_right_bottom_div.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/inSide_right_top_div.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_bg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_fation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_imgs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_select_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_select_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_select_top1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_select_top2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_select_top3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_select_top4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_select_top5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_select_top6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_select_top7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_top_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_top_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_top_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_top_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_top_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_top_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_25.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_26.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_33.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_34.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_35.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_36.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_44.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_45.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_46.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_53.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_54.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_55.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_56.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_63.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_64.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_65.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_66.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_67.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_68.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_73.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_74.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_75.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_76.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_77.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_78.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_fashion_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/index_women_fashion_peopel.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/kid_zZb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/logo1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/lunbo2_01_01.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/lunbo2_01_02.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/lunbo2_01_03.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/lunbo2_01_04.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/lunbo2_01_05.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/lunbo2_02_01.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/lunbo2_02_02.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/lunbo2_02_03.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/lunbo2_02_04.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/lunbo2_02_05.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/lunbo2_03_01.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/lunbo2_03_02.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/lunbo2_03_03.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/lunbo2_03_04.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/lunbo2_03_05.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/men.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/select_top_center1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/select_top_center2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/select_top_center3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/select_top_center4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/select_top_center5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/select_top_center6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/select_top_center7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/shoe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/sport.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/watch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/woman_2ad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/x_bigimg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/x_bigimg2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/x_bigimg3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/x_bigimg4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/x_bigimg5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/x_lianxikefu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/x_logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/x_remai1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/x_remai2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/x_remai3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/x_specil.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/x_zhuandong1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/x_zhuandong2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/x_zhuandong3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/x_zhuandong4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/x_zhuandong5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_first_01.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_first_02.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_first_03.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_first_04.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_first_05.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_first_06.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_first_07.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_five_bottom_left.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_five_bottom_mid01.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_five_bottom_mid02.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_five_bottom_mid03.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_five_bottom_mid04.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_five_bottom_mid05.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_five_bottom_mid06.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_five_bottom_right01.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_five_bottom_right02.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_five_bottom_right03.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_five_bottom_right04.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_five_bottom_right05.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_five_bottom_right06.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_five_bottom_right07.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_five_bottom_right08.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_four_bottom_left.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_four_bottom_mid01.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_four_bottom_mid02.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_four_bottom_mid03.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_four_bottom_mid04.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_four_bottom_mid05.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_four_bottom_mid06.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_four_bottom_right01.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_four_bottom_right02.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_four_bottom_right03.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_four_bottom_right04.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_second_bottom_left01.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_second_bottom_left02.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_second_bottom_left03.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_second_bottom_left04.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_second_bottom_left05.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_second_bottom_right01.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_second_bottom_right02.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_second_bottom_right03.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_second_bottom_right04.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_second_bottom_right05.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_second_bottom_right06.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_six_bottom_left.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_six_bottom_mid01.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_six_bottom_mid02.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_six_bottom_mid03.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_six_bottom_mid04.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_six_bottom_mid05.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_six_bottom_mid06.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_six_bottom_right01.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_six_bottom_right02.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_six_bottom_right03.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_six_bottom_right04.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_six_bottom_right05.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_six_bottom_right06.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_six_bottom_right07.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_six_bottom_right08.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_third_right01.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_third_right02.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_third_right03.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_third_right04.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_third_right05.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/y_third_right06.webp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(1).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(10).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(11).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(12).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(13).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(14).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(15).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(16).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(17).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(18).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(19).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(2).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(20).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(3).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(4).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(5).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(6).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(7).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(8).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/yifu(9).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_baobao1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_baobao2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_baobao3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_baobao4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_baobao5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_baobao6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_baobao7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_nanyou1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_nanyou2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_nanyou3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_nanyou4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_nanyou5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_nanyou6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_nanyou7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_neiyi1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_neiyi2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_neiyi3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_neiyi4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_neiyi5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_neiyi6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_neiyi7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_nvxie1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_nvxie2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_nvxie3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_nvxie4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_nvxie5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_nvxie6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_nvxie7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_peishi1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_peishi2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_peishi3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_peishi4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_peishi5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_peishi6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/z_peishi7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/五星图标.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/img/联系客服.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/.ruby-version" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/_config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/css/font-awesome-ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/css/font-awesome-ie7.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/font/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/less/extras.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/less/font-awesome-ie7.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/scss/_bootstrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/scss/_extras.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/scss/font-awesome-ie7.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/CNAME" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/ads/carbon-dark-vertical.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/ads/carbon-light-horizontal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/ads/carbon-light-vertical.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/brand-license.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/cheatsheet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/community.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/community/getting-support.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/community/project-milestones.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/community/reporting-bugs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/community/requesting-new-icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/community/submitting-pull-requests.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/examples.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/examples/animated-spinner.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/examples/bordered-pulled.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/examples/bulleted-lists.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/examples/button-dropdowns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/examples/button-groups.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/examples/buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/examples/custom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/examples/form-inputs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/examples/inline-icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/examples/larger-icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/examples/navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/examples/new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/examples/rotated-flipped.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/examples/stacked.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/get-started.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/icons/brand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/icons/currency.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/icons/directional.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/icons/medical.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/icons/new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/icons/text-editor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/icons/video-player.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/icons/web-application.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/jumbotron-slider.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/jumbotron.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/license-code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/license.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/navbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/stripe-ad.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/stripe-social.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/tell-me-thanks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/tests/rotated-flipped-inside-anchor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/tests/rotated-flipped-inside-btn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/tests/rotated-flipped.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/tests/stacked-inside-anchor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/tests/stacked.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/thanks-to.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/whats-new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_includes/why.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_layouts/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_layouts/icon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_plugins/icon_page_generator.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/_plugins/site.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/css/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/css/pygments.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/font/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/less/extras.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/less/font-awesome-ie7.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/scss/_bootstrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/scss/_extras.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/scss/font-awesome-ie7.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/js/ZeroClipboard-1.1.7.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/js/backbone.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/js/bootstrap-2.3.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/js/bootstrap-222.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/js/jquery-1.7.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/js/prettify.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/js/site.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/js/underscore.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/accordion.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/hero-unit.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/labels-badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/layouts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/reset.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/responsive-1200px-min.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/responsive-767px-max.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/responsive-768px-979px.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/responsive-navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/responsive.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/sprites.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/bootstrap-2.3.2/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/lazy.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/responsive-1200px-min.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/responsive-767px-max.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/responsive-768px-979px.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/responsive-navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/responsive.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/site.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/sticky-footer.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/assets/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/cheatsheet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/community.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/design.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/examples.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/get-started.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/icons.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/license.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/Font-Awesome-3.2.1/Font-Awesome-3.2.1/src/whats-new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/afterlogin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/denglu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/my_order.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/shopping_cart.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/shopping_xiangqing.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/css/y_index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/html/afterlogin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/html/denglu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/html/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/html/my_order.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/html/register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/html/search.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/html/shopping_cart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/html/shopping_xiangqing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/js/afterlogin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/js/angular-1.4.6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/js/jquery-3.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/js/myorder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/js/x_xiangqing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mogu/js/y_index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,18 +547,18 @@
       <file leaf-file-name="ie-emulation-modes-warning.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/js/assets/ie-emulation-modes-warning.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
+            <state relative-caret-position="266">
               <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hitradio.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/music/js/hitradio.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mogu/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,8 +576,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="313" />
-    <option name="y" value="76" />
+    <option name="x" value="241" />
+    <option name="y" value="158" />
     <option name="width" value="1290" />
     <option name="height" value="727" />
   </component>
@@ -99,61 +619,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="music" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="music" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="music" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="music" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="mogu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -172,6 +638,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gittask\myDemo" />
       <recent name="D:\gittask\manage system" />
     </key>
   </component>
@@ -248,7 +715,7 @@
       <updated>1487144402651</updated>
       <workItem from="1487144407510" duration="97000" />
       <workItem from="1489627060102" duration="1995000" />
-      <workItem from="1489992952720" duration="40000" />
+      <workItem from="1489992952720" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="manage system">
       <created>1489627349959</created>
@@ -264,14 +731,21 @@
       <option name="project" value="LOCAL" />
       <updated>1489627881134</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="page">
+      <created>1489993028000</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1489993028000</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2132000" />
+    <option name="totallyTimeSpent" value="2400000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="313" y="76" width="1290" height="727" extended-state="0" />
+    <frame x="241" y="158" width="1290" height="727" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2598116" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -301,7 +775,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="manage system" />
-    <option name="LAST_COMMIT_MESSAGE" value="manage system" />
+    <MESSAGE value="page" />
+    <option name="LAST_COMMIT_MESSAGE" value="page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -324,18 +799,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/music/js/hitradio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/system/js/assets/ie-emulation-modes-warning.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
+        <state relative-caret-position="266">
           <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/music/js/hitradio.js">
+    <entry file="file://$PROJECT_DIR$/mogu/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
