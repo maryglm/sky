@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>哈密市水费充值缴费管理系统</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../img/logo.png" media="screen" />
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- <link href="../loginstyle.css.css" rel="stylesheet" type="text/css" />-->
+    <link rel="stylesheet" href="../css/flipclock.css">
+    <link rel="stylesheet" href="../css/mytree.css">
+    <link rel="stylesheet"  href="../css/wangEditor.min.css">
+    <link rel="stylesheet" href="../css/demo.css" type="text/css">
+    <link rel="stylesheet" href="../css/totalsave.css" type="text/css">
+    <link rel="stylesheet" href="../css/zTreeStyle/zTreeStyle.css" type="text/css">
+    <!--[if lt IE 11]>
+
+    <script type="text/javascript">
+        window.location.href=" http://browsehappy.com/";
+    </script>
+    <![endif]-->
+
+    <style>
+
+    </style>
+</head>
+<body class="main">
+
+
+
+<!-- 内容导航 -->
+<div class="place">
+    <span class="pull-left txt1">位置：</span>
+    <ul>
+        <li class="pull-left"><a href="#">首页</a></li>
+        <li class="pull-left"><span class="glyphicon glyphicon-right"></span></li>
+        <li class="pull-left"><span class="glyphicon glyphicon-chevron-right g_arrow"></span></li>
+        <li class="pull-left"><a href="#">数据表</a></li>
+        <li class="pull-left"><span class="glyphicon glyphicon-chevron-right g_arrow"></span></li>
+        <li class="pull-left"><a href="#">基本内容</a></li>
+    </ul>
+
+</div>
+
+
+
+
+<!-- 角色管理 -->
+<div class="container-fluid">
+
+    <div class="row roleframe">
+<form >
+        <!--1-->
+        <div class="col-lg-12 col-md-12  myinfo">
+            <h4 class="page-header mydivision">用水户信息</h4>
+
+            <table class="role role1">
+                <tr>
+                    <td class="tdone text-right"><label for="myname"
+                                                        class="tdleft">用水户账号<b>*</b></label></td>
+                    <td class="tdtwo tdright"><input type="text"
+                                                     name="waterUserAcc" class="form-control myname tdright3"
+                                                     id="waterUserAcc" placeholder=""></td>
+                    <td class="g_right g_right1"></td>
+
+                </tr>
+
+                <tr>
+                    <td class="tdone text-right"><label for="passWord"
+                                                        class="tdleft">密码<b>*</b></label></td>
+                    <td class="tdtwo tdright"><input type="password"
+                                                     name="passWord" class="form-control myname tdright3"
+                                                     id="passWord" placeholder=""></td>
+                    <td class="g_right g_right2"></td>
+
+                </tr>
+
+                <tr>
+                    <td class="tdone text-right"><label for="pass"
+                                                        class="tdleft">电话号码<b>*</b></label></td>
+                    <td class="tdtwo tdright"><input type="number" name="tel "
+                                                     class="form-control tdright3" id="tel " placeholder="">
+                    </td>
+                    <td class="g_right g_right3"></td>
+
+                </tr>
+
+
+                <tr>
+                    <td class="tdone text-right"><label for="truename"
+                                                        class="tdleft">昵称<b>*</b></label></td>
+                    <td class="tdtwo tdright"><input type="text" name="userName"
+                                                     class="form-control tdright3" id="userName" placeholder="">
+                    </td>
+                    <td class="g_right g_right4"></td>
+                </tr>
+
+
+                <tr>
+                    <td class="tdone text-right"><label for="phonenum"
+                                                        class="tdleft">真实姓名<b>*</b></label></td>
+                    <td class="tdtwo tdright"><input type="text"
+                                                     name="realName " class="form-control tdright3" id="realName "
+                                                     placeholder=""></td>
+                    <td class="g_right g_right5"></td>
+                </tr>
+
+                <tr>
+                    <td class="tdone text-right"><label for="myemail"
+                                                        class="tdleft">邮箱<b>*</b></label></td>
+                    <td class="tdtwo tdright"><input type="email" name="email"
+                                                     class="form-control tdright3" id="email" placeholder="">
+                    </td>
+                    <td class=" g_right g_right6"></td>
+                </tr>
+
+                <tr>
+                    <td class="tdone text-right"><label for="myaddr"
+                                                        class="tdleft">家庭住址<b>*</b></label></td>
+                    <td class="tdtwo tdright"><input type="text" name="address"
+                                                     class="form-control tdright3" id="address" placeholder="">
+                    </td>
+                    <td class=" g_right g_right7"></td>
+                </tr>
+
+                <tr>
+                    <td class="tdone text-right"><label for="myid"
+                                                        class="tdleft">身份证号<b>*</b></label></td>
+                    <td class="tdtwo tdright"><input type="text" name="idCard"
+                                                     class="form-control tdright3" id="idCard" placeholder="">
+                    </td>
+                    <td class="g_right g_right8"></td>
+                </tr>
+
+                <tr>
+                    <td class="tdone text-right"><label for="myid"
+                                                        class="tdleft">房屋编号<b>*</b></label></td>
+                    <td class="tdtwo tdright"><input type="text"
+                                                     name="houseNumber" class="form-control tdright3"
+                                                     id="houseNumber" placeholder=""></td>
+                    <td class="g_right g_right9"></td>
+                </tr>
+                <tr>
+                    <td class="tdone text-right"><label for="watermeterNumber"
+                                                        class="tdleft">水表编号<b>*</b></label></td>
+                    <td class="tdtwo tdright"><input type="text"
+                                                     name="watermeterNumber" class="form-control myname tdright3"
+                                                     id="watermeterNumber" placeholder=""></td>
+                    <td class=" g_right g_right10"></td>
+
+                </tr>
+
+                <tr>
+                    <td class="tdone text-right"><label for="meterParameter"
+                                                        class="tdleft">水表参数<b>*</b></label></td>
+                    <td class="tdtwo tdright"><input type="text"
+                                                     name="meterParameter" class="form-control tdright3"
+                                                     id="meterParameter" placeholder=""></td>
+                    <td class="g_right g_right11"></td>
+                </tr>
+
+
+                <tr>
+                    <td class="tdone text-right"><label for="areaNumber"
+                                                        class="tdleft">区域编号<b>*</b></label></td>
+                    <td class="tdtwo tdright"><input type="text"
+                                                     name="areaNumber" class="form-control tdright3" id="areaNumber"
+                                                     placeholder=""></td>
+                    <td class="g_right g_right12"></td>
+                </tr>
+
+                <tr>
+                    <td class="tdone text-right"><label for="parentNumber"
+                                                        class="tdleft">父级编号<b>*</b></label></td>
+                    <td class="tdtwo tdright"><input type="text"
+                                                     name="parentNumber" class="form-control tdright3"
+                                                     id="parentNumber" placeholder=""></td>
+                    <td class=" g_right g_right13"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="g_check g_check1"></td>
+
+                </tr>
+                <tr>
+                    <td class="tdone text-right"><label for="waterCardNumber"
+                                                        class="tdleft">水卡编号<b>*</b></label></td>
+                    <td class="tdtwo tdright"><input type="text"
+                                                     name="waterCardNumber" class="form-control tdright3"
+                                                     id="waterCardNumber" placeholder=""></td>
+                    <td class="g_right g_right14"></td>
+
+                </tr>
+
+                <tr>
+                    <td class="tdone text-right"><label for="company"
+                                                        class="tdleft">开卡公司<b>*</b></label></td>
+                    <td class="tdtwo tdright"><input type="text" name="company"
+                                                     class="form-control tdright3" id="company" placeholder="">
+                    </td>
+                    <td class="g_right g_right15"></td>
+
+                </tr>
+
+                <tr>
+                    <td class="tdone text-right"><label for="" class="tdleft">性别<b>*</b></label>
+                    </td>
+                    <td class="tdtwo tdright"><label class="checkbox-inline">
+                        <input type="radio" name="sex" id="sex" value="0">男
+                    </label> <label class="checkbox-inline"> <input type="radio"
+                                                                    name="sex" id="sex" value="1">女
+                    </label></td>
+                    <td class=" g_right g_right16"></td>
+                </tr>
+                <tr>
+                    <td class="tdone text-right"><label for="" class="tdleft">角色<b>*</b></label>
+                    </td>
+                    <td class="tdtwo tdright"><label class="checkbox-inline">
+                        <input type="radio" name="role" id="role" value="0">户主
+                    </label> <label class="checkbox-inline"> <input type="radio"
+                                                                    name="role" id="role" value="1">非户主
+                    </label></td>
+                    <td class=" g_right g_right17"></td>
+                </tr>
+                <tr>
+                    <td class="tdone text-right"><label for="" class="tdleft">用户状态<b>*</b></label>
+                    </td>
+                    <td class="tdtwo tdright"><label class="checkbox-inline">
+                        <input type="radio" name="status" id="status" value="0">启用
+                    </label> <label class="checkbox-inline"> <input type="radio"
+                                                                    name="status" id="status" value="1">禁用
+                    </label></td>
+                    <td class=" g_right g_right18"></td>
+                </tr>
+                <tr>
+                    <td class="text-center mybtn"></td>
+                    <td>
+                        <button class="btn g_btn" type="submit">
+                            <span class="glyphicon glyphicon-saved"></span>&nbsp;保存
+                        </button> &nbsp;&nbsp;
+                        <button class="btn g_btn g_btn2 btnback " style="width: 100px">
+                            <span class="glyphicon glyphicon-backward"></span>&nbsp;返回列表
+                        </button>
+                    </td>
+                </tr>
+            </table>
+
+
+
+
+
+
+</form>
+    </div>
+    </div>
+</div>
+<!-- 角色管理结束 -->
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
+
+<script src="../js/flipclock.js"></script>
+<script src="../js/style.js"></script>
+<script src="../js/time.js"></script>
+<script src="../js/left.js"></script>
+<script type="text/javascript" src="../js/jquery.ztree.core.js"></script>
+<script type="text/javascript" src="../js/jquery.ztree.excheck.js"></script>
+<script>
+    /*验证*/
+    $("#waterUserAcc").blur(function () {
+        checkname();
+
+    })
+
+
+    /*用户名验证*/
+    function checkname()
+    {
+        var uname = $("#waterUserAcc").val();
+
+        var reg=/^[a-zA-Z0-9_]{3,16}$/;
+        if(!reg.test(uname)) {
+            $(".g_right1").html("&#10008只能输入长度在3-16之间的字母或数字!");
+            $("#waterUserAcc").css({"border":"1px solid #ff6666"});
+
+            $(".g_right1").css({"color":"#ff6666","display":"block"});
+            return false;
+        }
+
+        //后台反馈用户名是否重名
+        $.post("checkUserName.action", {"userName": name },function(data){
+            var d = $.parseJSON(data);
+            //console.log(d.success);
+            if(d.success!=true){
+                $(".g_right1").html("&#10008用户名已存在!");
+                $("#waterUserAcc").css({"border":"1px solid #ff6666"});
+                $(".g_right1").css({"color":"#ff6666","display":"block"});
+                return true;
+            }
+        });
+
+        $(".g_right1").html("&#10004");
+        $("#waterUserAcc").css({"border":"1px solid #198BC9"});
+        $(".g_right1").css({"color":"#198BC9","display":"block"});
+
+        return true;
+    }
+
+
+    $("#passWord").blur(function () {
+        checkpass()
+    })
+    /*密码验证*/
+    function checkpass(){
+        var userPass = $("#passWord").val();
+
+        var passreg=/^(?![a-zA-z]+$)(?!\d+$)(?![!@#$%^&*]+$)[a-zA-Z\d!@?/#$%^&*]+$/;
+        if(!passreg.test(userPass)||userPass.length<6|| userPass.length>15)
+        {
+
+            $(".g_right2").html("&#10008密码必须由数字、字符、特殊字符三种中的两种组成,长度须在6-15之间!");
+            $("#passWord").css({"border":"1px solid #ff6666"});
+            $(".g_right2").css({"color":"#ff6666","display":"block"});
+            return false;
+        }
+        $(".g_right2").html("&#10004");
+        $("#passWord").css({"border":"1px solid #198BC9"});
+        $(".g_right2").css({"color":"#198BC9"});
+
+        return true;
+    }
+
+    /*昵称*/
+
+    $("#userName").blur(function () {
+        checkuname();
+
+    })
+
+
+    /*用户名验证*/
+    function  checkuname()
+    {
+        var uname = $("#userName").val();
+
+        var reg=/^[\u4e00-\u9fa5_a-zA-Z0-9_]{3,16}$/;
+        if(!reg.test(uname)) {
+            $(".g_right4").html("&#10008只能输入长度在3-16之间的中文，字母或数字!");
+            $("#userName").css({"border":"1px solid #ff6666"});
+
+            $(".g_right4").css({"color":"#ff6666","display":"block"});
+            return false;
+        }
+
+        //后台反馈用户名是否重名
+        $.post("checkUserName.action", {"userName": name },function(data){
+            var d = $.parseJSON(data);
+            //console.log(d.success);
+            if(d.success!=true){
+                $(".g_right4").html("&#10008用户名已存在!");
+                $("#userName").css({"border":"1px solid #ff6666"});
+                $(".g_right4").css({"color":"#ff6666","display":"block"});
+                return true;
+            }
+        });
+
+        $(".g_right4").html("&#10004");
+        $("#userName").css({"border":"1px solid #198BC9"});
+        $(".g_right4").css({"color":"#198BC9","display":"block"});
+
+        return true;
+    }
+
+
+  /*  邮箱验证*/
+    $("#email").blur(function () {
+        checkemail();
+
+    })
+
+    function   checkemail(){
+        var em = $("#email").val();
+
+        var emreg=/^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
+        if(!emreg.test(em))
+        {
+
+            $(".g_right6").html("&#10008请输入正确的邮箱！");
+            $("#email").css({"border":"1px solid #ff6666"});
+            $(".g_right6").css({"color":"#ff6666","display":"block"});
+            return false;
+        }
+        $(".g_right6").html("&#10004");
+        $("#email").css({"border":"1px solid #198BC9"});
+        $(".g_right6").css({"color":"#198BC9"});
+
+        return true;
+    }
+
+    /*身份证验证*/
+    $("#idCard").blur(function () {
+        checkid();
+
+    })
+
+    function   checkid(){
+        var myid = $("#idCard").val();
+
+        var idreg=/^([0-9]){7,18}(x|X)?$/;
+        if(!idreg.test(myid))
+        {
+
+            $(".g_right8").html("&#10008请输入正确的身份证号！");
+            $("#idCard").css({"border":"1px solid #ff6666"});
+            $(".g_right8").css({"color":"#ff6666","display":"block"});
+            return false;
+        }
+        $(".g_right8").html("&#10004");
+        $("#idCard").css({"border":"1px solid #198BC9"});
+        $(".g_right8").css({"color":"#198BC9"});
+
+        return true;
+    }
+    /*电话*/
+            $("#tel").blur(function () {
+            phone();
+            alert(1)
+
+        })
+        function phone(){
+            var uTel = $("#tel").val();
+            alert(uTel)
+            if (uTel == "" || uTel == null) {
+
+                $(".g_right3").html("&#10008电话不能为空");
+                $("#tel").css({"border":"1px solid #ff6666"});
+                $(".g_right3").css({"color":"#ff6666","display":"block"});
+                return false;
+            }
+            $(".g_right3").html("&#10004");
+            $("#tel").css({"border":"1px solid #198BC9"});
+            $(".g_right3").css({"color":"#198BC9"});
+
+        return true;
+    }
+/*验证多个input不为空*/
+$(".g_btn").click(function () {
+    checkinput();
+})
+function checkinput(){
+    var m=document.getElementsByTagName("input");
+    for(var i=0;i<m.length;i++){
+        if(m[i].value==""||m[i].value==null){
+            alert("请完成所有的内容！");
+            return false;
+        }
+    }
+    alert("完成填写，确认提交吗？");
+    return true;
+}
+</script>
+<SCRIPT type="text/javascript">
+
+    var setting = {
+        check: {
+            enable: true,
+            chkStyle: "radio",
+            radioType: "level"
+        },
+        data: {
+            simpleData: {
+                enable: true
+            }
+        },
+        view: {
+            fontCss: getFont,
+            nameIsHTML: true
+        }
+    };
+
+    var zNodes =[
+        { id:1, pId:0, name:"随意勾选 1", open:true,icon:"../css/zTreeStyle/img/diy/6.png"},
+        { id:11, pId:1, name:"随意勾选 1-1", open:true,icon:"../css/zTreeStyle/img/diy/6.png"},
+        { id:111, pId:11, name:"随意勾选 1-1-1", icon:"../css/zTreeStyle/img/diy/8.png"},
+        { id:112, pId:11, name:"随意勾选 1-1-2",icon:"../css/zTreeStyle/img/diy/8.png"},
+        { id:12, pId:1, name:"随意勾选 1-2", open:true,icon:"../css/zTreeStyle/img/diy/6.png"},
+        { id:121, pId:12, name:"随意勾选 1-2-1",icon:"../css/zTreeStyle/img/diy/8.png"},
+        { id:122, pId:12, name:"随意勾选 1-2-2",icon:"../css/zTreeStyle/img/diy/8.png"},
+        { id:2, pId:0, name:"随意勾选 2", open:true,icon:"../css/zTreeStyle/img/diy/6.png"},
+        { id:21, pId:2, name:"随意勾选 2-1",icon:"../css/zTreeStyle/img/diy/6.png"},
+        { id:22, pId:2, name:"随意勾选 2-2", open:true,icon:"../css/zTreeStyle/img/diy/6.png"},
+        { id:221, pId:22, name:"随意勾选 2-2-1",icon:"../css/zTreeStyle/img/diy/8.png"},
+        { id:222, pId:22, name:"随意勾选 2-2-2",icon:"../css/zTreeStyle/img/diy/8.png"},
+        { id:23, pId:2, name:"随意勾选 2-3",icon:"../css/zTreeStyle/img/diy/6.png"}
+    ];
+
+    var code;
+    function setCheck() {
+        var type = $("#level").attr("checked")? "level":"all";
+        setting.check.radioType = type;
+        showCode('setting.check.radioType = "' + type + '";');
+        $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+    }
+    function showCode(str) {
+        if (!code) code = $("#code");
+        code.empty();
+        code.append("<li>"+str+"</li>");
+    }
+    function getFont(treeId, node) {
+        return node.font ? node.font : {};
+    }
+
+    $(document).ready(function(){
+        $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+    });
+    $(document).ready(function(){
+        setCheck();
+
+    });
+
+</SCRIPT>
+<script>
+
+</script>
+</body>
+</html>

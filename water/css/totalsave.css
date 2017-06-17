@@ -1,0 +1,104 @@
+li {
+    list-style-type: none;
+}
+.mydivision{
+    color: #198BC9 ;
+border-bottom: 1px solid #198BC9 ;
+}
+.g_check{
+
+    display: none;
+
+}
+.tdleft{
+    width: 80px;
+}
+
+
+.role1 tr td{
+    /* border: 1px solid red;*/
+}
+.tdright{
+   /* width: 300px;*/
+}
+
+.mybtn{
+    margin-top: 30px;
+}
+/* .myframe1{
+     border: 1px solid #198BC9 ;
+     margin-left: 40px;
+     margin-right: 40px;
+ }*/
+.role1{
+   /* border: 3px dotted #198BC9 ;*/
+max-width: 600px;
+    position: relative;
+
+}
+.tdrighttree{
+    border: 1px dotted;
+    width: 250px;
+
+}
+.content_wrap{
+      width: 250px;
+
+}
+.content_wrap .left {
+      width: 250px;
+
+}
+.content_wrap .left #treeDemo{
+    width: 250px;
+  /*  border: 1px dotted #198BC9 ;*/
+    padding-top: 50px;
+}
+/*头部导航bug*/
+.place ul li a {
+    text-decoration: none;
+}
+.place ul li a:hover {
+    text-decoration: none;
+    background:#42AADF;
+    color:  #e6e6e6;
+    transition: all 0.3s linear;
+}
+/*解决机构树让框框大小不一问题*/
+.tdright3{
+
+    max-width: 455px;
+}
+/*如果同一水平线的框框长度不一，会造成排列错位，在短的框在外面的标签里加入高度样式与长的同长（可截图量出长框的长度）*/
+b {
+    color:#ff6666;
+}
+.g_right{
+    display: none;
+  /*  border: 1px solid red;*/
+position: absolute;
+margin-left: -40px;
+   margin-top: 6px;
+    width: 320px;
+    height: 30px;
+}
+table{
+    color: #198BC9 ;
+}
+
+.g_btn {
+    width: 80px;
+    background: #42AADF;
+    color: #E6F3F9;
+}
+.g_btn:hover{
+    background:#198BC9;
+    color: #E6F3F9;
+}
+.g_btn2 {
+    width: 100px;
+
+}
+.mybtn{
+
+}

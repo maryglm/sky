@@ -1,0 +1,400 @@
+@charset "utf-8";
+body {
+  font-family: "PingFang SC", "Times New Roman", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", STXihei, "\534E\6587\7EC6\9ED1", serif;
+  font-size: 9pt;
+  color: #fff;
+  margin: 0 auto;
+  min-width: 980px;
+  height: 100%;
+  background: #198BC9 ;
+}
+li{
+	
+	list-style:none;
+}
+/*common style*/
+
+/*header*/
+.mytop {
+  /*border:1px solid pink;*/
+  height: 117px;
+  color: #fff;
+  /*头部左侧*/
+  /*头部右侧*/
+}
+.mytop .left_head {
+  /*  border:1px solid pink;*/
+}
+.mytop .left_head .logo {
+  margin-top: -1px;
+}
+.mytop .left_head .hleft {
+  width: 100px;
+}
+.mytop .left_head .hleft p {
+  margin-left: 5px;
+}
+.mytop .left_head .hleft img {
+  margin-left: 15px;
+}
+.mytop .mynav {
+  /*  border: 1px solid;*/
+  margin-top: 19px;
+  margin-right: 20px;
+  padding-top: 5px;
+}
+.mytop .mynav li {
+  /* border: 1px solid;*/
+  margin-right: 8px;
+}
+.mytop .mynav .mynav1 a {
+  color: #fff;
+}
+.mytop .mynav .mynav1 .myprofile {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+.mytop .mynav .mynav2 .news {
+  color: #fff;
+  margin-left: 5px;
+  margin-top: -5px;
+  background: #ff6666;
+}
+.mytop .mynav .mynav2,
+.mytop .mynav .mynav3,
+.mytop .mynav .mynav4,
+.mytop .mynav .mynav5 {
+  margin-top: 10px;
+}
+.mytop .mynav .mynav2 a,
+.mytop .mynav .mynav3 a,
+.mytop .mynav .mynav4 a,
+.mytop .mynav .mynav5 a {
+  color: #fff;
+}
+.mytop .mynav .mynav2 a:hover,
+.mytop .mynav .mynav3 a:hover,
+.mytop .mynav .mynav4 a:hover,
+.mytop .mynav .mynav5 a:hover {
+  color: #e6e6e6;
+}
+/*left*/
+.sidebar {
+  font-size: 14px;
+  cursor: pointer;
+  position: fixed;
+  top: 90px;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* Scrollable contents if viewport is shorter than content. */
+  background: #E9F4F8;
+  padding: 10px;
+}
+.sidebar .totalt {
+  color: #198BC9 ;
+  line-height: 40px;
+  text-align: center;
+}
+.sidebar .menu {
+  width: 100%;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+}
+.sidebar .menu .title {
+  width: 100%;
+}
+.sidebar .menu .title .item1 {
+  border: 1px solid #fff;
+  width: 100%;
+  line-height: 35px;
+  background: #42AADF;
+  border-radius: 5px;
+}
+.sidebar .menu .title .item1 .myarrow {
+  margin-right: 10px;
+}
+.sidebar .menu .title .content {
+  display: none;
+  width: 100%;
+  border: 1px solid #42AADF;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+.sidebar .menu .title .content li {
+  border-bottom: 1px solid;
+  width: 100%;
+  line-height: 35px;
+  padding-left: 20px;
+}
+.sidebar .menu .title .content li:hover {
+  background: #42AADF ;
+}
+.sidebar .menu .title .content li .item {
+  color: #198BC9 ;
+  width: 100%;
+  line-height: 35px;
+}
+.sidebar .menu .title .content li .item:hover {
+  color: #fff;
+}
+.sidebar .menu .title .content li .leftactive {
+  border-right: 5px solid #42AADF;
+  border-radius: 5px;
+}
+/*right*/
+/*papers*/
+.papers,
+.papers:before,
+.papers:after {
+  background-image: url('../img/paper.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.1), 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.papers {
+  position: relative;
+  width: 82%;
+  padding: 2em;
+  min-height: 1100px;
+}
+.papers:before,
+.papers:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 1100px;
+  -webkit-transform: rotateZ(2.5deg);
+  -o-transform: rotate(2.5deg);
+  transform: rotateZ(2.5deg);
+  z-index: -1;
+}
+.papers:after {
+  -webkit-transform: rotateZ(-2.5deg);
+  -o-transform: rotate(-2.5deg);
+  transform: rotateZ(-2.5deg);
+}
+/*time*/
+.mydate {
+  color: #198BC9;
+  padding-left: 65%;
+}
+.clock {
+  padding-left: 58%;
+  margin-top: 3px;
+  margin-left: 0;
+}
+.clock a {
+  color: #198BC9;
+}
+.clock a:hover {
+  color: #198BC9;
+}
+/*footer*/
+.myfoot {
+  width: 600px;
+  height: 40px;
+  line-height: 40px;
+  color: #198BC9;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+/*content*/
+.main {
+  font-size: 14px;
+  background-image: url('../img/paper.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  color: #198BC9;
+  /*form*/
+  /*角色管理*/
+}
+.main .place {
+  margin-top: -5px;
+  height: 40px;
+  background: #42AADF;
+  color: #fff;
+  position: relative;
+  line-height: 40px;
+  width: 100%;
+  border-radius: 5px;
+}
+.main .place .txt1 {
+  margin-left: 10px;
+}
+.main .place ul {
+  padding-left: 0;
+}
+.main .place ul li a {
+  color: #fff;
+}
+.main .g_top {
+  display: inline-block;
+  margin-top: 10px;
+}
+.main .g_btn {
+  width: 80px;
+  background: #42AADF;
+  color: #E6F3F9;
+}
+.main .g_btn:hover {
+  background: #198BC9;
+}
+.main .contentframe {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.main .rightinfo {
+  overflow: hidden;
+  margin-top: 40px;
+}
+.main .rightinfo .search .myselect {
+  position: relative;
+}
+.main .rightinfo .search .selecticon {
+  position: absolute;
+  right: 5px;
+  top: 13px;
+}
+.main .rightinfo .search tr td {
+  padding-left: 5px;
+}
+.main .rightinfo .search tr td select {
+  position: relative;
+  color: #198BC9;
+  padding-right: 25px;
+}
+.main .rightinfo .search tr td label {
+  padding-top: 4px;
+}
+.main .rightinfo .searchbtn button {
+  margin-left: 9px;
+}
+.main .rightinfo .searchbtn .g_btnone {
+  background: #42AADF;
+}
+.main .rightinfo .searchbtn .search1 .g_content {
+  position: absolute;
+  display: none;
+  left: 40px;
+}
+.main .rightinfo .searchbtn .g_content tr td {
+  padding-left: 10px;
+}
+.main .rightinfo .searchbtn .g_content tr td .g_num1 {
+  margin-bottom: -9px;
+}
+.main .rightinfo .searchbtn .g_content tr td .contentlast {
+  /*border: 1px solid;*/
+  margin-bottom: -28px;
+}
+.main .right_cont button {
+  margin-left: 5px;
+}
+.main .right_cont button:hover {
+  color: #fff;
+}
+.main .mydivision {
+  border-bottom: 1px solid #198BC9;
+  padding-bottom: 8px;
+}
+.main .tools .toolbar1 li {
+  position: relative;
+}
+.main .tools .toolbar1 li .selecticon {
+  position: absolute;
+  right: 5px;
+  top: 13px;
+}
+.main .tools .toolbar1 li select {
+  color: #198BC9;
+  position: relative;
+  padding-right: 25px;
+}
+.main .tools a {
+  color: #198BC9;
+}
+.main .tools ul .myadd {
+  margin-left: -20px;
+}
+.main .tools ul li {
+  margin-left: 5px;
+}
+.main .toolbar {
+  display: inline-block;
+}
+.main .toolbar select,
+.main .toolbar button {
+  display: inline-block;
+}
+.main .formframe a {
+  color: #198BC9;
+}
+.main .formframe a:hover {
+  color: #198BC9 ;
+}
+.main .seelist {
+  min-width: 900px;
+  margin-top: 10%;
+}
+.main .pagein {
+  overflow: hidden;
+}
+.main .pagein .pagerecord {
+  margin-top: 10px;
+}
+.main .pagein .pagerecord .pagecolor {
+  color: #198BC9;
+}
+.main .pagein .pagenum ul {
+  margin-top: 0;
+}
+.main .roleframe {
+  color: #198BC9;
+  width: 100%;
+  cursor: pointer;
+}
+.main .roleframe table {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.main .roleframe table tr .tdone {
+  width: 10%;
+}
+.main .roleframe table .g_btn2 {
+  width: 100px;
+}
+.main .roleframe table .btnback {
+  margin-left: 10px;
+}
+.main .roleframe table td {
+  padding: 5px;
+}
+.main .roleframe table td span span {
+  padding-left: 5px;
+}
+.main .roleframe table td .system,
+.main .roleframe table td .organize {
+  padding-left: 10px;
+}
+.savebtn{
+
+	width:50px;
+	height:30px;
+	border-radius:5px;
+	margin-left:100px;
+}

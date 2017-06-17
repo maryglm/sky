@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>哈密市水费充值缴费管理系统</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../img/logo.png" media="screen" />
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- <link href="../loginstyle.css.css" rel="stylesheet" type="text/css" />-->
+    <link rel="stylesheet" href="../css/flipclock.css">
+    <link rel="stylesheet" href="../css/one.css">
+    <link rel="stylesheet"  href="../css/wangEditor.min.css">
+    <!--[if lt IE 11]>
+
+    <script type="text/javascript">
+        window.location.href=" http://browsehappy.com/";
+    </script>
+    <![endif]-->
+
+<style>
+
+</style>
+</head>
+<body class="main">
+
+
+
+        <!-- 内容导航 -->
+        <div class="place">
+            <span class="pull-left txt1">位置：</span>
+            <ul>
+                <li class="pull-left"><a href="#">首页</a></li>
+                <li class="pull-left"><span class="glyphicon glyphicon-right"></span></li>
+                <li class="pull-left"><span class="glyphicon glyphicon-chevron-right g_arrow"></span></li>
+                <li class="pull-left"><a href="#">数据表</a></li>
+                <li class="pull-left"><span class="glyphicon glyphicon-chevron-right g_arrow"></span></li>
+                <li class="pull-left"><a href="#">基本内容</a></li>
+            </ul>
+
+        </div>
+
+
+
+
+        <!-- 角色管理 -->
+        <div class="container-fluid">
+            <div class="roleframe">
+                <table class="role">
+                    <tr>
+                        <td class="tdone text-right">
+                            <label for="name">角色名称</label>
+                        </td>
+                        <td class="tdtwo">
+                            <input type="text" class="form-control myname" id="name" placeholder="管理员"  onblur="style.color='#198BC9'">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdone text-right">
+                            <label for="comment">角色说明</label>
+                        </td>
+                        <td class="tdtwo">
+                            <input type="text" class="form-control" id="comment" placeholder="管理系统"  onblur="style.color='#198BC9'">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdone text-right">
+                            <label>状态</label>
+                        </td>
+                        <td class="tdtwo">
+                            <label class="checkbox-inline">
+                                <input type="radio" name="optionsRadiosinline" id="optionsRadios1" value="option1" checked>启用
+                            </label>
+                            <label class="checkbox-inline">
+                                <input type="radio" name="optionsRadiosinline" id="optionsRadios2" value="option2">禁用
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdone text-right"> <label >权限</label></td>
+                        <td class="tdtwo">
+                        <span>
+                            <input type="checkbox" value="" ><span class="systemtotal txt">系统管理</span>
+                        </span><br>
+
+
+                            <div class="system">
+                         <span>
+                            <input type="checkbox" value=""><span class="txt">系统用户管理</span>
+
+                        </span><br>
+
+                                <span>
+                            <input type="checkbox" value=""><span class="txt">角色管理</span>
+
+                        </span><br>
+
+                                <span>
+                            <input type="checkbox" value=""><span class="txt">系统日志</span>
+
+                        </span><br>
+                                <span>
+                            <input type="checkbox" value=""><span class="txt">操作日志</span>
+
+                        </span><br>
+
+                            </div>
+
+                            <span>
+                            <input type="checkbox" value="" ><span class="organizetotal txt">机构管理</span>
+
+                        </span><br>
+
+
+
+                            <div class="organize">
+                        <span>
+                            <input type="checkbox" value=""><span class="txt">部门管理</span>
+
+                        </span><br>
+                            </div>
+                            <span>
+                            <input type="checkbox" value=""><span class="txt">区域管理</span>
+
+                        </span><br>
+                            <span>
+                            <input type="checkbox" value=""><span class="txt">工单管理</span>
+
+                        </span><br>
+                            <span>
+                            <input type="checkbox" value=""><span class="txt">设备管理</span>
+
+                        </span><br>
+                            <span>
+                            <input type="checkbox" value=""><span class="txt">抄表信息</span>
+
+                        </span><br>
+
+                            <span>
+                            <input type="checkbox" value=""><span class="txt">新闻公告</span>
+
+                        </span><br>
+                            <span>
+                            <input type="checkbox" value=""><span class="txt">代缴费管理</span>
+
+                        </span><br>
+
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td class="tdone text-right"></td>
+                        <td class="tdtwo">
+                            <button class="btn g_btn" >
+                                <span class="glyphicon glyphicon-saved"></span>&nbsp;保存</button>
+                            <button class="btn g_btn g_btn2 btnback " >
+                                <span class="glyphicon glyphicon-backward"></span>&nbsp;返回列表</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- 角色管理结束 -->
+
+
+<!--
+<div class="ordernum" style="width: 200px;height: 100px;border:1px solid pink">
+
+</div>-->
+     <!--   <button class="btn g_btn myradom" >
+            <span class="glyphicon glyphicon-saved"></span>&nbsp随机数</button>
+-->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
+
+<script src="../js/flipclock.js"></script>
+        <script src="../js/style.js"></script>
+<script src="../js/time.js"></script>
+<script src="../js/left.js"></script>
+        <script  src="../js/wangEditor.js"></script>
+<script>
+    $("#uName").blur(function () {
+        checkname();
+    })
+
+    function checkname()
+    {
+        var name = $("#uName").val();
+        var ts = document.getElementById("namets");
+        if(name.length<3|| name.length>15)
+
+        {
+            $(ts).html("&#10008用户名长度须在3-15之间!");
+            $(ts).css({"color":"#fff","display":"block","top":"15px"});
+            return false;
+        }
+
+        /*后台反馈用户名是否重名*/
+        $.post("checkUserName.action", {"userName": name },function(data){
+            var d = $.parseJSON(data);
+            //console.log(d.success);
+            if(d.success!=true){
+                $(ts).html("&#10008用户名已存在!");
+                $(ts).css({"color":"#fff","display":"block","top":"15px"});
+                return true;
+            }
+        });
+        $(ts).html("&#10004用户名可以使用！");
+        $(ts).css({"color":"#fff","display":"block","top":"15px"});
+
+        return true;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/*生成随机数*/
+/*
+$(".myradom").click(function () {
+    function RndNum(n){
+        var rnd="";
+        for(var i=0;i<n;i++)
+            rnd+=Math.floor(Math.random()*10);
+        return rnd;
+    }
+    document.write(RndNum(16));//输出指定位数的随机数的随机整数
+})
+*/
+    /*
+     ** randomWord 产生任意长度随机字母数字组合
+     ** randomFlag-是否任意长度 min-任意长度最小位[固定位数] max-任意长度最大位
+     ** xuanfeng 2014-08-28
+     */
+  /*  $(".myradom").click(function () {
+
+        document.write(randomWord(false,16));
+    })
+
+    function randomWord(randomFlag, min, max){
+        var str = "",
+            range = min,
+            arr = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+
+        // 随机产生
+        if(randomFlag){
+            range = Math.round(Math.random() * (max-min)) + min;
+        }
+        for(var i=0; i<range; i++){
+            pos = Math.round(Math.random() * (arr.length-1));
+            str += arr[pos];
+        }
+        /!*生成时间*!/
+        var reg = /^\d$/;
+        var now = new Date;
+        var m = now.getMonth () + 1;
+        var d = now.getDate();
+        m = reg.test(m) ? "0" + m : m;
+        d = reg.test(d) ? "0" + d : d;
+        str += now.getFullYear () + m + d;
+        return str;
+
+    }*/
+
+
+
+   /* alert (produce ());*/
+
+
+
+
+
+    // 阻止输出log
+    // wangEditor.config.printLog = false;
+
+    var editor = new wangEditor('editor-trigger');
+
+    // 上传图片
+    editor.config.uploadImgUrl = '/upload';
+    editor.config.uploadParams = {
+        // token1: 'abcde',
+        // token2: '12345'
+    };
+    editor.config.uploadHeaders = {
+        // 'Accept' : 'text/x-json'
+    }
+    // editor.config.uploadImgFileName = 'myFileName';
+
+    // 隐藏网络图片
+    // editor.config.hideLinkImg = true;
+
+    // 表情显示项
+    editor.config.emotionsShow = 'value';
+    editor.config.emotions = {
+        'default': {
+            title: '默认',
+            data: './emotions.data'
+        },
+        'weibo': {
+            title: '微博表情',
+            data: [
+                {
+                    icon: 'http://img.t.sinajs.cn/t35/style/images/common/face/ext/normal/7a/shenshou_thumb.gif',
+                    value: '[草泥马]'
+                },
+                {
+                    icon: 'http://img.t.sinajs.cn/t35/style/images/common/face/ext/normal/60/horse2_thumb.gif',
+                    value: '[神马]'
+                },
+                {
+                    icon: 'http://img.t.sinajs.cn/t35/style/images/common/face/ext/normal/bc/fuyun_thumb.gif',
+                    value: '[浮云]'
+                },
+                {
+                    icon: 'http://img.t.sinajs.cn/t35/style/images/common/face/ext/normal/c9/geili_thumb.gif',
+                    value: '[给力]'
+                },
+                {
+                    icon: 'http://img.t.sinajs.cn/t35/style/images/common/face/ext/normal/f2/wg_thumb.gif',
+                    value: '[围观]'
+                },
+                {
+                    icon: 'http://img.t.sinajs.cn/t35/style/images/common/face/ext/normal/70/vw_thumb.gif',
+                    value: '[威武]'
+                }
+            ]
+        }
+    };
+
+    // 插入代码时的默认语言
+    // editor.config.codeDefaultLang = 'html'
+
+    // 只粘贴纯文本
+    // editor.config.pasteText = true;
+
+    // 跨域上传
+    // editor.config.uploadImgUrl = 'http://localhost:8012/upload';
+
+    // 第三方上传
+    // editor.config.customUpload = true;
+
+    // 普通菜单配置
+    // editor.config.menus = [
+    //     'img',
+    //     'insertcode',
+    //     'eraser',
+    //     'fullscreen'
+    // ];
+    // 只排除某几个菜单（兼容IE低版本，不支持ES5的浏览器），支持ES5的浏览器可直接用 [].map 方法
+    // editor.config.menus = $.map(wangEditor.config.menus, function(item, key) {
+    //     if (item === 'insertcode') {
+    //         return null;
+    //     }
+    //     if (item === 'fullscreen') {
+    //         return null;
+    //     }
+    //     return item;
+    // });
+
+    // onchange 事件
+    editor.onchange = function () {
+        console.log(this.$txt.html());
+    };
+
+    // 取消过滤js
+    // editor.config.jsFilter = false;
+
+    // 取消粘贴过来
+    // editor.config.pasteFilter = false;
+
+    // 设置 z-index
+    // editor.config.zindex = 20000;
+
+    // 语言
+    // editor.config.lang = wangEditor.langs['en'];
+
+    // 自定义菜单UI
+    // editor.UI.menus.bold = {
+    //     normal: '<button style="font-size:20px; margin-top:5px;">B</button>',
+    //     selected: '.selected'
+    // };
+    // editor.UI.menus.italic = {
+    //     normal: '<button style="font-size:20px; margin-top:5px;">I</button>',
+    //     selected: '<button style="font-size:20px; margin-top:5px;"><i>I</i></button>'
+    // };
+    editor.create();
+</script>
+</body>
+</html>

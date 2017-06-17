@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>哈密市水费充值缴费管理系统</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../img/logo.png" media="screen" />
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- <link href="../loginstyle.css.css" rel="stylesheet" type="text/css" />-->
+    <link rel="stylesheet" href="../css/flipclock.css">
+    <link rel="stylesheet" href="../css/one.css">
+
+    <!--[if lt IE 11]>
+
+    <script type="text/javascript">
+        window.location.href=" http://browsehappy.com/";
+    </script>
+    <![endif]-->
+
+</head>
+
+<body class="main">
+
+        <!-- 内容导航 -->
+        <div class="place">
+            <span class="pull-left txt1">位置：</span>
+            <ul>
+                <li class="pull-left"><a href="#">首页</a></li>
+                <li class="pull-left"><span class="glyphicon glyphicon-right"></span></li>
+                <li class="pull-left"><span class="glyphicon glyphicon-chevron-right g_arrow"></span></li>
+                <li class="pull-left"><a href="#">数据表</a></li>
+                <li class="pull-left"><span class="glyphicon glyphicon-chevron-right g_arrow"></span></li>
+                <li class="pull-left"><a href="#">基本内容</a></li>
+
+            </ul>
+
+        </div>
+
+
+
+
+
+        <!-- 按钮查询区 -->
+        <div class="container-fluid contentframe">
+
+
+            <div class="rightinfo">
+
+                <!--  查询-->
+
+                <table class="search pull-left">
+                    <tr>
+
+                        <td> <label for="name" >输入内容</label></td>
+
+                        <td>    <input type="text" class="form-control leftrange" id="name"
+                                       placeholder=""></td>
+
+                        <td> <label  class="control-label role">请选择角色</label></td>
+
+                        <td class="myselect">
+                            <select class="form-control leftrange">
+                                <option selected>--请选择--</option>
+                                <option>学生</option>
+                                <option>老师</option>
+                                <option>管理员</option>
+                                <option>用户</option>
+                         </select>
+                            <span class="glyphicon glyphicon-chevron-down selecticon" > </span>
+                        </td>
+                    </tr>
+                </table>
+
+
+                <div class="searchbtn pull-left">
+
+                    <button class="btn g_btn  pull-left">
+                        <span class="glyphicon glyphicon-search"></span>&nbsp;查询</button>
+
+
+                    <!--精确搜索区  -->
+                    <div class="search1  pull-left">
+                        <button class="btn g_btn g_btnone">
+                            高级查询
+                        </button>
+
+                        <div class="g_content" >
+                            <table>
+                                <tr>
+                                    <td class="content1">
+
+                                        <span >编号:</span>
+                                        <input  type="text" name="number" id="num" class="form-control g_num1">
+                                    </td>
+                                    <td>
+                                        <span class="g_top">用户:</span>
+                                        <input type="text" class="form-control" id="name" >
+                                    </td>
+                                    <td>
+                                        <span class="g_top">籍贯:</span>
+                                        <input  type="text" name="place" id="place" class="form-control">
+                                    </td>
+                                    <td>
+                                        <span class="g_top">标题:</span>
+                                        <input  type="text" name="title" id="title" class="form-control">
+                                    </td>
+                                    <td>
+
+                                        <span class="g_top">发布时间:</span>
+                                        <input  type="text" name="time" id="time" class="form-control">
+                                    </td>
+                                    <td>
+                                        <button class="btn g_btn  g_btn2 contentlast">
+                                            <span class="glyphicon glyphicon-search"></span>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </table>
+
+
+                        </div>
+                    </div>
+
+
+                    <!-- 高级搜索2 -->
+
+
+                    <button class="btn g_btn  pull-left g_btntwo" data-toggle="modal" data-target="#myModal">
+                        高级查询
+                    </button>
+
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog g_modal">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                        &times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel">
+                                        请输入您要搜索的内容
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <span>编号:</span>
+                                    <input  type="text" name="number" id="num" class="form-control">
+                                    <span class="g_top">用户:</span>
+                                    <input type="text" class="form-control" id="name" >
+                                    <span class="g_top">籍贯:</span>
+                                    <input  type="text" name="place" id="place" class="form-control">
+                                    <span class="g_top">标题:</span>
+                                    <input  type="text" name="title" id="title" class="form-control">
+                                    <span class="g_top">发布时间:</span>
+                                    <input  type="text" name="time" id="time" class="form-control">
+                                    <form role="form">
+                                        <div class="form-group">
+                                            <span for="name" class="g_top">选择列表</span>
+                                            <select class="form-control">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn g_btn">
+                                        搜索
+                                    </button>
+                                </div>
+                            </div><!-- /.modal-content -->
+                        </div><!-- /.modal -->
+                    </div>
+
+
+                    <!-- 高级搜索2结束 -->
+                </div>
+
+                <!--导入导出  -->
+                <div class="right_cont pull-right hidden-md">
+                    <button class="btn  "> <span class="glyphicon glyphicon-export"></span>导出</button>
+                    <button class="btn  "> <span class="glyphicon glyphicon-import"></span>导入</button>
+                </div>
+            </div>
+
+
+            <!--form content-->
+            <h4 class="page-header mydivision">这是表呐</h4>
+            <!--增删改按钮  -->
+            <div class=" tools">
+
+                <ul class="">
+                    <li class="myadd">
+                        <a href="right.html">
+                            <button class="btn btn-success "> <span class="glyphicon glyphicon-ok"></span>&nbsp;添加</button>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="modify.html" >
+                            <button class="btn btn-success btnmodify"> <span class="glyphicon glyphicon-pencil"></span>&nbsp;修改</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="">
+
+                            <button type="button" class="btn g_btn btndel" data-toggle="modal" data-target="#mydel"  >
+                                <span class="glyphicon glyphicon-trash"></span>&nbsp;删除
+                            </button>
+                            <!-- 模态框（Modal） -->
+                            <div class="modal fade" id="mydel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                            <h4 class="modal-title" ></h4>
+                                        </div>
+                                        <div class="modal-body text-center">您确定要删除吗？</div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-success" data-dismiss="modal">确定</button>
+                                            <button type="button" class="btn btn-info">取消</button>
+                                        </div>
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal -->
+                            </div>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="#" class="">
+                            <button class="btn g_btn btntotal"> <span class="glyphicon glyphicon-plus"></span>&nbsp;统计</button>
+                        </a>
+                    </li>
+                    <li  >
+                        <a href="#" class="">
+                            <button class="btn g_btn btnprint"> <span class="glyphicon glyphicon-print"></span>&nbsp;打印</button>
+                        </a>
+                    </li>
+                </ul>
+
+
+                <ul class="toolbar1 pull-right ">
+
+                    <li class="pull-left myselect">
+                        <select class="form-control">
+                            <option selected>--请选择--</option>
+                            <option>学生</option>
+
+                            <option>管理员</option>
+                            <option>用户</option>
+                        </select>
+                        <span class="glyphicon glyphicon-chevron-down selecticon" > </span>
+
+                    </li>
+                    <li class="pull-right">
+                        <button class="btn g_btn "> <span class="glyphicon glyphicon-wrench"></span>&nbsp;设置</button>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!--表格区域-->
+
+
+            <div class="formframe">
+
+                <table class="table table-striped ">
+                    <thead>
+                    <tr>
+                        <th><input name="" type="checkbox" value=""  />全选</th>
+                        <th>编号</th>
+                        <th>标题</th>
+                        <th>用户</th>
+                        <th>籍贯</th>
+                        <th>发布时间</th>
+                        <th>是否审核</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><input name="" type="checkbox" value="" /></td>
+                        <td>20130908</td>
+                        <td>王金平幕僚：马英九声明字字见血 人活着没意思</td>
+                        <td>admin</td>
+                        <td>江苏南京</td>
+                        <td>2013-09-09 15:05</td>
+                        <td>已审核</td>
+                        <td><a href="#" class="tablelink" data-toggle="modal" data-target="#myModal2">查看</a>
+                            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
+                                <div class="modal-dialog seelist">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                            <h4 class="modal-title" id="myModalLabel"></h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <table class="table table-striped ">
+                                                <tbody>
+                                                <tr>
+                                                    <td><input name="" type="checkbox" value="" /></td>
+                                                    <td>20130907</td>
+                                                    <td>温州19名小学生中毒流鼻血续：周边部分企业关停</td>
+                                                    <td>uimaker</td>
+                                                    <td>山东济南</td>
+                                                    <td>2013-09-08 14:02</td>
+                                                    <td>未审核</td>
+                                                    <td><a href="#" class="tablelink">查看</a> <a href="#"
+                                                                                                class="tablelink">删除</a></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td><input name="" type="checkbox" value="" /></td>
+                                                    <td>20130906</td>
+                                                    <td>社科院:电子商务促进了农村经济结构和社会转型</td>
+                                                    <td>user</td>
+                                                    <td>江苏无锡</td>
+                                                    <td>2013-09-07 13:16</td>
+                                                    <td>未审核</td>
+                                                    <td><a href="#" class="tablelink">查看</a> <a href="#"
+                                                                                                class="tablelink">删除</a></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td><input name="" type="checkbox" value="" /></td>
+                                                    <td>20130905</td>
+                                                    <td>江西&quot;局长违规建豪宅&quot;：局长检讨</td>
+                                                    <td>admin</td>
+                                                    <td>北京市</td>
+                                                    <td>2013-09-06 10:36</td>
+                                                    <td>已审核</td>
+                                                    <td><a href="#" class="tablelink">查看</a> <a href="#"
+                                                                                                class="tablelink">删除</a></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td><input name="" type="checkbox" value="" /></td>
+                                                    <td>20130904</td>
+                                                    <td>中国2020年或迈入高收入国家行列</td>
+                                                    <td>uimaker</td>
+                                                    <td>江苏南京</td>
+                                                    <td>2013-09-05 13:25</td>
+                                                    <td>已审核</td>
+                                                    <td><a href="#" class="tablelink">查看</a> <a href="#"
+                                                                                                class="tablelink">删除</a></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td><input name="" type="checkbox" value="" /></td>
+                                                    <td>20130903</td>
+                                                    <td>深圳地铁车门因乘客拉闸打开 3人被挤入隧道</td>
+                                                    <td>user</td>
+                                                    <td>广东深圳</td>
+                                                    <td>2013-09-04 12:00</td>
+                                                    <td>已审核</td>
+                                                    <td><a href="#" class="tablelink">查看</a> <a href="#"
+                                                                                                class="tablelink">删除</a></td>
+                                                </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="modal-footer">
+
+
+                                        </div>
+                                    </div><!-- /.modal-content -->
+                                </div><!-- /.modal -->
+                            </div>
+
+
+                            <a href="#" class="tablelink"> 删除</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><input name="" type="checkbox" value="" /></td>
+                        <td>20130907</td>
+                        <td>温州19名小学生中毒流鼻血续：周边部分企业关停</td>
+                        <td>uimaker</td>
+                        <td>山东济南</td>
+                        <td>2013-09-08 14:02</td>
+                        <td>未审核</td>
+                        <td><a href="#" class="tablelink">查看</a> <a href="#"
+                                                                    class="tablelink">删除</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><input name="" type="checkbox" value="" /></td>
+                        <td>20130906</td>
+                        <td>社科院:电子商务促进了农村经济结构和社会转型</td>
+                        <td>user</td>
+                        <td>江苏无锡</td>
+                        <td>2013-09-07 13:16</td>
+                        <td>未审核</td>
+                        <td><a href="#" class="tablelink">查看</a> <a href="#"
+                                                                    class="tablelink">删除</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><input name="" type="checkbox" value="" /></td>
+                        <td>20130905</td>
+                        <td>江西&quot;局长违规建豪宅&quot;：局长检讨</td>
+                        <td>admin</td>
+                        <td>北京市</td>
+                        <td>2013-09-06 10:36</td>
+                        <td>已审核</td>
+                        <td><a href="#" class="tablelink">查看</a> <a href="#"
+                                                                    class="tablelink">删除</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><input name="" type="checkbox" value="" /></td>
+                        <td>20130904</td>
+                        <td>中国2020年或迈入高收入国家行列</td>
+                        <td>uimaker</td>
+                        <td>江苏南京</td>
+                        <td>2013-09-05 13:25</td>
+                        <td>已审核</td>
+                        <td><a href="#" class="tablelink">查看</a> <a href="#"
+                                                                    class="tablelink">删除</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><input name="" type="checkbox" value="" /></td>
+                        <td>20130903</td>
+                        <td>深圳地铁车门因乘客拉闸打开 3人被挤入隧道</td>
+                        <td>user</td>
+                        <td>广东深圳</td>
+                        <td>2013-09-04 12:00</td>
+                        <td>已审核</td>
+                        <td><a href="#" class="tablelink">查看</a> <a href="#"
+                                                                    class="tablelink">删除</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><input name="" type="checkbox" value="" /></td>
+                        <td>20130902</td>
+                        <td>33次地表塌陷 村民不敢下地劳作(图)</td>
+                        <td>admin</td>
+                        <td>湖南长沙</td>
+                        <td>2013-09-03 00:05</td>
+                        <td>未审核</td>
+                        <td><a href="#" class="tablelink">查看</a> <a href="#"
+                                                                    class="tablelink">删除</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><input name="" type="checkbox" value="" /></td>
+                        <td>20130901</td>
+                        <td>医患关系：医生在替改革不彻底背黑锅</td>
+                        <td>admin</td>
+                        <td>江苏南京</td>
+                        <td>2013-09-02 15:05</td>
+                        <td>未审核</td>
+                        <td><a href="#" class="tablelink">查看</a> <a href="#"
+                                                                    class="tablelink">删除</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><input name="" type="checkbox" value="" /></td>
+                        <td>20130900</td>
+                        <td>山东章丘公车进饭店景点将自动向监控系统报警</td>
+                        <td>uimaker</td>
+                        <td>山东滨州</td>
+                        <td>2013-09-01 10:26</td>
+                        <td>已审核</td>
+                        <td><a href="#" class="tablelink">查看</a> <a href="#"
+                                                                    class="tablelink">删除</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div><!--表格end-->
+
+            <!--分页-->
+            <div class=" pagein">
+                <div class="row">
+                    <div class=" col-md-6  pagerecord">
+                        <div class=" pull-left  ">
+                            共<i class="pagecolor">1256</i>条记录，当前显示第&nbsp;<i class="pagecolor">2&nbsp;</i>页
+                        </div>
+                    </div>
+                    <div class=" col-md-6 pagenum">
+                        <ul class="pagination   pull-right ">
+                            <li class="paginItem"><a href="#">上一页</a></li>
+                            <li class="active paginItem"><a href="#">1</a></li>
+                            <li class="paginItem "><a href="#">2</a></li>
+                            <li class="paginItem"><a href="#">3</a></li>
+                            <li class="paginItem"><a href="#">4</a></li>
+                            <li class="paginItem"><a href="#">5</a></li>
+                            <li class="paginItem "><a href="#">...</a></li>
+                            <li class="paginItem"><a href="#">10</a></li>
+                            <li class="paginItem"><a href="#">下一页</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--分页end-->
+
+           <!-- <div>
+
+                <a href="right.html" style="color: pink">下一页</a>
+            </div>-->
+
+        </div><!--总体表end-->
+
+
+
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
+
+
+<script src="../js/style.js"></script>
+<script src="../js/flipclock.js"></script>
+<script src="../js/time.js"></script>
+<script src="../js/left.js"></script>
+
+<script>
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>注册</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- CSS -->
+
+
+
+    <link rel="stylesheet" href="../css/supersized.css">
+    <link rel="stylesheet" href="../css/loginstyle.css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<div class="page-container">
+    <h1 class="mytitle_reg">哈密市水费充值缴费管理系统</h1>
+    <form action="userRegister.action" method="post"  id="reg-form" >
+        <table >
+            <tr>
+                <td class="rgone">用户名</td>
+                <td><input type="text" name="username"  id="uName" ></td>
+                <td id="namets" class="mytip mytipone" ></td>
+            </tr>
+            <tr>
+                <td class="rgone">密码</td>
+                <td><input type="password" id="uPass" name="password"  ></td>
+                <td id="passts"  class="mytip mytiptwo" ></td>
+            </tr>
+            <tr>
+                <td class="rgone">确认密码</td>
+                <td><input type="password" name="" id="uRPass" ></td>
+                <td id="passrts"  class="mytip"></td>
+            </tr>
+            <tr>
+                <td class="rgone">邮箱</td>
+                <td><input type="email" name="email" id="uEmail"  ></td>
+                <td id="emailts"  class="mytip"></td>
+            </tr>
+
+            <tr>
+                <td class="rgone"> </td>
+                <td> <input type="button" id="register" value="注册" class="mybutton"><button type="button" class="mybutton">已有账号，直接登录</button></td>
+            </tr>
+        </table>
+
+
+
+
+    </form>
+
+</div>
+
+
+<!-- Javascript -->
+<script src="../js/jquery-1.8.2.min.js"></script>
+<script src="../js/supersized.3.2.7.min.js"></script>
+<script src="../js/supersized-init.js"></script>
+
+
+
+<script>
+
+   /* $("#reg-form").on("click",function () {
+        register();
+    })*/
+$("#uName").blur(function () {
+    checkname();
+})
+    $("#uPass").blur(function () {
+        checkpass()
+    })
+    $("#uRPass").blur(function () {
+        checkrpass();
+    })
+    $("#uEmail").blur(function () {
+        checkemail();
+    })
+
+
+
+    function register() {
+        if(!checkname()){
+            return false;
+        }else if (!checkpass()) {
+            return false;
+        } else if(!checkemail()){
+            return false;
+        }
+        return true;
+    }
+
+
+    /*用户名验证*/
+    function checkname()
+    {
+
+        var name = $("#uName").val();
+        var ts = document.getElementById("namets");
+        var reg=/^[\u4e00-\u9fa5_a-zA-Z0-9_]{3,16}$/;
+        if(!reg.test(name))
+
+        {
+            $(ts).html("&#10008只能输入长度在3-16之间的中文，字母或数字!");
+            $(ts).css({"color":"#fff","display":"block","top":"15px"});
+            $(".mytipone").css({"width":"300px"});
+            return false;
+        }
+
+        /*后台反馈用户名是否重名*/
+        $.post("checkUserName.action", {"userName": name },function(data){
+            var d = $.parseJSON(data);
+            //console.log(d.success);
+            if(d.success!=true){
+                $(ts).html("&#10008用户名已存在!");
+                $(ts).css({"color":"#fff","display":"block","top":"15px"});
+                return true;
+            }
+        });
+        $(ts).html("&#10004用户名可以使用！");
+        $(ts).css({"color":"#fff","display":"block","top":"15px"});
+
+        return true;
+    }
+
+    /*密码验证*/
+    function checkpass(){
+        var userPass = $("#uPass").val();
+
+        var pts = document.getElementById("passts");
+
+var passreg=/^(?![a-zA-z]+$)(?!\d+$)(?![!@#$%^&*]+$)[a-zA-Z\d!@#$%^&*]+$/;
+        if(!passreg.test(userPass)||userPass.length<6|| userPass.length>15)
+        {
+
+            $(pts).html("&#10008密码必须由数字、字符、特殊字符三种中的两种组成,长度须在6-15之间!");
+            $(pts).css({"color":"#fff","display":"block","top":"85px"});
+            $(".mytiptwo").css({"width":"440px"});
+
+            return false;
+        }
+        $(pts).html("&#10004密码可以使用!");
+        $(pts).css({"color":"#fff","display":"block","top":"85px"});
+        return true;
+    }
+
+/*密码再次验证*/
+    function checkrpass(){
+        var userPass = $("#uPass").val();
+        var userRPass = $("#uRPass").val();
+        var prts = document.getElementById("passrts");
+        if (userPass != userRPass) {
+            $(prts).html("&#10008两次密码输入不一致!");
+            $(prts).css({"color":"#fff","display":"block","top":"155px"});
+
+            return false;
+        }
+        $(prts).html("&#10004输入一致!");
+        $(prts).css({"color":"#fff","display":"block","top":"155px"});
+        return true;
+    }
+
+
+    /*邮箱验证*/
+    function checkemail(){
+        var userEmail = $("#uEmail").val();
+        var ets = document.getElementById("emailts");
+        if(!isEmail(userEmail)){//!isEmail(userEmail)相当于false
+
+            $(ets).html("&#10008邮箱格式不正确!");
+            $(ets).css({"color":"#fff","display":"block","top":"235px"});
+
+            return false;
+        }
+
+        $(ets).html("&#10004邮箱可以使用!");
+        $(ets).css({"color":"#fff","display":"block","top":"235px"});
+        return true;
+    }
+    function isEmail(str){
+        var reg = /[a-z0-9-]{1,30}@[a-z0-9-]{1,65}.[a-z]{3}/;
+        return reg.test(str);
+        /*test() 方法用于检测一个字符串是否匹配某个模式.
+         如果字符串中有匹配的值返回 true ，否则返回 false。*/
+    }
+
+    /*数据提交后台*/
+
+</script>
+</body>
+
+</html>
+

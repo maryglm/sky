@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>哈密市水费充值缴费管理系统</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../img/logo.png" media="screen" />
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- <link href="../loginstyle.css.css" rel="stylesheet" type="text/css" />-->
+    <link rel="stylesheet" href="../css/flipclock.css">
+    <link rel="stylesheet" href="../css/one.css">
+    <link rel="stylesheet"  href="../css/wangEditor.min.css">
+    <link rel="stylesheet" href="../css/bootstrapValidator.css"/>
+    <!--[if lt IE 11]>
+
+    <script type="text/javascript">
+        window.location.href=" http://browsehappy.com/";
+    </script>
+    <![endif]-->
+
+    <style>
+        #editor-trigger {
+            height: 300px;
+            /*max-height: 500px;*/
+        }
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+        }
+    </style>
+</head>
+<body class="main">
+
+
+
+<!-- 内容导航 -->
+<div class="place">
+    <span class="pull-left txt1">位置：</span>
+    <ul>
+        <li class="pull-left"><a href="#">首页</a></li>
+        <li class="pull-left"><span class="glyphicon glyphicon-right"></span></li>
+        <li class="pull-left"><span class="glyphicon glyphicon-chevron-right g_arrow"></span></li>
+        <li class="pull-left"><a href="#">数据表</a></li>
+        <li class="pull-left"><span class="glyphicon glyphicon-chevron-right g_arrow"></span></li>
+        <li class="pull-left"><a href="#">基本内容</a></li>
+    </ul>
+
+</div>
+
+
+
+
+<!-- 角色管理 -->
+<div class="container-fluid">
+    <div class="roleframe">
+        <form id="defaultForm" method="post" class="form-horizontal" action="target.php">
+        <table class="role">
+            <tr class="form-group">
+                <td class="tdone text-right">
+                    <label for="name">角色名称</label>
+                </td>
+                <td class="tdtwo">
+                    <input type="text" class="form-control myname" id="name" placeholder="管理员"  name="username"  >
+                </td>
+            </tr>
+            <tr class="form-group">
+                <td class="tdone text-right">
+                    <label for="comment">角色说明</label>
+                </td>
+                <td class="tdtwo">
+                    <input type="text" class="form-control" id="comment" placeholder="管理系统"   name="username">
+                </td>
+            </tr>
+            <tr>
+                <td class="tdone text-right">
+                    <label>状态</label>
+                </td>
+                <td class="tdtwo">
+                    <label class="checkbox-inline">
+                        <input type="radio" name="optionsRadiosinline" id="optionsRadios1" value="option1" checked>启用
+                    </label>
+                    <label class="checkbox-inline">
+                        <input type="radio" name="optionsRadiosinline" id="optionsRadios2" value="option2">禁用
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td class="tdone text-right"> <label >权限</label></td>
+                <td class="tdtwo">
+                        <span>
+                            <input type="checkbox" value="" ><span class="systemtotal txt">系统管理</span>
+                        </span><br>
+
+
+                    <div class="system">
+                         <span>
+                            <input type="checkbox" value=""><span class="txt">系统用户管理</span>
+
+                        </span><br>
+
+                        <span>
+                            <input type="checkbox" value=""><span class="txt">角色管理</span>
+
+                        </span><br>
+
+                        <span>
+                            <input type="checkbox" value=""><span class="txt">系统日志</span>
+
+                        </span><br>
+                        <span>
+                            <input type="checkbox" value=""><span class="txt">操作日志</span>
+
+                        </span><br>
+
+                    </div>
+
+                    <span>
+                            <input type="checkbox" value="" ><span class="organizetotal txt">机构管理</span>
+
+                        </span><br>
+
+
+
+                    <div class="organize">
+                        <span>
+                            <input type="checkbox" value=""><span class="txt">部门管理</span>
+
+                        </span><br>
+                    </div>
+                    <span>
+                            <input type="checkbox" value=""><span class="txt">区域管理</span>
+
+                        </span><br>
+                    <span>
+                            <input type="checkbox" value=""><span class="txt">工单管理</span>
+
+                        </span><br>
+                    <span>
+                            <input type="checkbox" value=""><span class="txt">设备管理</span>
+
+                        </span><br>
+                    <span>
+                            <input type="checkbox" value=""><span class="txt">抄表信息</span>
+
+                        </span><br>
+
+                    <span>
+                            <input type="checkbox" value=""><span class="txt">新闻公告</span>
+
+                        </span><br>
+                    <span>
+                            <input type="checkbox" value=""><span class="txt">代缴费管理</span>
+
+                        </span><br>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tdone text-right">
+                    <label >文本编辑</label>
+                </td>
+                <td class="tdtwo">
+                    <div id="editor-container" class="container">
+
+                             <textarea id="editor-trigger" style="display:none;">
+
+                             </textarea>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tdone text-right"></td>
+                <td class="tdtwo">
+                    <button class="btn g_btn" >
+                        <span class="glyphicon glyphicon-saved"></span>&nbsp;保存</button>
+                    <button class="btn g_btn g_btn2 btnback" >
+                        <span class="glyphicon glyphicon-backward"></span>&nbsp;返回列表</button>
+                </td>
+            </tr>
+        </table>
+        </form>
+    </div>
+</div>
+<!-- 角色管理结束 -->
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery-3.2.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/flipclock.js"></script>
+<script src="../js/style.js"></script>
+<script src="../js/time.js"></script>
+<script src="../js/left.js"></script>
+<script  src="../js/wangEditor.js"></script>
+<script src="../js/bootstrapValidator.js"></script>
+<script src="../js/zh_CN.js"></script>
+
+
+<script type="text/javascript">
+    /*表单验证*/
+    $(document).ready(function() {
+        $('#defaultForm')
+            .bootstrapValidator({
+                message: 'This value is not valid',
+                feedbackIcons: {
+                    valid: 'glyphicon glyphicon-ok',
+                    invalid: 'glyphicon glyphicon-remove',
+                    validating: 'glyphicon glyphicon-refresh'
+                },
+                fields: {
+                    username: {
+                        message: '用户名无效',
+                        validators: {
+                            notEmpty: {
+                                message: '不为空'
+                            },
+                            stringLength: {
+                                min: 6,
+                                max: 30,
+                                message: '长度在六到30之间'
+                            },
+                            /*remote: {
+                             url: 'remote.php',
+                             message: 'The username is not available'
+                             },*/
+                            regexp: {
+                                regexp: /^[a-zA-Z0-9_\.]+$/,
+                                message: 'The username can only consist of alphabetical, number, dot and underscore'
+                            }
+                        }
+                    },
+                    email: {
+                        validators: {
+                            notEmpty: {
+                                message: 'The email address is required and can\'t be empty'
+                            },
+                            emailAddress: {
+                                message: 'The input is not a valid email address'
+                            }
+                        }
+                    },
+                    password: {
+                        validators: {
+                            notEmpty: {
+                                message: 'The password is required and can\'t be empty'
+                            }
+                        }
+                    }
+                }
+            })
+            .on('success.form.bv', function(e) {
+                // Prevent form submission
+                e.preventDefault();
+
+                // Get the form instance
+                var $form = $(e.target);
+
+                // Get the BootstrapValidator instance
+                var bv = $form.data('bootstrapValidator');
+
+                // Use Ajax to submit form data
+                $.post($form.attr('action'), $form.serialize(), function(result) {
+                    console.log(result);
+                }, 'json');
+            });
+    });
+</script>
+</body>
+</html>

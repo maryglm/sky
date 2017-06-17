@@ -1,0 +1,595 @@
+@charset "utf-8";
+body {
+  font-family: "PingFang SC", "Times New Roman", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", STXihei, "\534E\6587\7EC6\9ED1", serif;
+  font-size: 9pt;
+  color: #fff;
+  margin: 0 auto;
+  min-width: 980px;
+  height: 100%;
+  background:#198BC9 ;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+input:hover{
+  color: #198BC9;
+}
+input:focus{
+  color: #198BC9;
+}
+input:active{
+  color: #198BC9;
+}
+
+input:blur{
+  color: #198BC9;
+}
+select {
+  /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+  border: solid 1px #ddd;
+  /*很关键：将默认的select选择框样式清除*/
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  padding-right: 14px;
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+
+
+/*common style*/
+
+ul,li {
+  list-style: none;
+
+}
+
+a:hover,a:visited {
+  text-decoration: none;
+  color:  #e6e6e6;
+  transition: all 0.3s linear;
+}
+
+ul,li ,a {
+  display: inline-block;
+}
+
+
+/*header*/
+.mytop {
+  height:117px;
+  color: #fff;
+
+  /*头部左侧*/
+  .left_head{
+   /* border:1px solid pink;*/
+    .logo {
+     /* margin-top: -1px;*/
+     /* border:1px solid pink;*/
+    }
+
+  .hleft{
+
+   /* border:1px solid pink;*/
+    width: 100px;
+ul {
+  margin: 0;
+  padding: 0;
+  li{
+
+    margin: 0;
+    padding: 0;
+
+    img{
+      margin-left: 20px;
+       /*border:1px solid pink;*/
+    }
+  }
+}
+
+    p a{
+      margin-left: 10px;
+     /* border:1px solid pink;*/
+      width:100px;
+    }
+
+
+}
+
+  }
+
+
+
+
+/*头部右侧*/
+  .mynav {
+    /*border: 1px solid;*/
+    margin-top: 19px;
+    margin-right: 20px;
+    padding-top: 5px;
+    li {
+     /*  border: 1px solid;*/
+      margin-right: 8px;
+
+    }
+    .mynav1{
+
+      a {
+        color: #fff;
+      }
+      .myprofile{
+        width: 50px;
+        height: 50px;
+        margin-right: 5px;
+
+      }
+
+    }
+    .mynav2{
+      .news {
+        color: #fff;
+        margin-left: 5px;
+        margin-top: -5px;
+        background:  #ff6666;
+      }
+    }
+    .mynav2,.mynav3,.mynav4,.mynav5{
+
+      margin-top: 10px;
+      a {
+        color: #fff;
+      }
+      & a:hover{
+        color: #e6e6e6;
+      }
+    }
+
+
+  }
+}
+
+/*left*/
+
+
+.sidebar {
+  font-size: 14px;
+  cursor: pointer;
+  position: fixed;
+  top: 90px;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  background: #E9F4F8;
+padding: 10px;
+
+.totalt{
+  color:#198BC9 ;
+  line-height: 40px;
+  text-align: center;
+  a{
+    color:#198BC9 ;
+  }
+}
+  .menu {
+
+   width: 100%;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    .title{
+      width: 100%;
+    .item1{
+      border: 1px solid #fff;
+      width: 100%;
+      line-height: 35px;
+      background:#42AADF;
+      border-radius: 5px;
+      .myarrow{
+        margin-right: 10px;
+      }
+    }
+      .content{
+        display: none;
+        width: 100%;
+        border: 1px solid #42AADF;
+        margin: 0;
+        padding: 0;
+        border-radius: 5px;
+
+        li{
+          width: 100%;
+          border-bottom: 1px solid;
+          width: 100%;
+          line-height: 35px;
+          padding-left: 20px;
+
+          &:hover{
+             background:#42AADF ;
+
+          }
+
+        }
+        li .item{
+          color:#198BC9 ;
+          width: 100%;
+          line-height:35px;
+&:hover{
+  color: #fff;
+}
+        }
+        li .leftactive{
+         border-right: 5px solid #42AADF;
+
+        border-radius: 5px;
+        }
+
+      }
+    }
+  }
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*right*/
+
+
+/*papers*/
+
+.papers, .papers:before, .papers:after  {
+
+  background-image:url('../img/paper.png');
+  background-repeat:repeat;
+  background-attachment:fixed;
+  background-position:center;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 0 30px rgba(0,0,0,0.1), 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.papers  {
+
+  position: relative;
+  width:82%;
+  padding: 2em;
+  min-height:1100px;
+}
+
+.papers:before, .papers:after  {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height:1100px;
+  -webkit-transform: rotateZ(2.5deg);
+  -o-transform: rotate(2.5deg);
+  transform: rotateZ(2.5deg);
+  z-index: -1;
+}
+
+.papers:after  {
+  -webkit-transform: rotateZ(-2.5deg);
+  -o-transform: rotate(-2.5deg);
+  transform: rotateZ(-2.5deg);
+}
+
+/*time*/
+.mydate{
+  color: #198BC9;
+
+
+  padding-left: 65%;
+
+
+}
+.clock{
+  padding-left: 58%;
+  margin-top: 3px;
+  margin-left: 0;
+  a{
+    color: #198BC9;
+    &:hover {
+      color: #198BC9;
+    }
+  }
+
+
+}
+
+/*footer*/
+.myfoot {
+
+  width:600px;
+  height: 40px;
+  line-height: 40px;
+  color: #198BC9;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+/*content*/
+
+.main {
+
+  font-size: 14px;
+  background-image:url('../img/paper.png');
+  background-repeat:repeat;
+  background-attachment:fixed;
+  background-position:center;
+width: 100%;
+
+color: #198BC9;
+
+
+  .place {
+
+    margin-top: -5px;
+    height: 40px;
+    background: #42AADF;
+    color: #fff;
+    position: relative;
+    line-height: 40px;
+width: 100%;
+    border-radius: 5px;
+
+.txt1 {
+
+  margin-left: 10px;
+}
+    ul{
+
+      padding-left: 0;
+      li a {
+        color: #fff;
+
+      }
+    }
+
+
+
+
+
+
+  }
+  .g_top {
+    display: inline-block;
+
+    margin-top: 10px;
+  }
+  .g_btn {
+    width: 80px;
+    background: #42AADF;
+    color: #E6F3F9;
+&:hover {
+  background:#198BC9;
+}
+  }
+
+  /*form*/
+  .contentframe{
+
+    padding-right: 40px;
+    padding-left: 40px;
+
+  }
+  .rightinfo {
+
+    overflow: hidden;
+    margin-top: 40px;
+
+    .search {
+      .myselect{
+        position: relative;
+      }
+      .selecticon{
+        position: absolute;
+        right: 5px;
+        top:13px;
+      }
+      tr td {
+        select {
+
+          position: relative;
+          color: #198BC9;
+          padding-right: 25px;
+        }
+        padding-left: 5px;
+        label{
+          padding-top: 4px;
+        }
+      }
+
+    }
+
+    .searchbtn {
+
+      button{
+        margin-left: 9px;
+      }
+.g_btnone{
+  background: #42AADF;
+}
+      .search1{
+
+        .g_content{
+          position: absolute;
+          display: none;
+          left: 40px;
+        }
+
+}
+        .g_content tr td {
+
+          padding-left: 10px;
+
+          .g_num1{
+
+            margin-bottom: -9px;
+          }
+          .contentlast{
+            /*border: 1px solid;*/
+            margin-bottom: -28px;
+          }
+
+        }
+
+      }
+    }
+    .right_cont {
+      button{
+        margin-left: 5px;
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+
+
+.mydivision{
+  border-bottom: 1px solid #198BC9;
+  padding-bottom: 8px;
+}
+  .tools {
+    .toolbar1 li{
+      position: relative;
+      .selecticon{
+        position: absolute;
+        right: 5px;
+        top:13px;
+      }
+
+    }
+.toolbar1 li select {
+  color: #198BC9;
+  position: relative;
+  padding-right: 25px;
+}
+
+.btnmodify{
+
+}
+    .btndel{
+
+    }
+    .btntotal{
+    }
+    .btnprint{
+
+    }
+    a {
+      color: #198BC9;
+    }
+
+    ul{
+
+      .myadd {
+
+        margin-left: -20px;
+      }
+    }
+    ul li{
+      margin-left: 5px;
+
+
+    }
+
+  }
+  .toolbar {
+    display: inline-block;
+    select,button{
+      display: inline-block;
+    }
+  }
+  .formframe{
+    a {
+      color: #198BC9;
+      &:hover{
+        color:#198BC9 ;
+      }
+    }
+  }
+  .seelist{
+    min-width: 900px;
+    margin-top: 10%;
+  }
+  .pagein {
+
+    overflow: hidden;
+    .pagerecord {
+      margin-top: 10px;
+
+      .pagecolor{
+        color:#198BC9;
+
+      }
+    }
+    .pagenum{
+
+      ul{
+
+        margin-top: 0;
+      }
+    }
+
+  }
+
+
+
+
+  /*角色管理*/
+
+  .roleframe{
+color: #198BC9;
+width: 100%;
+    cursor: pointer;
+    table{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 50px;
+tr .tdone {
+width: 10%;
+}
+
+
+      .g_btn2{
+        width: 100px;
+
+
+      }
+      .btnback{
+        margin-left: 10px;
+      }
+      td {
+        padding: 5px;
+
+        span span {
+          padding-left: 5px;
+
+        }
+        .system,.organize{
+          padding-left: 10px;
+        }
+      }
+    }
+
+  }
+
+
+}
+

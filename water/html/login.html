@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+    <head>
+
+        <meta charset="utf-8">
+        <title>Fullscreen Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- CSS -->
+
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/supersized.css">
+        <link rel="stylesheet" href="../css/loginstyle.css">
+
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <style>
+
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="page-container">
+            <h1>哈密市水费充值缴费管理系统</h1>
+            <form action="" method="post" class="mylogin"  id="myForm">
+                <input type="text" name="username" id="uName" class="username" placeholder="姓名" ><span class="mytip" id="nametip"></span>
+                <input type="password" name="password" id="uPass" class="password" placeholder="密码"><span class="mytip" id="passtip"></span>
+
+                            <input type="text" id="code_input" value="" placeholder="请输入下列验证码"/>
+
+                            <div id="v_container" ></div><span class="mytip" id="numtip"></span>
+
+                <input type="button" id="login" value="登录" class="mybutton">
+            </form>
+
+        </div>
+
+
+        <!-- Javascript -->
+        <script src="../js/jquery-1.8.2.min.js"></script>
+        <script src="../js/supersized.3.2.7.min.js"></script>
+        <script src="../js/supersized-init.js"></script>
+        <script src="../js/scripts.js"></script>
+     <!--   <script src="../js/login.js"></script>-->
+        <script src="../js/gVerify.js"></script>
+        <script>
+$(function () {
+    $("#login").click(function () {
+        login();
+    })
+    $(document).keydown(function (event) {
+        if(event.keyCode == 13){
+            login();
+        }
+    });
+    $("#uName").blur(function () {
+        myname();
+    })
+    $("#uPass").blur(function () {
+        mypass();
+    })
+    $("#code_input").blur(function () {
+        mycode();
+    })
+
+})
+
+            function login() {
+                if(!myname()){
+                    return false;
+                }else if (!mypass()) {
+                    return false;
+                }else if (!mycode()) {
+                    //alert(22)
+                    return false;
+                }
+
+
+                $.ajax({
+                    url:'<%=path%>/sysuserLogin',
+                    type:'post',
+                    dataType:'text',
+                    data : $('#myForm').serialize() ,
+                    /* data:{name:$('#username').val(),
+                     pass:$('#password').val(),
+                     status:statu}, */
+                    success:function(data){
+                        if(data == 'failed'){
+                            alert("账号或密码错误请重新输入");
+                            $("#password").val("").focus(); // 清空并获得焦点
+                        }else if(data == 'success'){
+                            //alert('success')
+                            window.location.href = "<%=path%>/main.jsp";
+                        }
+                    },
+                    error:function(){
+                        alert('数据连接失败');
+                    }
+                });
+                return true;
+            }
+
+
+            /*用户名验证*/
+            function myname(){
+                var uName = $("#uName").val();
+                if (uName == "" || uName == null) {
+                    $("#nametip").html("&#10008用户名不能为空");
+                    $("#nametip").css({"color":"#fff","display":"block","top":"10px","left":"300px"});
+                    return false;
+                }
+                $("#nametip").css("display","none");
+                return true;
+            }
+/*密码验证*/
+            function mypass(){
+                var uPass = $("#uPass").val();
+                if (uPass == "" || uPass == null) {
+
+                    $("#passtip").html("&#10008密码不能为空");
+                    $("#passtip").css({"color":"#fff","display":"block","top":"90px","left":"300px"});
+                    return false;
+                }
+                $("#passtip").css("display","none");
+                return true;
+            }
+
+
+            /*验证码*/
+            var verifyCode = new GVerify("v_container");
+
+
+            function mycode() {
+
+                var res = verifyCode.validate( $("#code_input").val());
+                if(!res){
+                    $("#numtip").html("&#10008验证码错误");
+                    $("#numtip").css({"color":"#fff","display":"block","top":"160px","left":"300px"});
+                    /*  alert("验证码错误");*/
+                    return false;
+
+                }
+                $("#numtip").html("&#10004验证正确");
+                $("#numtip").css({"color":"#fff","display":"block","top":"160px","left":"300px"});
+
+                /* alert("验证正确");*/
+                return true;
+            }
+
+
+
+        </script>
+    </body>
+
+</html>
+
