@@ -69,3 +69,25 @@ function mypass(){
     $("#passtip").css("display","none");
     return true;
 }
+
+            /*验证码*/
+            var verifyCode = new GVerify("v_container");
+
+
+            function mycode() {
+
+                var res = verifyCode.validate( $("#code_input").val());
+                if(!res){
+                    $("#numtip").text("&#10008验证码错误");
+                    $("#numtip").css({"color":"#fff","display":"block","top":"160px","left":"300px"});
+                    /*  alert("验证码错误");*/
+                    return false;
+
+                }
+                $("#numtip").text("&#10004验证正确");
+                $("#numtip").css({"color":"#fff","display":"block","top":"160px","left":"300px"});
+
+                /* alert("验证正确");*/
+                return true;
+            }
+
